@@ -35,8 +35,6 @@ Throughout the entire blog post, we will assume the following.
     - **K8s** denotes Kubernetes
     - **LBs** denotes Load Balancers
 
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
-
 
 ![Kubernetes Cluster](/images/2022-06-24-01-explained-kubernetes-services-ingress/blog-architecture.drawio_(2).svg)
 
