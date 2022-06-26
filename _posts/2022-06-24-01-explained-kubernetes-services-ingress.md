@@ -1,4 +1,4 @@
-# Kubernetes Services: Cluster IP, NodePort, Loadbalancer & Ingress, Ingress Controllers
+# Kubernetes Services: Cluster IP, NodePort, Loadbalancer &&nbsp; Ingress, Ingress Controllers
 
 # Introduction
 
@@ -34,6 +34,9 @@ Throughout the entire blog post, we will assume the following.
     - $Reviews_A$ denotes that the `Reviews` service is running on node A
     - **K8s** denotes Kubernetes
     - **LBs** denotes Load Balancers
+
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+
 
 ![Kubernetes Cluster](/images/2022-06-24-01-explained-kubernetes-services-ingress/blog-architecture.drawio_(2).svg)
 
