@@ -1,4 +1,4 @@
-# Kubernetes Services: Cluster IP, NodePort, Loadbalancer &&nbsp; Ingress, Ingress Controllers
+# Kubernetes Services Explained: Cluster IP, NodePort, Loadbalancer, Ingress, Ingress Controllers
 
 # Introduction
 
