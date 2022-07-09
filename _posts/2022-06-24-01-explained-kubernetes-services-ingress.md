@@ -36,7 +36,7 @@ Throughout the entire blog post, we will assume the following.
     - **LBs** denotes Load Balancers
 
 
-![Kubernetes Cluster](/images/2022-06-24-01-explained-kubernetes-services-ingress/blog-architecture.drawio_(2).svg)
+![Kubernetes Cluster](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/blog-architecture.drawio_(2).svg)
 
 Kubernetes Cluster
 
@@ -52,7 +52,7 @@ K8s assigns an IP address whenever a pod is created. The command below shows you
 kubectl get pods <pod-name> -o wide
 ```
 
-![Example Pod IP](/images/2022-06-24-01-explained-kubernetes-services-ingress/pod-ip.png)
+![Example Pod IP](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/pod-ip.png)
 
 Example Pod IP
 
@@ -70,7 +70,7 @@ Services listen on a static address that doesn't change & forwards the request t
 
 Another benefit of using services is load balancing between replicas of the same application, With our imaginary application as there are 3 instances of each micro-service running on separate VMs, A service will load balance the request between the replicas of  $Products_A$ $Proudcts_B$ $Products_C$.
 
-![Load Balancing between Pods in K8s using Service Resource](/images/2022-06-24-01-explained-kubernetes-services-ingress/kubernetes-service-load-balancing.drawio.svg)
+![Load Balancing between Pods in K8s using Service Resource](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/kubernetes-service-load-balancing.drawio.svg)
 
 Load Balancing between Pods in K8s using Service Resource
 
@@ -119,7 +119,7 @@ The command below shows you the static IP address of the service which can be us
 kubectl get service <service-name>
 ```
 
-![clusterip-kubectl-service.png](/images/2022-06-24-01-explained-kubernetes-services-ingress/clusterip-kubectl-service.png)
+![clusterip-kubectl-service.png](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/clusterip-kubectl-service.png)
 
 You can use the above IP address for communication between $Products_A$ & $Reviews_A$ micro-service 
 
@@ -132,7 +132,7 @@ To communicate using DNS, there are 2 ways
 
 Now you can pass these addresses to your microservice for communication.
 
-![Internal Communication Using Cluster IP Service](/images/2022-06-24-01-explained-kubernetes-services-ingress/kubernetes-cluster-ip.svg)
+![Internal Communication Using Cluster IP Service](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/kubernetes-cluster-ip.svg)
 
 Internal Communication Using Cluster IP Service
 
@@ -177,7 +177,7 @@ After creating the service, To get the port on which this NodePort service is li
 kubectl get service <service-name>
 ```
 
-![node-port-service.png](/images/2022-06-24-01-explained-kubernetes-services-ingress/node-port-service.png)
+![node-port-service.png](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/node-port-service.png)
 
 In our imaginary K8s cluster, this will happen on all the nodes
 
@@ -187,7 +187,7 @@ In our imaginary K8s cluster, this will happen on all the nodes
 
 You can access your application using the address **nodeIP:30519**, for Node A it would be 192.168.0.1:30519.
 
-![Exposing Application Using Nodeport Service](/images/2022-06-24-01-explained-kubernetes-services-ingress/kubernetes-nodeport-service.svg)
+![Exposing Application Using Nodeport Service](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/kubernetes-nodeport-service.svg)
 
 Exposing Application Using Nodeport Service
 
@@ -227,7 +227,7 @@ After creating the service, To get the public IP address of the load balancer pr
 kubectl get service <service-name>
 ```
 
-![Load Balancer Service Example](/images/2022-06-24-01-explained-kubernetes-services-ingress/load-balancer-ip.png)
+![Load Balancer Service Example](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/load-balancer-ip.png)
 
 Load Balancer Service Example
 
@@ -239,7 +239,7 @@ One thing to note here, Loadbalancer service doesn’t expose any ports by itsel
 
 **LoadBalancer** is a superset of **NodePort** is a superset of **clusterIP** service, which means when you create a service of type Nodeport a ClusterIP service also gets created implicitly. So if you create a NodePort service for $Products$ microservice, then this same service can be used for both internal communications by other pods & accessing the $Products$ service on the internet.
 
-![Service Superset](/images/2022-06-24-01-explained-kubernetes-services-ingress/superset.svg)
+![Service Superset](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/superset.svg)
 
 Service Superset
 
@@ -322,7 +322,7 @@ An ingress resource should be created in the same namespace where the correspond
 
 An important thing to remember an Ingress by itself doesn’t expose any port. In the end, it's just a K8s deployment resource. You need a service(NodePort/LoadBalancer) in front of it to expose it.
 
-![Exposing Application Using Load Balancer Service](/images/2022-06-24-01-explained-kubernetes-services-ingress/production-setup.drawio.svg)
+![Exposing Application Using Load Balancer Service](https://raw.githubusercontent.com/sharadregoti/sharadregoti.github.io/main/images/2022-06-24-01-explained-kubernetes-services-ingress/production-setup.drawio.svg)
 
 Exposing Application Using Load Balancer Service
 
