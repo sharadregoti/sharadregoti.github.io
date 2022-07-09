@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T06:32:00.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5_B2vutvJokUyt4K0oaX" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-09T06:32:59.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WUN5Qz9uutixxjY83p9I" version="20.0.1" type="github" pages="2">
   <diagram id="UHSXfzukdmE1P1iyDsnm" name="Release Process">
     <mxGraphModel dx="2185" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
         <mxCell id="GOScYqIgDVw0E31RGDIn-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://freesvg.org/img/thenanobel-programming-17.01-inkscape-svg.png;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-TsmD6FuUr9H6seUrXCW-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=25;strokeWidth=8;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+        <mxCell id="-TsmD6FuUr9H6seUrXCW-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=25;strokeWidth=8;fillColor=#ffe6cc;strokeColor=#000000;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="440" as="sourcePoint" />
             <mxPoint x="320" y="130" as="targetPoint" />
