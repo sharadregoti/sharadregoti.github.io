@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T06:23:29.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FbFvK0WZGojnzvOnGDY6" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-09T06:30:50.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wZrvlIR1Wz0zpyvbiSGA" version="20.0.1" type="github" pages="2">
   <diagram id="UHSXfzukdmE1P1iyDsnm" name="Release Process">
     <mxGraphModel dx="2185" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,27 +64,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-bOKbABpfCrO6oT0ZfWy" name="Wall">
-    <mxGraphModel dx="1157" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2090" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GOScYqIgDVw0E31RGDIn-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://freesvg.org/img/thenanobel-programming-17.01-inkscape-svg.png;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-TsmD6FuUr9H6seUrXCW-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=25;strokeWidth=10;fillColor=#dae8fc;strokeColor=#000000;" edge="1" parent="1">
+        <mxCell id="-TsmD6FuUr9H6seUrXCW-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=25;strokeWidth=10;fillColor=#f5f5f5;strokeColor=#000000;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="440" as="sourcePoint" />
             <mxPoint x="320" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gvrrigd-VoNccELOomKt-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Development&lt;br&gt;Team&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="350" width="170" height="40" as="geometry" />
+        <mxCell id="Gvrrigd-VoNccELOomKt-1" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Development Team&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u8xcK4VpR6BuGDG4oveg-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://e7.pngegg.com/pngimages/82/448/png-clipart-computer-technician-logo-illustration-system-administrator-database-administrator-computer-icons-administration-miscellaneous-computer-network-thumbnail.png;" vertex="1" parent="1">
           <mxGeometry x="440" y="200" width="114.12" height="126.25" as="geometry" />
         </mxCell>
-        <mxCell id="u8xcK4VpR6BuGDG4oveg-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Operations&lt;br&gt;Team&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="410" y="360" width="150" height="40" as="geometry" />
+        <mxCell id="u8xcK4VpR6BuGDG4oveg-3" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Operations Team&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u8xcK4VpR6BuGDG4oveg-4" value="&lt;ul&gt;&lt;li&gt;Develop new features fast&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="490" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u8xcK4VpR6BuGDG4oveg-5" value="Wall" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u8xcK4VpR6BuGDG4oveg-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=20;strokeColor=#000000;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="217" y="200" as="sourcePoint" />
+            <mxPoint x="297" y="200.07999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8xcK4VpR6BuGDG4oveg-7" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;strokeColor=#000000;strokeWidth=4;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="280" as="sourcePoint" />
+            <mxPoint x="425" y="280.0799999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
