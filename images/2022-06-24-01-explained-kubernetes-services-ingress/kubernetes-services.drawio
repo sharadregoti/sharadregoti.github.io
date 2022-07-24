@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T10:31:21.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="ypiQbOVxedNFQS-LI91h" version="20.2.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-24T10:33:59.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="nRpdKVk1z3nRl1PFR_vZ" version="20.2.0" type="github" pages="8">
   <diagram id="v_I8Ud_tMwS76h29AfEk" name="demo-architecture">
     <mxGraphModel dx="1888" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -504,7 +504,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uoBvsOCOOeO3LykhZKXs" name="nodeport">
-    <mxGraphModel dx="2333" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -553,7 +553,7 @@
         <mxCell id="PrnIe-Nk96-28IO1uZdI-15" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-14">
           <mxGeometry x="6.25" width="47.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PrnIe-Nk96-28IO1uZdI-16" value="Reviews" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-14">
+        <mxCell id="PrnIe-Nk96-28IO1uZdI-16" value="Products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-14">
           <mxGeometry y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PrnIe-Nk96-28IO1uZdI-17" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" connectable="0" parent="PrnIe-Nk96-28IO1uZdI-13">
@@ -562,7 +562,7 @@
         <mxCell id="PrnIe-Nk96-28IO1uZdI-18" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-17">
           <mxGeometry x="6.25" width="47.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PrnIe-Nk96-28IO1uZdI-19" value="Products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-17">
+        <mxCell id="PrnIe-Nk96-28IO1uZdI-19" value="Reviews" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-17">
           <mxGeometry y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PrnIe-Nk96-28IO1uZdI-20" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" connectable="0" parent="PrnIe-Nk96-28IO1uZdI-13">
@@ -601,7 +601,7 @@
         <mxCell id="PrnIe-Nk96-28IO1uZdI-31" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-30">
           <mxGeometry x="6.25" width="47.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PrnIe-Nk96-28IO1uZdI-32" value="Reviews" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-30">
+        <mxCell id="PrnIe-Nk96-28IO1uZdI-32" value="Products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-30">
           <mxGeometry y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PrnIe-Nk96-28IO1uZdI-33" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" connectable="0" parent="PrnIe-Nk96-28IO1uZdI-29">
@@ -610,7 +610,7 @@
         <mxCell id="PrnIe-Nk96-28IO1uZdI-34" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-33">
           <mxGeometry x="6.25" width="47.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PrnIe-Nk96-28IO1uZdI-35" value="Products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-33">
+        <mxCell id="PrnIe-Nk96-28IO1uZdI-35" value="Reviews" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-33">
           <mxGeometry y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PrnIe-Nk96-28IO1uZdI-36" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" connectable="0" parent="PrnIe-Nk96-28IO1uZdI-29">
@@ -649,7 +649,7 @@
         <mxCell id="PrnIe-Nk96-28IO1uZdI-47" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-46">
           <mxGeometry x="6.25" width="47.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PrnIe-Nk96-28IO1uZdI-48" value="Reviews" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-46">
+        <mxCell id="PrnIe-Nk96-28IO1uZdI-48" value="Products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-46">
           <mxGeometry y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PrnIe-Nk96-28IO1uZdI-49" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" connectable="0" parent="PrnIe-Nk96-28IO1uZdI-45">
@@ -658,7 +658,7 @@
         <mxCell id="PrnIe-Nk96-28IO1uZdI-50" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-49">
           <mxGeometry x="6.25" width="47.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PrnIe-Nk96-28IO1uZdI-51" value="Products" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-49">
+        <mxCell id="PrnIe-Nk96-28IO1uZdI-51" value="Reviews" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-49">
           <mxGeometry y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PrnIe-Nk96-28IO1uZdI-52" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" connectable="0" parent="PrnIe-Nk96-28IO1uZdI-45">
@@ -720,7 +720,7 @@
         <mxCell id="PrnIe-Nk96-28IO1uZdI-70" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=svc" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-69">
           <mxGeometry width="50" height="48.81951219512195" as="geometry" />
         </mxCell>
-        <mxCell id="PrnIe-Nk96-28IO1uZdI-71" value="Reviews&lt;br&gt;NodePort Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-69">
+        <mxCell id="PrnIe-Nk96-28IO1uZdI-71" value="Products&lt;br&gt;NodePort Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="PrnIe-Nk96-28IO1uZdI-69">
           <mxGeometry x="-27.5" y="48.82" width="105" height="30.51" as="geometry" />
         </mxCell>
         <mxCell id="PrnIe-Nk96-28IO1uZdI-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" edge="1" parent="1" source="PrnIe-Nk96-28IO1uZdI-59" target="PrnIe-Nk96-28IO1uZdI-62">
@@ -743,7 +743,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LV2kFTwrL5WVxUmzEdQH" name="load-balancer">
-    <mxGraphModel dx="2071" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2003" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -994,7 +994,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h_WzBC7IR84bLQKBOxY2" name="external-name">
-    <mxGraphModel dx="1839" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
