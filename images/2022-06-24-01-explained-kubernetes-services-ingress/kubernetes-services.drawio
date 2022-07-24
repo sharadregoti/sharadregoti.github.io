@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T10:30:00.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="fqBR1vbG7dKGVt7y07TV" version="20.2.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-24T10:31:21.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="ypiQbOVxedNFQS-LI91h" version="20.2.0" type="github" pages="8">
   <diagram id="v_I8Ud_tMwS76h29AfEk" name="demo-architecture">
     <mxGraphModel dx="1888" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1046,13 +1046,10 @@
           <mxGeometry y="47.802439024390246" width="60" height="30.51219512195122" as="geometry" />
         </mxCell>
         <mxCell id="Z9XHaYL1rs1IR2uXtOAP-15" value="" style="group" vertex="1" connectable="0" parent="Z9XHaYL1rs1IR2uXtOAP-7">
-          <mxGeometry x="183" y="85" width="90" height="82.5" as="geometry" />
+          <mxGeometry x="184" y="85" width="90" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="Z9XHaYL1rs1IR2uXtOAP-16" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=svc" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-15">
-          <mxGeometry x="5" width="50" height="51.42857142857142" as="geometry" />
-        </mxCell>
-        <mxCell id="Z9XHaYL1rs1IR2uXtOAP-18" value="mysql@database:9000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-7">
-          <mxGeometry x="246" y="113.19" width="120" height="30" as="geometry" />
+          <mxGeometry x="-1" width="50" height="51.42857142857142" as="geometry" />
         </mxCell>
         <mxCell id="Z9XHaYL1rs1IR2uXtOAP-19" value="ip-10-1-1-12.ap-south-1.compute.internal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-7">
           <mxGeometry x="234" y="67" width="134" height="30" as="geometry" />
@@ -1079,10 +1076,13 @@
           <mxGeometry x="100" y="143.19" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Z9XHaYL1rs1IR2uXtOAP-17" value="Database&lt;br&gt;External Name&lt;br&gt;Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-7">
-          <mxGeometry x="169" y="141.19" width="90" height="32.14" as="geometry" />
+          <mxGeometry x="163" y="141.19" width="90" height="28.81" as="geometry" />
         </mxCell>
         <mxCell id="Z9XHaYL1rs1IR2uXtOAP-46" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;STEP: 2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF3333;" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-7">
           <mxGeometry x="430" y="12" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9XHaYL1rs1IR2uXtOAP-18" value="mysql@database:3306" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-7">
+          <mxGeometry x="239" y="113.19" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z9XHaYL1rs1IR2uXtOAP-27" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="497" y="-26" width="452" height="475" as="geometry" />
@@ -1096,7 +1096,7 @@
         <mxCell id="Z9XHaYL1rs1IR2uXtOAP-30" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-29">
           <mxGeometry x="13.20093457943925" width="100.32710280373831" height="88.37209302325583" as="geometry" />
         </mxCell>
-        <mxCell id="Z9XHaYL1rs1IR2uXtOAP-31" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Reviews&lt;br&gt;(&lt;font color=&quot;#ff3333&quot;&gt;10.0.43.2&lt;/font&gt;)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-29">
+        <mxCell id="Z9XHaYL1rs1IR2uXtOAP-31" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Reviews&lt;br&gt;(10.0.43.2)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="Z9XHaYL1rs1IR2uXtOAP-29">
           <mxGeometry y="70.27906976744187" width="126.72897196261681" height="66.27906976744187" as="geometry" />
         </mxCell>
         <mxCell id="Z9XHaYL1rs1IR2uXtOAP-32" value="" style="group" vertex="1" connectable="0" parent="Z9XHaYL1rs1IR2uXtOAP-27">
