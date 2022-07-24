@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T09:42:48.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="dVer-H7OxZRDJyJHndlk" version="20.2.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-24T09:45:09.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="zN8sOEYQuE4xowfhIsVI" version="20.2.0" type="github" pages="8">
   <diagram id="v_I8Ud_tMwS76h29AfEk" name="demo-architecture">
     <mxGraphModel dx="1888" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -740,6 +740,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LV2kFTwrL5WVxUmzEdQH" name="load-balancer">
+    <mxGraphModel dx="1038" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="h_WzBC7IR84bLQKBOxY2" name="external-name">
     <mxGraphModel dx="1038" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
