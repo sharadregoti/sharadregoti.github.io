@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T15:50:21.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="7naOXDl8MRJSeI-r4ZOf" version="20.2.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-24T16:09:37.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="b2jwxvaDukCNzHiYuFyp" version="20.2.0" type="github" pages="8">
   <diagram id="v_I8Ud_tMwS76h29AfEk" name="demo-architecture">
-    <mxGraphModel dx="1499" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -504,7 +504,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uoBvsOCOOeO3LykhZKXs" name="nodeport">
-    <mxGraphModel dx="1888" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -743,7 +743,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LV2kFTwrL5WVxUmzEdQH" name="load-balancer">
-    <mxGraphModel dx="1888" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -939,13 +939,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rZ0HFtXos1Cf6DOQGlWh-69" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="256" y="630.7026829268293" width="60" height="79.33" as="geometry" />
+          <mxGeometry x="260" y="630.7" width="100" height="79.3" as="geometry" />
         </mxCell>
         <mxCell id="rZ0HFtXos1Cf6DOQGlWh-70" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=svc" parent="rZ0HFtXos1Cf6DOQGlWh-69" vertex="1">
-          <mxGeometry width="50" height="48.81951219512195" as="geometry" />
+          <mxGeometry width="46.666666666666664" height="48.80105025933658" as="geometry" />
         </mxCell>
-        <mxCell id="rZ0HFtXos1Cf6DOQGlWh-71" value="Products&lt;br&gt;NodePort Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="rZ0HFtXos1Cf6DOQGlWh-69" vertex="1">
-          <mxGeometry x="-27.5" y="48.82" width="105" height="30.51" as="geometry" />
+        <mxCell id="rZ0HFtXos1Cf6DOQGlWh-71" value="Products&lt;br&gt;LoadBalancer Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="rZ0HFtXos1Cf6DOQGlWh-69" vertex="1">
+          <mxGeometry x="-40.5" y="48.8" width="125.67" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="rZ0HFtXos1Cf6DOQGlWh-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" source="rZ0HFtXos1Cf6DOQGlWh-59" target="rZ0HFtXos1Cf6DOQGlWh-62" edge="1">
           <mxGeometry relative="1" as="geometry">
