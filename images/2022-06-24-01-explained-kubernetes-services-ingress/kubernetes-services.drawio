@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T09:42:33.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="KNdfZsVGtBBefTMNamKU" version="20.2.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-24T09:42:48.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="dVer-H7OxZRDJyJHndlk" version="20.2.0" type="github" pages="7">
   <diagram id="v_I8Ud_tMwS76h29AfEk" name="demo-architecture">
     <mxGraphModel dx="1888" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -752,6 +752,27 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SpyxcbcxNlCfv434y7Bj-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="120" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SpyxcbcxNlCfv434y7Bj-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="SpyxcbcxNlCfv434y7Bj-1">
+          <mxGeometry width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SpyxcbcxNlCfv434y7Bj-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="SpyxcbcxNlCfv434y7Bj-1">
+          <mxGeometry x="25" y="50" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SpyxcbcxNlCfv434y7Bj-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SpyxcbcxNlCfv434y7Bj-1">
+          <mxGeometry x="50" y="100" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SpyxcbcxNlCfv434y7Bj-5" value="&lt;b&gt;Load Balancer&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SpyxcbcxNlCfv434y7Bj-1">
+          <mxGeometry x="55" y="10" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpyxcbcxNlCfv434y7Bj-6" value="&lt;b&gt;Node Port&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SpyxcbcxNlCfv434y7Bj-1">
+          <mxGeometry x="55" y="60" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpyxcbcxNlCfv434y7Bj-7" value="&lt;b&gt;ClusterIP&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SpyxcbcxNlCfv434y7Bj-1">
+          <mxGeometry x="55" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
