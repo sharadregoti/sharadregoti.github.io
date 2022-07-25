@@ -1,0 +1,35 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name:  details
+spec:
+  selector:
+    app:  details
+  type:  ClusterIP
+  ports:
+  - port:  8080
+    targetPort:  8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: details
+spec:
+  selector:
+    matchLabels:
+      app: details
+  template:
+    metadata:
+      labels:
+        app: details
+    spec:
+      containers:
+      - name: details
+        image: sharadregoti/details:0.1.0
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
+        ports:
+        - containerPort: 8080
