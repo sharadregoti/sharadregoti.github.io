@@ -34,7 +34,6 @@ Here’s an interesting perspective of DevOps.
 
 The term in general is so loosely defined that it is difficult to understand, especially when you don’t have much historical context of software development that led to this revolution.
 
-<aside>
 💡 But these definitions made be think
 
 - Aren’t we deploying application for the last 20 years ?
@@ -43,7 +42,6 @@ The term in general is so loosely defined that it is difficult to understand, es
 - Which part of dev is not in DevOps & which part of operations is not DevOps, Why there was a need between these?
 - Can’t we call it a day just by writing some CI/CD pipelines?
 - When can I say that I have a successful DevOps practice at my organization?
-</aside>
 
 Many more such questions came to my mind. So to really understand DevOps, we need some historical context of how software delivery process has always been carried out.
 
