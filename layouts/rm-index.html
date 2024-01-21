@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ $aboutPage := .Site.GetPage "/about" }}
+<article>
+    <h1>{{ $aboutPage.Title }}</h1>
+    <div>
+        {{ $aboutPage.Content }}
+    </div>
+</article>
+{{ end }}

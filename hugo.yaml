@@ -1,0 +1,34 @@
+baseURL: "http://magsther.github.io/"
+title: "Sharad Regoti"
+paginate: 50
+theme: "PaperMod"
+params:
+  profileMode:
+    enabled: true
+    title: "Hi There," # optional default will be site title
+    subtitle: "Welcome to my personal website. I'm a passionate software developer, technical writer, and open-source enthusiast based in India."
+    imageUrl: "/images/profile/profile.jpg" # optional
+    imageTitle: "" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    # buttons:
+    #   - name: Archive
+    #     url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/"
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/sharadregoti"
+    - name: "Email"
+      url: "mailto:sharadregoti15@gmail.com"
+menu:
+  main:
+    - identifier: "blogs"
+      name: "Blogs"
+      url: "/posts/"
+    - identifier: "external"
+      name: "Technical Content Creation"
+      url: "/external/"
+    - identifier: "products"
+      name: "Products"
+      url: "/products/"

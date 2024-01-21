@@ -1,0 +1,35 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name:  products
+spec:
+  selector:
+    app:  products
+  type:  LoadBalancer
+  ports:
+  - port:  8080
+    targetPort:  8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: products
+spec:
+  selector:
+    matchLabels:
+      app: products
+  template:
+    metadata:
+      labels:
+        app: products
+    spec:
+      containers:
+      - name: products
+        image: sharadregoti/products:0.1.0
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
+        ports:
+        - containerPort: 8080
+---

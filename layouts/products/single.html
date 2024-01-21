@@ -1,0 +1,5 @@
+{{ if .Params.externalURL }}
+<meta http-equiv="refresh" content="0; URL='{{ .Params.externalURL }}'" />
+<p>If you are not redirected, <a href="{{ .Params.externalURL }}">click here</a> to read the article.</p>
+{{ else }}
+{{ end }}
