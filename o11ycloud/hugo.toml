@@ -1,0 +1,4 @@
+baseURL = "http://magsther.github.io/"
+title = "Sharad Regoti"
+paginate = "5"
+theme = "PaperMod"
