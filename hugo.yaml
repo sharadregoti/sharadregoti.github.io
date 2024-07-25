@@ -19,6 +19,10 @@ params:
   socialIcons: # optional
     - name: "Github"
       url: "https://github.com/sharadregoti"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/sharad-regoti-7a161a100/"
+    - name: "X"
+      url: "https://x.com/SharadRegoti"
     - name: "Email"
       url: "mailto:sharadregoti15@gmail.com"
 menu:
