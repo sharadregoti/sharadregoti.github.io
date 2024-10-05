@@ -17,6 +17,8 @@ params:
     #   - name: Github
     #     url: "https://github.com/"
   socialIcons: # optional
+    - name: "youtube"
+      url: "https://www.youtube.com/@techwithsharad"
     - name: "Github"
       url: "https://github.com/sharadregoti"
     - name: "Linkedin"
@@ -36,3 +38,5 @@ menu:
     - identifier: "products"
       name: "Products"
       url: "/products/"
+    - name: Youtube
+      url: https://www.youtube.com/@techwithsharad
