@@ -3,8 +3,12 @@ title: "Sharad Regoti"
 pagination:
   pagerSize: 50
 theme: "PaperMod"
+services:
+  disqus:
+    shortname: sharadregoti
 params:
   showShareButtons: true
+  comments: true
   profileMode:
     enabled: true
     title: "Hi There," # optional default will be site title

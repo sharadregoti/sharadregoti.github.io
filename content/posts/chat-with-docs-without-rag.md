@@ -198,6 +198,6 @@ Now, we have a working prototype of a chatbot. In the next couple of blog posts,
 4. Adding likes and dislikes for the response
 5. Integrate our chatbot with Algolia search
 
-That’s it for this blog post. If you liked this post, you can subscribe to my [newsletter](https://sharad-regoti.kit.com/4efd99fc31) to stay updated. You can also check out my [YouTube channel](https://www.youtube.com/@techwithsharad), where I discuss DevOps**, Cloud, Kubernetes, and AI.**
+That’s it for this blog post. If you liked this post, you can subscribe to my [newsletter](https://sharad-regoti.kit.com/4efd99fc31) to stay updated. You can also check out my [YouTube channel](https://www.youtube.com/@techwithsharad), where I discuss DevOps, Cloud, Kubernetes, and AI.
 
 If you have any questions, you can reach me on Twitter at [@SharadRegoti](https://twitter.com/SharadRegoti)
