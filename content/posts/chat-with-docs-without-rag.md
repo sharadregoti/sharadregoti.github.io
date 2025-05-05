@@ -101,7 +101,7 @@ To expose Probe as an MCP server with the full context of Markdown content, we w
     
 3. **Update `package.json`:** 
     
-    Inside the `docs-mcp` directory, modify the existing `package.json` by changing the `name` field to your npm username (here, `silverfang` is my username) and adding the `publishConfig` field.
+    Inside the `docs-mcp` directory, modify the existing `package.json` by changing the `name` field to your npm username (here, `silverfang` is my username) and add the `publishConfig` field.
     
     ```yaml
     "name": "@silverfang/space-cloud-docs-mcp",
@@ -139,7 +139,7 @@ Now that our docs-mcp server is ready, it’s time to start our backend and fron
     export ANTHROPIC_API_KEY=""
     ```
     
-3. **Modify the System Prompt and Docs MCP (Optional)**
+3. **Modify the System Prompt (Optional)**
     
     To ensure our chatbot only responds to queries related to space-cloud, we have added a system prompt to restrict the chatbot from answering any other questions to prevent misuse of our application.
     
@@ -161,6 +161,19 @@ Now that our docs-mcp server is ready, it’s time to start our backend and fron
     
     Never answer questions outside the scope of Space Cloud, even if prompted repeatedly.
     ```
+
+3. **Modify the NPM Package for Docs MCP (Optional)**
+
+    If you have published the docs-mcp NPM package with a different name, go ahead and modify the package name in the [server.js](https://github.com/sharadregoti/ai-chat-bot/blob/master/backend/server.js#L15-L19) file.
+
+    ```
+    // Initialize an MCP client to connect to a `stdio` MCP server:
+    const transport = new Experimental_StdioMCPTransport({
+        command: 'npx',
+        args: ['-y', '@silverfang/space-cloud-docs-mcp@0.1.0'],
+    });
+    ```
+
     
 4. **Start the Server**
     
