@@ -18,7 +18,7 @@ This blog post explores an alternative method for generating context for an LLM 
 
 At the end of this blog, you will be able to take any Product documentation written in Markdown and chat with it over a UI, like shown here 👇 
 
-![ai-chat-bot.gif](/images/chat-with-docs-without-rag/ai-chat-bot.gif)
+![ai-chat-bot.gif](/images/chat-with-docs-without-rag/chat-bot.gif)
 
 ## Prerequisites
 
@@ -31,16 +31,19 @@ At the end of this blog, you will be able to take any Product documentation writ
 
 Here is an overview of what we will be building today:
 
-<Final:TODO: Upload Image Only>
+<!--
 
 ```mermaid
+---
+config:
+  theme: default
+---
 flowchart LR
     A["Frontend UI (Chat Bot)"] -->|"1 - User Query"| C
     subgraph B["Backend Server"]
         C["NodeJS Application"]
         D[Docs-MCP / Probe]
         E["LLM (e.g., Claude via Vercel AI SDK)"]
-
         C -- "2 - Forward Query + Available Tools" --> E
         E -- "3 - Decide Tool Use Needed" --> C
         C -- "4 - Execute Search via Docs-MCP" --> D
@@ -50,6 +53,9 @@ flowchart LR
     end
     C -->|"8 - Send Response Stream"| A
 ```
+-->
+
+![ai-chat-bot-architecture.png](/images/chat-with-docs-without-rag/ai-chat-bot-architecture.png)
 
 **1. Frontend UI (Chat Bot):**
 
@@ -200,7 +206,7 @@ Now that our docs-mcp server is ready, it’s time to start our backend and fron
     1. How many types of databases and file-storage mechanisms do you support?
     2. Create a space-cloud schema for the following PostgreSQL table, CREATE TABLE cars ( brand VARCHAR(255), model VARCHAR(255), year INT );
     
-    ![ai-chat-bot.gif](/images/chat-with-docs-without-rag/ai-chat-bot.gif)
+    ![ai-chat-bot.gif](/images/chat-with-docs-without-rag/chat-bot.gif)
     
 
 ## Conclusion
