@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on Sharad Regoti</title>
+    <link>http://localhost:1313/products/</link>
+    <description>Recent content in Products on Sharad Regoti</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech Labs</title>
+      <link>http://localhost:1313/products/tech-labs/</link>
+      <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/tech-labs/</guid>
+      <description>TechLabs is a flexible, hands-on lab experience for training, workshops, and go-to-market</description>
+    </item>
+    <item>
+      <title>Devosp CLI</title>
+      <link>http://localhost:1313/products/devops-cli/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/devops-cli/</guid>
+      <description>A Terminal/Web UI to interact with devops tools &amp;amp; services, intended for devops/platform engineers.</description>
+    </item>
+  </channel>
+</rss>

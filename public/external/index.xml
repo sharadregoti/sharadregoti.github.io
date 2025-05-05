@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Externals on Sharad Regoti</title>
+    <link>http://localhost:1313/external/</link>
+    <description>Recent content in Externals on Sharad Regoti</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/external/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using the GCP Monitoring API for Kubernetes Autoscaling with KEDA</title>
+      <link>http://localhost:1313/external/using-gcp-metrics-for-kubernetes-autoscaling-with-keda/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/using-gcp-metrics-for-kubernetes-autoscaling-with-keda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Send distributed traces to AWS X-Ray using Fluent Bit</title>
+      <link>http://localhost:1313/external/traces-to-aws-x-ray-using-fluent-bit/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/traces-to-aws-x-ray-using-fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Using AWS Metrics for Kubernetes Autoscaling with KEDA</title>
+      <link>http://localhost:1313/external/using-aws-metrics-for-kubernetes-autoscaling-with-keda/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/using-aws-metrics-for-kubernetes-autoscaling-with-keda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A practical guide for avoiding data loss and backpressure problems with Fluent Bit</title>
+      <link>http://localhost:1313/external/a-practical-guide-for-avoiding-data-loss-and-backpressure-problems-with-fluent-bit/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/a-practical-guide-for-avoiding-data-loss-and-backpressure-problems-with-fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KEDA’s dynamic scheduling fixes Kubernetes long-running workloads</title>
+      <link>http://localhost:1313/external/kedas-dynamic-scheduling-fixes-kubernetes-long-running-workloads/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/kedas-dynamic-scheduling-fixes-kubernetes-long-running-workloads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prometheus and Kubernetes Horizontal Pod Autoscaler don’t talk, KEDA does</title>
+      <link>http://localhost:1313/external/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talkkeda-does/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talkkeda-does/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KEDA &#43; Kafka: Improve performance by 62.15% at peak loads</title>
+      <link>http://localhost:1313/external/keda&#43;kafkaimprove_performance_by62.15at_peak_loads/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/keda&#43;kafkaimprove_performance_by62.15at_peak_loads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Convert Logs To Metrics in Legacy Applications Using Fluent Bit</title>
+      <link>http://localhost:1313/external/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cracking Bottlenecks: How KEDA Outsmarts Kubernetes Horizontal Pod Autoscaler</title>
+      <link>http://localhost:1313/external/cracking-bottleneckshow-keda-outsmarts-kubernetes-horizontal-pod-autoscaler/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/cracking-bottleneckshow-keda-outsmarts-kubernetes-horizontal-pod-autoscaler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic Log Routing Based On Kubernetes Labels using Fluent Bit &amp; WASM</title>
+      <link>http://localhost:1313/external/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enforcing structured logging across applications using Fluent Bit</title>
+      <link>http://localhost:1313/external/enforcing-structured-logging-across-applications-using-fluent-bit/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/enforcing-structured-logging-across-applications-using-fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fluent Bit: Alerting via Slack when the log destination is unreachable</title>
+      <link>http://localhost:1313/external/fluent-bitalerting-via-slack-when-the-log-destination-is-unreachable/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/fluent-bitalerting-via-slack-when-the-log-destination-is-unreachable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How to Collect Kubernetes Component Logs Using Fluent Bit</title>
+      <link>http://localhost:1313/external/how-to-collect-kubernetes-component-logs-using-fluent-bit/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/how-to-collect-kubernetes-component-logs-using-fluent-bit/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

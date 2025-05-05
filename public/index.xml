@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sharad Regoti</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sharad Regoti</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 May 2025 10:39:08 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chat with Docs without RAG, Using Probe Over MCP</title>
+      <link>http://localhost:1313/posts/chat-with-docs-without-rag/</link>
+      <pubDate>Sun, 04 May 2025 10:39:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/chat-with-docs-without-rag/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;I have seen several documentation websites that have implemented AI chatbots (”Ask AI”) to allow users to ask questions about their documentation instead of manually searching. I believe this enhances user experience and saves time by allowing users to ask questions directly instead of manually searching through extensive texts.&lt;/p&gt;&#xA;&lt;p&gt;Large Language Models (LLMs) have enabled this use case of chatting with textual data. However, pre-trained LLMs typically lack up-to-date or specific knowledge about particular products.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tech Labs</title>
+      <link>http://localhost:1313/products/tech-labs/</link>
+      <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/tech-labs/</guid>
+      <description>TechLabs is a flexible, hands-on lab experience for training, workshops, and go-to-market</description>
+    </item>
+    <item>
+      <title>Using the GCP Monitoring API for Kubernetes Autoscaling with KEDA</title>
+      <link>http://localhost:1313/external/using-gcp-metrics-for-kubernetes-autoscaling-with-keda/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/using-gcp-metrics-for-kubernetes-autoscaling-with-keda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Send distributed traces to AWS X-Ray using Fluent Bit</title>
+      <link>http://localhost:1313/external/traces-to-aws-x-ray-using-fluent-bit/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/traces-to-aws-x-ray-using-fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Using AWS Metrics for Kubernetes Autoscaling with KEDA</title>
+      <link>http://localhost:1313/external/using-aws-metrics-for-kubernetes-autoscaling-with-keda/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/using-aws-metrics-for-kubernetes-autoscaling-with-keda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A practical guide for avoiding data loss and backpressure problems with Fluent Bit</title>
+      <link>http://localhost:1313/external/a-practical-guide-for-avoiding-data-loss-and-backpressure-problems-with-fluent-bit/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/a-practical-guide-for-avoiding-data-loss-and-backpressure-problems-with-fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide: How to Mask Sensitive Information Using Fluent Bit</title>
+      <link>http://localhost:1313/posts/guidehow-to-mask-sensitive-information-using-fluent-bit/</link>
+      <pubDate>Sun, 21 Jan 2024 10:39:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/guidehow-to-mask-sensitive-information-using-fluent-bit/</guid>
+      <description>&lt;p&gt;Fluent Bit is a popular open-source log processor and forwarder that allows you to collect data from different sources, filter, and transform it before forwarding it to different destinations. In some cases, the data collected may contain sensitive information like passwords, credit card numbers, social security numbers, and other personal identifiable information (PII). To protect such information, you need to mask or obfuscate it before forwarding it to the destination. In this document, we will discuss how to mask sensitive information using Fluent Bit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Journey Of Deployment Creation In Kubernetes</title>
+      <link>http://localhost:1313/posts/journey-of-deployment-creation-in-kubernetes/</link>
+      <pubDate>Sun, 21 Jan 2024 10:39:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/journey-of-deployment-creation-in-kubernetes/</guid>
+      <description>&lt;p&gt;Hello everyone, This article is my take on what I have understood about the Kubernetes architecture.&lt;/p&gt;&#xA;&lt;p&gt;Instead of explaining the different components that the architecture comprises of &amp;amp; what each component does functionally.&lt;/p&gt;&#xA;&lt;p&gt;We will take a Kubernetes feature &amp;amp; break its implementation to understand how it interacts with Kubernetes system components.&lt;/p&gt;&#xA;&lt;p&gt;So yeah, some working knowledge of K8s basics such as creating deployments, and services is a plus.&lt;/p&gt;&#xA;&lt;p&gt;Before starting, I want to let you know that this article is written to the best of my knowledge &amp;amp; I’ll be updating it as I gain more insights on it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Journey Of HTTP Request In Kubernetes</title>
+      <link>http://localhost:1313/posts/journey-of-http-request-in-kubernetes/</link>
+      <pubDate>Sun, 21 Jan 2024 10:39:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/journey-of-http-request-in-kubernetes/</guid>
+      <description>&lt;p&gt;In the previous article, we have learnt the journey of deployment creation in Kubernetes. Which helped us understand almost every aspect of the core system components of Kubernetes, but it missed the following components:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cloud Control Manager&lt;/li&gt;&#xA;&lt;li&gt;Kube Proxy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To understand the above components, we will use the same technique of previous article where we will take a Kubernetes feature &amp;amp; break its implementation to understand how it interacts with the Kubernetes system components.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Services Explained: Cluster IP, NodePort, Loadbalancer, Ingress, Ingress Controllers</title>
+      <link>http://localhost:1313/posts/kubernetes-services-explainedcluster-ipnode-portloadbalanceringressingress-controllers/</link>
+      <pubDate>Sun, 21 Jan 2024 10:39:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/kubernetes-services-explainedcluster-ipnode-portloadbalanceringressingress-controllers/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Kubernetes networking principles are really confusing 😖, especially if you&amp;rsquo;re a beginner.&lt;/p&gt;&#xA;&lt;p&gt;Regardless of how well I follow the official documentation. I honestly didn’t understand a single damn thing !!!&lt;/p&gt;&#xA;&lt;p&gt;After watching some tutorials on Youtbube I was able to write &amp;amp; duplicate the tutorials, but core understanding of Kubernetes networking concepts was still missing, as sometimes I myself used to get confused about what to use where&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;This blog post is my take to explain kubernetes networking concepts in depth &amp;amp; answer the below questions that I had that always confused me&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Platform Setup : How To Structure Your Infrastructure Repository</title>
+      <link>http://localhost:1313/posts/platform-setuphow-to-structure-your-infrastructure-repository/</link>
+      <pubDate>Sun, 21 Jan 2024 10:39:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/platform-setuphow-to-structure-your-infrastructure-repository/</guid>
+      <description>&lt;p&gt;Welcome to the Platform Setup series, a collection of blog posts where I&amp;rsquo;ll be sharing my insights and experiences from deploying applications in enterprises. With a particular focus on &lt;strong&gt;Banking and Insurance&lt;/strong&gt; companies.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been part of dynamic teams ranging in size from 20 to 40 talented individuals, each one contributing to the grand mosaic of software development. We&amp;rsquo;ve journeyed from traditional software development methodologies to the cutting-edge vistas of DevOps, Kubernetes, and beyond, fostering an environment of continuous learning and growth.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problems Faced While Running Gitlab Runners On K8s With AWS Spot Instances</title>
+      <link>http://localhost:1313/posts/problems-faced-while-running-gitlab-runners-on-k8s-with-aws-spot-instances/</link>
+      <pubDate>Sun, 21 Jan 2024 10:39:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/problems-faced-while-running-gitlab-runners-on-k8s-with-aws-spot-instances/</guid>
+      <description>&lt;p&gt;In this post, I&amp;rsquo;ll share the challenges encountered and the solutions implemented while operating self-hosted Gitlab runners on Kubernetes.&lt;/p&gt;&#xA;&lt;p&gt;Please note: this post does not cover setting up Gitlab runners—it assumes you&amp;rsquo;ve already done so.&lt;/p&gt;&#xA;&lt;p&gt;The following outlines the specifics of our development EKS cluster where the Gitlab runners operate:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Two managed node groups:&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Application Node Group:&lt;/strong&gt; Used for running applications.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Instance types selected: m5.xlarge, t3.xlarge&lt;/li&gt;&#xA;&lt;li&gt;Auto-scaler configuration: Min 6, Max 9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Runner Node Group:&lt;/strong&gt; Used for running Gitlab runners.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Instance types selected: t3a.2xlarge&lt;/li&gt;&#xA;&lt;li&gt;Auto-scaler configuration: Min 3, Max 5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;All nodes utilize AWS spot instances.&lt;/li&gt;&#xA;&lt;li&gt;The EKS spans across two AZs, with each AZ containing a subnet with a CIDR range of /25 (equivalent to 256 IPs).&lt;/li&gt;&#xA;&lt;li&gt;A KubePromStack Helm chart is installed for cluster monitoring.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Now, let&amp;rsquo;s delve into the issues we faced.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What I Have Understood About DevOps, As An Engineer With Just 2yrs Of Experience</title>
+      <link>http://localhost:1313/posts/what-i-have-understood-about-devops-as-an-engineer-with-just-2yrs-of-experience/</link>
+      <pubDate>Sun, 21 Jan 2024 10:39:08 +0530</pubDate>
+      <guid>http://localhost:1313/posts/what-i-have-understood-about-devops-as-an-engineer-with-just-2yrs-of-experience/</guid>
+      <description>&lt;p&gt;When I first heard the term DevOps, What I understood from by peers is that,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“The process of deploying application in any environment (dev/QA/prod) is called DevOps. It’s just another synonym for operations.”&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;As a novice programmer I was like,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“Okay, Cool !!!, It’s just another buzz world floating around in the IT industry”&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;People who have some idea about DevOps, know how wrong I am!😆&lt;/p&gt;&#xA;&lt;p&gt;But after spending some time in the IT industry &amp;amp; seeing job recruitment posts with designations such as &lt;strong&gt;requirement of AI-Ops, ML-Ops, Data-Ops, Fin-Ops…. X-Ops engineer&lt;/strong&gt;, I was like wait a minute, DevOps has to be more than just deployment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>KEDA’s dynamic scheduling fixes Kubernetes long-running workloads</title>
+      <link>http://localhost:1313/external/kedas-dynamic-scheduling-fixes-kubernetes-long-running-workloads/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/kedas-dynamic-scheduling-fixes-kubernetes-long-running-workloads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prometheus and Kubernetes Horizontal Pod Autoscaler don’t talk, KEDA does</title>
+      <link>http://localhost:1313/external/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talkkeda-does/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talkkeda-does/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KEDA &#43; Kafka: Improve performance by 62.15% at peak loads</title>
+      <link>http://localhost:1313/external/keda&#43;kafkaimprove_performance_by62.15at_peak_loads/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/keda&#43;kafkaimprove_performance_by62.15at_peak_loads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Convert Logs To Metrics in Legacy Applications Using Fluent Bit</title>
+      <link>http://localhost:1313/external/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devosp CLI</title>
+      <link>http://localhost:1313/products/devops-cli/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/devops-cli/</guid>
+      <description>A Terminal/Web UI to interact with devops tools &amp;amp; services, intended for devops/platform engineers.</description>
+    </item>
+    <item>
+      <title>Cracking Bottlenecks: How KEDA Outsmarts Kubernetes Horizontal Pod Autoscaler</title>
+      <link>http://localhost:1313/external/cracking-bottleneckshow-keda-outsmarts-kubernetes-horizontal-pod-autoscaler/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/cracking-bottleneckshow-keda-outsmarts-kubernetes-horizontal-pod-autoscaler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic Log Routing Based On Kubernetes Labels using Fluent Bit &amp; WASM</title>
+      <link>http://localhost:1313/external/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enforcing structured logging across applications using Fluent Bit</title>
+      <link>http://localhost:1313/external/enforcing-structured-logging-across-applications-using-fluent-bit/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/enforcing-structured-logging-across-applications-using-fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fluent Bit: Alerting via Slack when the log destination is unreachable</title>
+      <link>http://localhost:1313/external/fluent-bitalerting-via-slack-when-the-log-destination-is-unreachable/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/fluent-bitalerting-via-slack-when-the-log-destination-is-unreachable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How to Collect Kubernetes Component Logs Using Fluent Bit</title>
+      <link>http://localhost:1313/external/how-to-collect-kubernetes-component-logs-using-fluent-bit/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/external/how-to-collect-kubernetes-component-logs-using-fluent-bit/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
