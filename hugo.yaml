@@ -7,10 +7,14 @@ services:
   disqus:
     shortname: sharadregoti
 params:
+  env: production
   showShareButtons: true
   comments: true
   showCodeCopyButtons: true
   showPostNavLinks: true
+  analytics:
+    google:
+      SiteVerificationTag: ""
   profileMode:
     enabled: true
     title: "Hi There," # optional default will be site title
