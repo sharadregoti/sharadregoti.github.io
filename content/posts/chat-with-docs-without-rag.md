@@ -73,6 +73,7 @@ To expose Probe as an MCP server with the full context of Markdown content, we w
     
     ```yaml
     git clone https://github.com/buger/docs-mcp.git
+    cd docs-mcp
     ```
     
 2. **Configure `docs-mcp.config.json`:** 
@@ -117,7 +118,7 @@ To expose Probe as an MCP server with the full context of Markdown content, we w
     **Note:** Ensure you are already authenticated with your NPM account using the command `npm login`
     
     ```yaml
-    npm run build && npm publish
+    npm i && npm run build && npm publish
     ```
     
 
@@ -131,6 +132,7 @@ Now that our docs-mcp server is ready, it’s time to start our backend and fron
     
     ```yaml
     git clone https://github.com/sharadregoti/ai-chat-bot.git
+    cd ai-chat-bot
     ```
     
 2. **Configure Environment Variables for Backend**
