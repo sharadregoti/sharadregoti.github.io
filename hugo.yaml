@@ -9,6 +9,8 @@ services:
 params:
   showShareButtons: true
   comments: true
+  showCodeCopyButtons: true
+  showPostNavLinks: true
   profileMode:
     enabled: true
     title: "Hi There," # optional default will be site title
