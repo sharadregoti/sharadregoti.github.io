@@ -1,8 +1,11 @@
-+++
-title = 'Chat with Docs without RAG, Using Probe Over MCP'
-date = 2025-05-04T10:39:08+05:30
-draft = false
-+++
+---
+title: 'Chat with Docs without RAG, Using Probe Over MCP'
+date: 2025-05-04T10:39:08+05:30
+draft: false'
+cover:
+  image: "/images/chat-with-docs-without-rag/ai-chat-bot-cover.png"
+  relative: false # To use relative path for cover image, used in hugo Page-bundles
+---
 
 ## Introduction
 
