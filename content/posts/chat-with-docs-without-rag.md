@@ -1,5 +1,5 @@
 ---
-title: 'Chat with Docs without RAG, Using Probe Over MCP'
+title: 'Chat with Docs without Embeddings, Using Probe Over MCP'
 date: 2025-05-04T10:39:08+05:30
 draft: false'
 cover:
@@ -15,7 +15,7 @@ Large Language Models (LLMs) have enabled this use case of chatting with textual
 
 The standard solution to this problem is Retrieval-Augmented Generation (RAG). RAG involves creating numerical representations (embeddings) of the documentation, storing them in a vector database, retrieving relevant sections based on user queries using semantic search, and feeding this retrieved context to the LLM to generate an informed answer.
 
-While effective, the RAG approach requires setting up infrastructure for creating, storing, and updating embeddings. But RAG isn't the only way to provide context to an LLM.
+While effective, the RAG approach requires setting up infrastructure for creating, storing, and updating embeddings. But embeddings aren't the only way to provide context to an LLM.
 
 This blog post explores an alternative method for generating context for an LLM from textual data that *doesn't* rely on embeddings. We will use [Probe](https://probeai.dev/), a tool designed for local, semantic search on code and text. Let's dive into how this alternative works.
 
