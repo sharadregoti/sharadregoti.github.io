@@ -6,7 +6,7 @@ theme: "PaperMod"
 services:
   disqus:
     shortname: sharadregoti
-googleAnalytics = "G-6RCBQMR3G9"
+googleAnalytics: "G-6RCBQMR3G9"
 params:
   env: production
   showShareButtons: true
