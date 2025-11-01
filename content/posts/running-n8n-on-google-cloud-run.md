@@ -1,13 +1,13 @@
 ---
 title: 'Problems faced while running N8N on Google Cloud Run'
-date: 2025-11-01T10:39:08+05:30
+date: 2025-11-02T10:39:08+05:30
 draft: false
 cover:
   image: "/images/running-n8n-on-google-cloud-run/cover.png"
   relative: false
 ---
 
-TL;DR: I tried running n8n on Google [Cloud Run](https://cloud.google.com/run?hl=en) without a managed database because I thought it would be cheaper. It “worked,” but it wasn’t straightforward: I had to bolt on automation for import/export state, fight Cloud Run restarts, keep CPU always allocated to keep a background backup loop alive, and deal with re-auth every few minutes when instances restarted. Fun experiment, not a recommendation.
+> TL;DR: I tried running n8n on Google [Cloud Run](https://cloud.google.com/run?hl=en) without a managed database because I thought it would be cheaper. It “worked,” but it wasn’t straightforward: I had to bolt on automation for import/export state, fight Cloud Run restarts, keep CPU always allocated to keep a background backup loop alive, and deal with re-auth every few minutes when instances restarted. Fun experiment, not a recommendation.
 
 In this post, I’ll dive deep into how I made it work, what breaks, and why I’d pick PostgreSQL for n8n in anything beyond a toy project.
 
