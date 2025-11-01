@@ -3,7 +3,7 @@ title: 'How to run N8N workflow in GitHub Action'
 date: 2025-11-01T10:39:08+05:30
 draft: false
 cover:
-  image: "/images/chat-with-docs-without-rag/ai-chat-bot-cover.png"
+  image: "/images/run-n8n-workflow-in-github-action/cover.png"
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
