@@ -126,3 +126,9 @@ Core env vars used by the scripts:
 ## Closing Thoughts
 
 This was a fun exercise in bending a stateless platform to run a stateful app. The restore-on-boot trick works, but it’s fragile and operationally noisy. If you want peace of mind, give n8n the PostgreSQL it expects and self-host it on a VM, don't run it on Cloud Run.
+
+And at the end, I hosted it on [Hertzner](https://www.hetzner.com/).
+
+That’s it for this blog post. If you liked this post, you can subscribe to my [newsletter](https://sharad-regoti.kit.com/4efd99fc31) to stay updated. You can also check out my [YouTube channel](https://www.youtube.com/@techwithsharad), where I discuss DevOps, Cloud, Kubernetes, and AI.
+
+If you have any questions, you can reach me on Twitter at [@SharadRegoti](https://twitter.com/SharadRegoti)
