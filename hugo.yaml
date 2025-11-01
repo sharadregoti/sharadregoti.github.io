@@ -1,4 +1,4 @@
-baseURL: "http://magsther.github.io/"
+baseURL: "https://sharadregoti.github.io/"
 title: "Sharad Regoti"
 pagination:
   pagerSize: 50
@@ -6,6 +6,7 @@ theme: "PaperMod"
 services:
   disqus:
     shortname: sharadregoti
+googleAnalytics: "G-1R4DB8WN7D"
 params:
   env: production
   showShareButtons: true
@@ -14,7 +15,7 @@ params:
   showPostNavLinks: true
   analytics:
     google:
-      SiteVerificationTag: "G-6RCBQMR3G9"
+      SiteVerificationTag: "G-1R4DB8WN7D"
   profileMode:
     enabled: true
     title: "Hi There," # optional default will be site title

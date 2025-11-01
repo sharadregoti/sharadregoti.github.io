@@ -1,5 +1,5 @@
 ---
-title: 'Chat with Docs without RAG, Using Probe Over MCP'
+title: 'Chat with Docs without Embeddings, Using Probe Over MCP'
 date: 2025-05-04T10:39:08+05:30
 draft: false'
 cover:
@@ -15,7 +15,7 @@ Large Language Models (LLMs) have enabled this use case of chatting with textual
 
 The standard solution to this problem is Retrieval-Augmented Generation (RAG). RAG involves creating numerical representations (embeddings) of the documentation, storing them in a vector database, retrieving relevant sections based on user queries using semantic search, and feeding this retrieved context to the LLM to generate an informed answer.
 
-While effective, the RAG approach requires setting up infrastructure for creating, storing, and updating embeddings. But RAG isn't the only way to provide context to an LLM.
+While effective, the RAG approach requires setting up infrastructure for creating, storing, and updating embeddings. But embeddings aren't the only way to provide context to an LLM.
 
 This blog post explores an alternative method for generating context for an LLM from textual data that *doesn't* rely on embeddings. We will use [Probe](https://probeai.dev/), a tool designed for local, semantic search on code and text. Let's dive into how this alternative works.
 
@@ -45,7 +45,7 @@ This is the user interface built with React. Users can type their questions abou
 - A NodeJS program that exposes a streaming API ([Server Side Events](https://en.wikipedia.org/wiki/Server-sent_events)). It receives the API request containing the user's question from the frontend.
 - **Key Component: NodeJS Application:** This program acts as an orchestrator. It facilitates communication between the frontend, the LLM, and the documentation search tool (Docs-MCP) and, crucially, makes the Docs-MCP tool available for the LLM to use.
 - **Key Component: Docs-MCP:** This replaces the typical RAG embedding/vector search.
-    - We will integrate [**Probe**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fprobeai.dev%2F) in our application as an MCP (Machine Communication Protocol) server, exposing its search capabilities as a tool. There are other ways to integrate Probe (see [**documentation**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fprobeai.dev%2Fuse-cases%2Fbuilding-ai-tools)), but MCP provides a structured way for LLMs to interact with external tools.
+    - We will integrate [**Probe**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fprobeai.dev%2F) in our application as an MCP (Model Context Protocol) server, exposing its search capabilities as a tool. There are other ways to integrate Probe (see [**documentation**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fprobeai.dev%2Fuse-cases%2Fbuilding-ai-tools)), but MCP provides a structured way for LLMs to interact with external tools.
     - When instructed by the LLM, the NodeJS application uses Docs-MCP/Probe to search the product documentation directly based on the parameters provided by the LLM.
     - Docs-MCP analyzes the user's query and retrieves relevant sections or snippets from the documentation, returning this context to the NodeJS application.
 
