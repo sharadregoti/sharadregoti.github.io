@@ -37,7 +37,7 @@ So, I triggered my GitHub action manually using the UI and passed the required i
 
 ![Github Action Input](/images/run-n8n-workflow-in-github-action/github-action-input.png)
 
-1. **Modify Workflow Outputs**:
+2. **Modify Workflow Outputs**:
 
 Since the N8N CLI runs the workflow in a non-interactive environment, you need to ensure that the workflow's outputs are handled appropriately. You can use nodes like "Write Binary File" or "HTTP Request" to send the output data to a desired location or service.
 
