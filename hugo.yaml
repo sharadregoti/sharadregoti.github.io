@@ -51,5 +51,8 @@ menu:
     - identifier: "products"
       name: "Products"
       url: "/products/"
+    - identifier: "travel"
+      name: "Travel"
+      url: "/travel/"
     - name: Youtube
       url: https://bit.ly/3NePaEr
