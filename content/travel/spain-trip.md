@@ -103,15 +103,17 @@ If I had a remote job paying in US dollars or pounds, I'd genuinely consider liv
 
 ## Regrets and Small Observations
 
-My biggest regret: I paid €160 for a day trip to Toledo and Segovia. I later found the same trip for €90. Do your research before booking anything.
+- My biggest regret: I paid €160 for a day trip to Toledo and Segovia. I later found the same trip for €90. Do your research before booking anything.
 
-Rooms have no fans, just air conditioning. That took some getting used to.
+- Rooms have no fans, just air conditioning. That took some getting used to.
 
-No jet sprays in bathrooms. I missed them. Japanese toilets feel like a distant dream.
+- No jet sprays in bathrooms. I missed them. Japanese toilets feel like a distant dream.
 
-Indians, as a group, are *loud* in public. I noticed this more traveling abroad than I ever did at home.
+- Indians, as a group, are *loud* in public. I noticed this more traveling abroad than I ever did at home.
 
-Sunglasses are not optional. Pack them.
+- Sunglasses are not optional. Pack them.
+
+- No stray animals (dogs/cats), no pigeons/crows circling overhead. Coming from India, that alone felt strange.
 
 ---
 
