@@ -113,7 +113,15 @@ If I had a remote job paying in US dollars or pounds, I'd genuinely consider liv
 
 - Sunglasses are not optional. Pack them.
 
-- No stray animals (dogs/cats), no pigeons/crows circling overhead. Coming from India, that alone felt strange.
+- No stray animals anywhere. No dogs, no cats, no crows circling overhead, no pigeons underfoot. Coming from India, where they're just part of the background.
+
+- Spanish people are shorter than I expected compared to other Europeans. Next to Dutch or German or British people, the difference is noticeable.
+
+- I was surprised by how many people had heard of Mumbai. I expected blank looks. I got conversations instead.
+
+- South Asian tourists were rare. I could spot the occasional group from a distance.
+
+- At some point, I realized I could roughly identify where people were from just by hearing them speak. A few words and I'd think: French, German, Italian. I'm not sure when I developed that ear.
 
 ---
 
