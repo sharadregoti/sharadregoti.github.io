@@ -1,6 +1,6 @@
 ---
 title: 'Two Weeks in Spain: What I Noticed, What I Felt, What I Brought Back'
-date: 2026-04-09T10:39:08+05:30
+date: 2026-04-08T10:39:08+05:30
 draft: false'
 cover:
   image: "/images/sharad-at-royal-palace-spain.jpg"
