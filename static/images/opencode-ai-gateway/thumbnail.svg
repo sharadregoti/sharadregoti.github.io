@@ -36,18 +36,11 @@
   <rect x="112" y="426" width="290" height="64" rx="18" fill="url(#accent)"/>
   <text x="257" y="466" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">SEO + Setup Guide</text>
 
-  <rect x="760" y="165" width="280" height="210" rx="20" fill="#020617" stroke="#475569" stroke-width="2"/>
-  <rect x="790" y="205" width="220" height="26" rx="13" fill="#1e293b"/>
-  <rect x="790" y="250" width="180" height="20" rx="10" fill="#0ea5e9" opacity="0.9"/>
-  <rect x="790" y="286" width="210" height="20" rx="10" fill="#1e293b"/>
-  <rect x="790" y="322" width="160" height="20" rx="10" fill="#1e293b"/>
-
-  <path d="M630 270 L735 270" stroke="#64748b" stroke-width="10" stroke-linecap="round"/>
-  <polygon points="725,245 770,270 725,295" fill="#8b5cf6"/>
-
-  <rect x="500" y="205" width="120" height="130" rx="18" fill="#111827" stroke="#475569" stroke-width="2"/>
-  <text x="560" y="255" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#e2e8f0">CLI</text>
-  <text x="560" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#7dd3fc">opencode</text>
+  <rect x="790" y="175" width="290" height="220" rx="20" fill="#020617" stroke="#475569" stroke-width="2"/>
+  <rect x="820" y="215" width="220" height="26" rx="13" fill="#1e293b"/>
+  <rect x="820" y="260" width="180" height="20" rx="10" fill="#0ea5e9" opacity="0.9"/>
+  <rect x="820" y="296" width="210" height="20" rx="10" fill="#1e293b"/>
+  <rect x="820" y="332" width="160" height="20" rx="10" fill="#1e293b"/>
 
   <text x="112" y="535" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#94a3b8">
     sharadregoti.github.io
