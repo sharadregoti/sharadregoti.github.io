@@ -2,6 +2,13 @@
 title: 'How to Configure OpenCode with Models Hosted on an AI Gateway'
 date: 2026-05-15T11:45:00+05:30
 draft: false
+description: 'Learn how to configure OpenCode to use Anthropic-compatible models behind an AI Gateway, including the correct baseURL, small_model setup, and debugging steps.'
+cover:
+  image: "/images/opencode-ai-gateway/thumbnail.svg"
+  alt: "OpenCode configured with models behind an AI Gateway"
+  relative: false
+images:
+  - "/images/opencode-ai-gateway/thumbnail.svg"
 ---
 
 If you already use OpenCode but your models are exposed through an AI Gateway instead of the model provider's public endpoint, the setup is straightforward once you know where OpenCode expects the provider URL to stop.
