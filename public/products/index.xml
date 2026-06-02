@@ -2,24 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Products on Sharad Regoti</title>
-    <link>http://localhost:1313/products/</link>
+    <link>https://sharadregoti.github.io/products/</link>
     <description>Recent content in Products on Sharad Regoti</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/products/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sharadregoti.github.io/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chrome Extension: Selectively Blur Gmail Messages</title>
+      <link>https://sharadregoti.github.io/products/selective-gmail-blur/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://sharadregoti.github.io/products/selective-gmail-blur/</guid>
+      <description>Selectively blur Gmail messages based on configurable regex patterns to protect sensitive content in public spaces.</description>
+    </item>
+    <item>
+      <title>Kubernetes CRD to Sample YAML</title>
+      <link>https://sharadregoti.github.io/products/kubernetes-crd-sample/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://sharadregoti.github.io/products/kubernetes-crd-sample/</guid>
+      <description>A simple, fast and free online tool to generate sample YAML objects from Kubernetes Custom Resource Definitions</description>
+    </item>
+    <item>
+      <title>Emojify</title>
+      <link>https://sharadregoti.github.io/products/emojify/</link>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sharadregoti.github.io/products/emojify/</guid>
+      <description>A simple Chrome extension that enhances selected text by adding relevant emojis to the text</description>
+    </item>
+    <item>
+      <title>Instant Dev Tools</title>
+      <link>https://sharadregoti.github.io/products/instant-dev-tools/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://sharadregoti.github.io/products/instant-dev-tools/</guid>
+      <description>A collection of useful web-based tools for developers and users</description>
+    </item>
     <item>
       <title>Tech Labs</title>
-      <link>http://localhost:1313/products/tech-labs/</link>
+      <link>https://sharadregoti.github.io/products/tech-labs/</link>
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/tech-labs/</guid>
+      <guid>https://sharadregoti.github.io/products/tech-labs/</guid>
       <description>TechLabs is a flexible, hands-on lab experience for training, workshops, and go-to-market</description>
     </item>
     <item>
       <title>Devosp CLI</title>
-      <link>http://localhost:1313/products/devops-cli/</link>
+      <link>https://sharadregoti.github.io/products/devops-cli/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/devops-cli/</guid>
+      <guid>https://sharadregoti.github.io/products/devops-cli/</guid>
       <description>A Terminal/Web UI to interact with devops tools &amp;amp; services, intended for devops/platform engineers.</description>
     </item>
   </channel>

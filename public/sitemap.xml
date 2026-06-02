@@ -2,89 +2,146 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/chat-with-docs-without-rag/</loc>
+    <loc>https://sharadregoti.github.io/posts/</loc>
+    <lastmod>2026-05-15T11:45:00+05:30</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/</loc>
+    <lastmod>2026-05-15T11:45:00+05:30</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/travel/kashmir-ski-school/</loc>
+    <lastmod>2026-02-08T10:39:08+05:30</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/travel/</loc>
+    <lastmod>2026-02-08T10:39:08+05:30</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/products/selective-gmail-blur/</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/products/</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/posts/run-n8n-workflow-in-github-action/</loc>
+    <lastmod>2025-11-01T10:39:08+05:30</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/posts/running-n8n-on-google-cloud-run/</loc>
+    <lastmod>2025-11-01T01:15:08+05:30</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/products/kubernetes-crd-sample/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/deploy-fluent-bit-on-kubernetes/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/products/emojify/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/what-is-an-mcp-server/</loc>
+    <lastmod>2025-06-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/exploring-the-fluent-bit-grafana-dashboard/</loc>
+    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/products/instant-dev-tools/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/ingest-metrics-from-multiple-sources-into-prometheus-with-otel-collector/</loc>
+    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/posts/chat-with-docs-without-rag/</loc>
     <lastmod>2025-05-04T10:39:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-04T10:39:08+05:30</lastmod>
+    <loc>https://sharadregoti.github.io/external/how-to-set-up-a-test-kubernetes-cluster-from-scratch/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-04T10:39:08+05:30</lastmod>
+    <loc>https://sharadregoti.github.io/external/multi-line-logs-with-otel-collector-java/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/</loc>
+    <loc>https://sharadregoti.github.io/external/multiline-builtin-parsers-fluent-bit/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/multiline-logs-fluent-bit-python/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/parsing-fluent-bit/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/fluent-bit-and-webassembly/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/external/fluent-bit-processors-vs-filters/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sharadregoti.github.io/products/tech-labs/</loc>
     <lastmod>2024-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/tech-labs/</loc>
-    <lastmod>2024-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/external/</loc>
+    <loc>https://sharadregoti.github.io/external/using-gcp-metrics-for-kubernetes-autoscaling-with-keda/</loc>
     <lastmod>2024-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/using-gcp-metrics-for-kubernetes-autoscaling-with-keda/</loc>
-    <lastmod>2024-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/external/traces-to-aws-x-ray-using-fluent-bit/</loc>
+    <loc>https://sharadregoti.github.io/external/traces-to-aws-x-ray-using-fluent-bit/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/using-aws-metrics-for-kubernetes-autoscaling-with-keda/</loc>
+    <loc>https://sharadregoti.github.io/external/using-aws-metrics-for-kubernetes-autoscaling-with-keda/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/a-practical-guide-for-avoiding-data-loss-and-backpressure-problems-with-fluent-bit/</loc>
+    <loc>https://sharadregoti.github.io/external/a-practical-guide-for-avoiding-data-loss-and-backpressure-problems-with-fluent-bit/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/guidehow-to-mask-sensitive-information-using-fluent-bit/</loc>
+    <loc>https://sharadregoti.github.io/posts/guidehow-to-mask-sensitive-information-using-fluent-bit/</loc>
     <lastmod>2024-01-21T10:39:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/journey-of-deployment-creation-in-kubernetes/</loc>
+    <loc>https://sharadregoti.github.io/posts/journey-of-deployment-creation-in-kubernetes/</loc>
     <lastmod>2024-01-21T10:39:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/journey-of-http-request-in-kubernetes/</loc>
+    <loc>https://sharadregoti.github.io/posts/journey-of-http-request-in-kubernetes/</loc>
     <lastmod>2024-01-21T10:39:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/kubernetes-services-explainedcluster-ipnode-portloadbalanceringressingress-controllers/</loc>
+    <loc>https://sharadregoti.github.io/posts/kubernetes-services-explainedcluster-ipnode-portloadbalanceringressingress-controllers/</loc>
     <lastmod>2024-01-21T10:39:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/platform-setuphow-to-structure-your-infrastructure-repository/</loc>
+    <loc>https://sharadregoti.github.io/posts/platform-setuphow-to-structure-your-infrastructure-repository/</loc>
     <lastmod>2024-01-21T10:39:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/problems-faced-while-running-gitlab-runners-on-k8s-with-aws-spot-instances/</loc>
+    <loc>https://sharadregoti.github.io/posts/problems-faced-while-running-gitlab-runners-on-k8s-with-aws-spot-instances/</loc>
     <lastmod>2024-01-21T10:39:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/what-i-have-understood-about-devops-as-an-engineer-with-just-2yrs-of-experience/</loc>
+    <loc>https://sharadregoti.github.io/posts/what-i-have-understood-about-devops-as-an-engineer-with-just-2yrs-of-experience/</loc>
     <lastmod>2024-01-21T10:39:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/kedas-dynamic-scheduling-fixes-kubernetes-long-running-workloads/</loc>
+    <loc>https://sharadregoti.github.io/external/kedas-dynamic-scheduling-fixes-kubernetes-long-running-workloads/</loc>
     <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talkkeda-does/</loc>
+    <loc>https://sharadregoti.github.io/external/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talkkeda-does/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/keda&#43;kafkaimprove_performance_by62.15at_peak_loads/</loc>
+    <loc>https://sharadregoti.github.io/external/keda&#43;kafkaimprove_performance_by62.15at_peak_loads/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit/</loc>
+    <loc>https://sharadregoti.github.io/external/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit/</loc>
     <lastmod>2023-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/devops-cli/</loc>
+    <loc>https://sharadregoti.github.io/products/devops-cli/</loc>
     <lastmod>2023-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/cracking-bottleneckshow-keda-outsmarts-kubernetes-horizontal-pod-autoscaler/</loc>
+    <loc>https://sharadregoti.github.io/external/cracking-bottleneckshow-keda-outsmarts-kubernetes-horizontal-pod-autoscaler/</loc>
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm/</loc>
+    <loc>https://sharadregoti.github.io/external/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/enforcing-structured-logging-across-applications-using-fluent-bit/</loc>
+    <loc>https://sharadregoti.github.io/external/enforcing-structured-logging-across-applications-using-fluent-bit/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/fluent-bitalerting-via-slack-when-the-log-destination-is-unreachable/</loc>
+    <loc>https://sharadregoti.github.io/external/fluent-bitalerting-via-slack-when-the-log-destination-is-unreachable/</loc>
     <lastmod>2023-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/how-to-collect-kubernetes-component-logs-using-fluent-bit/</loc>
+    <loc>https://sharadregoti.github.io/external/how-to-collect-kubernetes-component-logs-using-fluent-bit/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://sharadregoti.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://sharadregoti.github.io/tags/</loc>
   </url>
 </urlset>
