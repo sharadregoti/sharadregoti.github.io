@@ -1,4 +1,4 @@
-baseURL: "https://sharadregoti.github.io/"
+baseURL: "https://sharadregoti.com/"
 title: "Sharad Regoti"
 pagination:
   pagerSize: 50
@@ -19,16 +19,16 @@ params:
   profileMode:
     enabled: true
     title: "Hi There," # optional default will be site title
-    subtitle: "Welcome to my personal website. I'm a passionate software developer, technical writer, and open-source enthusiast based in India."
+    subtitle: "Software consultancy, API/AI development, and SaaS products, from Sharad Regoti — a software engineer and technical writer based in Mumbai, India."
     imageUrl: "/images/profile/profile.jpg" # optional
     imageTitle: "" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
-    # buttons:
-    #   - name: Archive
-    #     url: "/archive"
-    #   - name: Github
-    #     url: "https://github.com/"
+    buttons:
+      - name: Products
+        url: "/products/"
+      - name: Contact
+        url: "/contact/"
   socialIcons: # optional
     - name: "youtube"
       url: "https://bit.ly/3NePaEr"
