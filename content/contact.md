@@ -12,7 +12,6 @@ I'm happy to help with software consultancy, API/AI development work, or questio
 
 **Email:** [sharadregoti15@gmail.com](mailto:sharadregoti15@gmail.com)
 
-**Phone:** +91 9004680617
 
 **Registered Business Address:**
 
