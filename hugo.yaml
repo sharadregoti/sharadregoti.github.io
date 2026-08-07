@@ -1,4 +1,4 @@
-baseURL: "https://sharadregoti.github.io/"
+baseURL: "https://sharadregoti.com/"
 title: "Sharad Regoti"
 pagination:
   pagerSize: 50
@@ -24,11 +24,11 @@ params:
     imageTitle: "" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
-    # buttons:
-    #   - name: Archive
-    #     url: "/archive"
-    #   - name: Github
-    #     url: "https://github.com/"
+    buttons:
+      - name: Products
+        url: "/products/"
+      - name: Contact
+        url: "/contact/"
   socialIcons: # optional
     - name: "youtube"
       url: "https://bit.ly/3NePaEr"
