@@ -19,7 +19,7 @@ params:
   profileMode:
     enabled: true
     title: "Hi There," # optional default will be site title
-    subtitle: "Software consultancy, API/AI development, and SaaS products, from Sharad Regoti — a software engineer and technical writer based in Mumbai, India."
+    subtitle: "Welcome to my personal website. I'm a passionate software developer, technical writer, and open-source enthusiast based in India."
     imageUrl: "/images/profile/profile.jpg" # optional
     imageTitle: "" # optional
     imageWidth: 120 # custom size

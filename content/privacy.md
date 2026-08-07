@@ -8,7 +8,7 @@ hidemeta: true
 
 **Last updated:** August 7, 2026
 
-This Privacy Policy describes how Sharad Regoti ("I", "me", "my"), operating as a sole proprietor from Mumbai, Maharashtra, India, collects, uses, and protects information when you visit this website (sharadregoti.com) or use one of my products, including [Get End Of Life](https://getendoflife.com), [Selective Blur](https://selectiveblur.xyz), and [Grammar Coach](https://grammarcoach.in).
+This Privacy Policy describes how Sharad Regoti ("I", "me", "my"), operating as a sole proprietor from Mumbai, Maharashtra, India, collects, uses, and protects information when you visit this website (sharadregoti.com) or use one of my products.
 
 ## Information I Collect
 

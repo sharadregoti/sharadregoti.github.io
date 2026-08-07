@@ -8,7 +8,7 @@ hidemeta: true
 
 **Last updated:** August 7, 2026
 
-This policy applies to paid subscriptions for products offered by Sharad Regoti, including [Get End Of Life](https://getendoflife.com), [Selective Blur](https://selectiveblur.xyz), and [Grammar Coach](https://grammarcoach.in).
+This policy applies to paid subscriptions for products offered by Sharad Regoti.
 
 ## Cancellation
 
