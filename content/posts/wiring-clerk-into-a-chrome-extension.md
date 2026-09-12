@@ -1,6 +1,6 @@
 ---
 title: 'What Actually Broke Wiring Clerk Into a Chrome Extension'
-date: 2026-09-12T19:15:00+05:30
+date: 2026-09-12T14:30:00+05:30
 draft: false
 description: "Three failed attempts at getting Clerk sign-in working inside a Chrome extension popup, and the one line in the SDK's storage code that explained all of them."
 cover:
