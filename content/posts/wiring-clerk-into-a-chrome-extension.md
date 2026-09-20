@@ -8,7 +8,7 @@ cover:
   relative: false
 ---
 
-*This post is entirely AI-generated, from a Claude Code session.*
+*This post is entirely AI-generated, from a AI session.*
 
 > TL;DR: Clerk's Chrome extension SDK needs `syncHost` pointed at your actual Frontend API domain, not your companion app's domain. I had it pointed at the wrong one, so the SDK silently fell back to a cookie-based session mode that can never work inside an extension (the fetch layer sends `credentials: "omit"` on every request). Sign-in looked like it worked. It didn't.
 
