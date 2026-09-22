@@ -5,7 +5,6 @@ draft: false
 description: "A working setup guide for Google's AX agent orchestrator and Agent Substrate on a kind cluster, including five real bugs I hit on Apple Silicon and how to get past each one."
 ---
 
-*This post is entirely AI-generated, from an AI session.*
 
 [AX](https://github.com/google/ax) is Google's new take on running agent workloads on Kubernetes: you declare a `Task`, a `Workspace`, a `Gateway`, and a `Model` as YAML, and it sandboxes the whole thing, wires up the workspace, fences the network, and lets you suspend and resume the agent like a checkpointed VM. It sits on top of [Agent Substrate](https://github.com/agent-substrate/substrate), Google's sandboxed execution runtime, which is the part that actually does the suspend/resume and the gVisor isolation.
 
