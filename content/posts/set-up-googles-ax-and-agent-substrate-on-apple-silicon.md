@@ -3,6 +3,10 @@ title: "How to Set Up Google's AX and Agent Substrate Locally on Apple Silicon"
 date: 2026-09-22T21:00:00+05:30
 draft: false
 description: "A working setup guide for Google's AX agent orchestrator and Agent Substrate on a kind cluster, including five real bugs I hit on Apple Silicon and how to get past each one."
+cover:
+  image: "/images/set-up-googles-ax-and-agent-substrate-on-apple-silicon/cover.png"
+  alt: "How to set up Google's AX and Agent Substrate locally on Apple Silicon"
+  relative: false
 ---
 
 
