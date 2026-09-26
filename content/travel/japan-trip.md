@@ -1,5 +1,5 @@
 ---
-title: 'Three and a Half Weeks in Japan in Winter: My Route, My Costs, My Thoughts'
+title: 'Three Weeks in Japan: My Route, My Costs, My Thoughts'
 date: 2026-09-26T10:00:00+05:30
 draft: false
 # cover:
