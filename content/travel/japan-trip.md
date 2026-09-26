@@ -251,7 +251,6 @@ Temples and shrines also do **goshuin**, which are handwritten by the temple its
 - Convenience stores are the best system I've seen. 7-Eleven, FamilyMart, Lawson. They're everywhere and they have everything.
 - FamilyMart's Famichiki is the best fried chicken. I tried a new seasoning every day. I really miss it.
 - I really liked the matcha ice cream.
-- I missed Indian food more than I expected. By the second half of the trip I was eating at Indian restaurants almost every day, in Kyoto, Nara, Osaka and Tokyo.
 - Trains, city planning, cleanliness, politeness, everything on time. It all just works, and it's hard not to be impressed.
 - The people dress really well. I barely saw anyone overweight, and hardly any bald men either.
 - I saw very few children. In the big cities especially. In rural places like Nagano I saw a few more.
