@@ -1,6 +1,6 @@
 ---
 title: 'Three Weeks in Japan: My Route, My Costs, My Thoughts'
-date: 2026-09-26T10:00:00+05:30
+date: 2026-09-25T10:00:00+05:30
 draft: false
 cover:
   image: "/images/sharad-at-fushimi-inari-japan.jpg"
