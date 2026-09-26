@@ -13,7 +13,7 @@ draft: false
 
 ---
 
-Japan was my first international trip. I was there from 14th December 2025 to 7th January 2026. I've already written about [Spain](/travel/spain-trip/), which came after, so this one is overdue.
+Japan was my first international trip. I was there from 13th December 2025 to 7th January 2026. I've already written about [Spain](/travel/spain-trip/), which came after, so this one is overdue.
 
 This post is part itinerary, part cost breakdown, and part me trying to make sense of a country that is very different from India.
 
@@ -45,7 +45,7 @@ December in Japan is cold. You will live in your jacket and gloves, so bring dec
 
 I landed at Narita at 7:30 AM and was through immigration by 8:30.
 
-At the airport I bought a physical SIM. You can get an eSIM too, but my Android phone doesn't support it. I paid with the forex card. The airport is also a good place to exchange some cash. Get at least ¥10,000.
+At the airport I bought a physical SIM. You can get an eSIM too, but my Android phone doesn't support it. The SIM cost me about ₹4,100, and I paid with the forex card. The airport is also a good place to exchange some cash. Get at least ¥10,000.
 
 Then I went to the train station, bought a Suica card, loaded ¥5,000 on it and took the train into the city. It took about an hour to reach my hostel in Asakusabashi. Every major station has a tourist information center, and the people there are very helpful if you get lost.
 
@@ -101,19 +101,17 @@ I'd booked a few cultural shows in Asakusa through the Klook app.
 By now a friend had joined me, and we were basically shrine hopping.
 
 1. **Meiji Shrine.** I got my first goshuin here.
-2. **Yoyogi.** <!-- TODO: which shrine/temple in Yoyogi? -->
+2. **Yoyogi Park**, right next to the shrine.
 3. **Shibuya Sky** for the view, and then the **Shibuya Crossing**.
 
 ---
 
-## Mount Fuji (Kawaguchiko)
+## Mount Fuji (Kawaguchiko), 19th December
 
 We took a morning bus from the Shinjuku bus terminal to Kawaguchiko station.
 <!-- TODO: bus cost + arrival time -->
 
-We left our luggage at the luggage storage at the bus station. First stop was the famous Lawson with Fuji behind it, for the photo everyone takes. Then we took a short train ride to a shrine that's known as one of the best viewpoints for Fuji.
-<!-- TODO: name of the shrine (Arakurayama Sengen / Chureito Pagoda?) -->
-You can see the mountain from almost anywhere in Kawaguchiko, but the view from there is special.
+We left our luggage at the luggage storage at the bus station. First stop was the famous Lawson with Fuji behind it, for the photo everyone takes. Then we took a short train ride to Shimoyoshida station and walked up to the **Chureito Pagoda** at Arakurayama Sengen Park. You can see the mountain from almost anywhere in Kawaguchiko, but the view from the pagoda is special.
 
 After that we went back to Kawaguchiko station and took a bus to another well-known spot. There we rented bicycles and rode around the lake and through the village, stopping wherever we found a good Fuji view. We were back by 5 PM, returned the bikes, had dinner at a 7-Eleven, and left for Hakone.
 
@@ -121,29 +119,32 @@ One important thing: **Mount Fuji is not visible every day.** Clouds hide it a l
 
 ---
 
-## Hakone
+## Hakone, 20th December
 
-We reached Hakone at night. The next day we did:
+From Kawaguchiko we took a bus to Gotemba station, and from there a train to Odawara, which is the gateway to Hakone. We got in at night and stayed in Odawara.
 
-1. The volcanic area <!-- TODO: Owakudani? -->
-2. Hakone Shrine
-3. A boat ride on the lake
+The next morning we bought the **2-day Hakone Free Pass** at Odawara (¥6,000). It covers almost all the transport inside Hakone, so we didn't think about tickets for the rest of the day. The loop we did:
 
-<!-- TODO: how we got to Hakone from Kawaguchiko, and how we got around -->
-
----
-
-## Nagano and Matsumoto
-
-<!-- TODO: how we got from Hakone to Nagano -->
-
-This day was about two places: **Matsumoto Castle** and **Zenko-ji Temple** in Nagano.
+1. Hakone Tozan Railway from Odawara up to Gora.
+2. Cable car and then the Hakone Ropeway to **Owakudani**, the volcanic valley. The ropeway ride was amazing, you float right over the steaming valley. We spent some time there and tried the famous black eggs, boiled in the hot springs. They were OK. Just eggs, honestly.
+3. The ropeway again, down to Togendai on Lake Ashi.
+4. The pirate ship cruise across the lake to Moto-Hakone.
+5. A walk from the pier to **Hakone Shrine** and its torii gate in the water.
+6. The bus back to Odawara.
 
 ---
 
-## The snow monkeys (Yudanaka)
+## Nagano and Matsumoto, 21st December
 
-This is a day trip from Nagano. We took a train to Yudanaka and then a bus to the Snow Monkey Park. From there it's a 30 to 40 minute hike up to the monkeys.
+This was a long travel day. We took the Shinkansen from Odawara to Tokyo, and then another one from Tokyo to Nagano, about three hours in total. We dropped our bags at the hostel in Nagano.
+
+Then two places: **Zenko-ji Temple** in Nagano, and **Matsumoto Castle**, the black castle. Matsumoto is about an hour away by JR train, so it's an easy half-day trip from Nagano. We went back to Nagano for the night.
+
+---
+
+## The snow monkeys (Yudanaka), 22nd December
+
+This is a day trip from Nagano. We took a train to Yudanaka and then a bus to the Snow Monkey Park (Jigokudani). From there it's a 30 to 40 minute hike up to the monkeys.
 
 And then you see it: monkeys sitting in natural hot springs with snow all around them. Snowy mountains and monkeys taking an onsen. I've never seen anything like it.
 
@@ -151,59 +152,57 @@ The hike is mostly flat. Wear layers, and bring a good pair of gloves.
 
 ---
 
-## Takayama
+## Takayama, 23rd December
 
-<!-- TODO: how we got to Takayama (overnight bus/train?) -->
+<!-- TODO: how we got from Nagano to Takayama -->
 
-We reached Takayama early in the morning and dropped our bags at the hostel. We took the sightseeing bus to the **Hida Folk Village**, which is basically an open-air museum of old Japanese houses. You can go into the houses and explore them properly. After that we walked around the town.
+We reached Takayama in the morning and dropped our bags at the guest house. We took the sightseeing bus to the **Hida Folk Village**, which is basically an open-air museum of old Japanese houses. You can go into the houses and explore them properly. After that we walked around the town.
 
-My honest opinion: you can skip it. The next stop shows the same kind of houses, and does it much better. But if you have the time, go.
+Book your Shirakawa-go bus while you're here. The Nohi Bus between Takayama, Shirakawa-go and Kanazawa fills up, and we bought our tickets at the Takayama bus center.
+
+My honest opinion: you can skip Takayama. The next stop shows the same kind of houses, and does it much better. But if you have the time, go.
 
 ---
 
-## Shirakawa-go
+## Shirakawa-go, 24th December
 
-We took an early morning bus from Takayama to Shirakawa-go and left our luggage at the bus station.
+We took an early morning Nohi Bus from Takayama to Shirakawa-go. It's about an hour. We left our luggage in the lockers at the bus terminal.
 
 My main tip: climb to the viewpoint above the village. It's a 10 to 15 minute trek, and the view of the village against the snowy Japanese Alps is amazing. Then walk down and explore the village itself. Three to four hours is enough.
 
 Walking around the village is free. Going inside any of the houses costs money.
 
-From here we left for Kanazawa.
+In the afternoon we took another Nohi Bus on to Kanazawa.
 
 ---
 
-## Kanazawa
+## Kanazawa, 24th and 25th December
 
-We reached Kanazawa station in the evening and took a bus to our hostel.
-<!-- TODO: arrival time + hostel name -->
-
-That evening we saw **Kanazawa Castle** and walked through **Higashi Chaya**, the old tea house district. The next day we went to **Kenroku-en Garden**.
+We reached Kanazawa in the late afternoon and checked into the Pacific Hotel Kanazawa. That evening we saw **Kanazawa Castle** and walked through **Higashi Chaya**, the old tea house district. The next morning we went to **Kenroku-en Garden**.
 
 My recommendation: gardens in winter are not much to look at. If you're going in winter, you can skip them. Come back in spring for the gardens.
 
 ---
 
-## Kyoto and Nara
+## Kyoto and Nara, 25th to 28th December
 
-<!-- TODO: how we got from Kanazawa to Kyoto -->
+From Kanazawa we took the train to Kyoto. It's the Hokuriku Shinkansen to Tsuruga, and then the Thunderbird limited express to Kyoto. We stayed at K's House Kyoto.
 
-In Kyoto I did the classics: the **Arashiyama Bamboo Forest**, a **Zen rock garden**, **Kinkaku-ji** (the Golden Pavilion), and **Fushimi Inari**.
-<!-- TODO: which rock garden? (Ryoan-ji?) -->
+Kyoto got the most days of any city after Tokyo. I did the classics: **Kinkaku-ji** (the Golden Pavilion), the Zen rock garden at **Ryoan-ji**, the **Arashiyama Bamboo Forest**, and **Fushimi Inari**.
 
-The next day we did a trip to Nara for the **Nara Deer Park** and **Todai-ji Temple**.
+On the 27th we did a day trip to Nara on the JR Nara Line, about 45 minutes from Kyoto. We saw the **Nara Deer Park** and **Todai-ji Temple**, and came back to Kyoto in the evening.
 
 ---
 
-## Himeji
+## Himeji, 29th December
 
-We took a bullet train to Himeji and put our luggage in a locker at the station. The castle is a 10 minute straight walk from the station, you can't miss it.
+We took a bullet train from Kyoto to Himeji. This is peak travel season before New Year, so reserve your seats. We put our luggage in a locker at the station. The castle is a 10 minute straight walk from the station, you can't miss it.
 
 We spent three to four hours there, going inside, exploring and taking photos. Honestly two to three hours is enough to see the castle and come back. We had lunch and moved on.
 
 ---
 
-## Hiroshima
+## Hiroshima, 29th December
 
 From Himeji, it was about an hour by bullet train to Hiroshima. We got there around 2 PM and took a bus to the **Peace Memorial Park** and the **Peace Memorial Museum**. The museum has luggage storage, which was handy. We stayed until the evening and then checked into our hostel.
 
@@ -213,22 +212,29 @@ For me, Hiroshima was one of the best parts of the trip.
 
 ---
 
-## Miyajima
+## Miyajima, 30th December
 
-On 1st January, we went early in the morning to see the **A-Bomb Dome**. Then we took a tram to the Miyajima ferry, which took about an hour, and then a 30 minute boat ride to the island.
+The next day, we went early in the morning to see the **A-Bomb Dome**. Then we took a tram to the Miyajima ferry, which took about an hour, and then a 30 minute boat ride to the island.
 
-We took the ropeway up to the highest point for the view, and then visited the shrine before heading back to Hiroshima.
-<!-- TODO: ropeway cost + shrine name (Itsukushima?) -->
+We took the ropeway up Mount Misen to the highest point for the view. It cost me about ₹2,300. Then we visited **Itsukushima Shrine**, the one with the torii gate in the sea, before heading back to Hiroshima.
 
 My honest opinion: you can skip Miyajima. I didn't find it that interesting, and the views were cloudy when we went.
 
 ---
 
-## Osaka
+## Osaka, New Year's Eve and 1st January
 
-We arrived in Osaka early in the morning by bullet train, checked in, and went to **Osaka Castle**. After that we went to **Namba and Dotonbori**, did some shopping at Yodobashi Camera and Bic Camera (I was looking at iPhones), and finished with the Osaka city view from **Abeno Harukas**.
+On the 31st we took an early bullet train from Hiroshima to Osaka, checked in in Namba, and went to **Osaka Castle**. Then **Namba and Dotonbori**, and some shopping at Yodobashi Camera and Bic Camera (I was looking at iPhones). We finished with the Osaka city view from **Abeno Harukas**.
 
-<!-- TODO: what I did between Osaka and flying back on 7th Jan -->
+We spent New Year's Eve in Osaka.
+
+---
+
+## Back to Tokyo, 2nd to 7th January
+
+After Osaka, I went back to Tokyo for the last few days before my flight home on 7th January. I spent them around Ueno and Asakusabashi, and did a lot of shopping at Bic Camera.
+
+<!-- TODO: how I got from Osaka back to Tokyo -->
 
 ---
 
@@ -245,6 +251,7 @@ Temples and shrines also do **goshuin**, which are handwritten by the temple its
 - Convenience stores are the best system I've seen. 7-Eleven, FamilyMart, Lawson. They're everywhere and they have everything.
 - FamilyMart's Famichiki is the best fried chicken. I tried a new seasoning every day. I really miss it.
 - I really liked the matcha ice cream.
+- I missed Indian food more than I expected. By the second half of the trip I was eating at Indian restaurants almost every day, in Kyoto, Nara, Osaka and Tokyo.
 - Trains, city planning, cleanliness, politeness, everything on time. It all just works, and it's hard not to be impressed.
 - The people dress really well. I barely saw anyone overweight, and hardly any bald men either.
 - I saw very few children. In the big cities especially. In rural places like Nagano I saw a few more.
