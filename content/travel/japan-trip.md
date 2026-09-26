@@ -2,9 +2,9 @@
 title: 'Three Weeks in Japan: My Route, My Costs, My Thoughts'
 date: 2026-09-26T10:00:00+05:30
 draft: false
-# cover:
-#   image: "/images/TODO.jpg"
-#   relative: false
+cover:
+  image: "/images/sharad-at-fushimi-inari-japan.jpg"
+  relative: false
 ---
 
 *Disclaimer: These are personal observations from someone who grew up in India and was leaving the country for the first time. Take it all with a pinch of salt.*
