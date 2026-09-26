@@ -9,7 +9,7 @@ draft: false
 
 *Disclaimer: These are personal observations from someone who grew up in India and was leaving the country for the first time. Take it all with a pinch of salt.*
 
-*Note: I wrote these notes at different times, some during the trip and some almost a year later. So a few parts are fuzzy, especially how I got from one town to the next. The blog was organized with the help of AI.*
+*Note: I wrote these notes at different times, some during the trip and some almost a year later. So a few parts are fuzzy, especially how I got from one town to the next.*
 
 ---
 
