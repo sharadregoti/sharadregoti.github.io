@@ -65,13 +65,9 @@ All the stays came with the package. This is where we stayed each night:
 
 The rest of the group also stayed at Hotel PR in Jammu on the 19th and Hotel Neel Gagan in Sonamarg on the 20th. I missed both because of the wedding.
 
-The rooms in Leh were small for a two-night stay with all our riding gear.
-
 ---
 
 ## The route at a glance
-
-Distances are approximate. Heights are the commonly quoted ones, and the signboards up there don't always agree with them.
 
 | Day | Date | Route | Distance | Passes |
 |---|---|---|---|---|
