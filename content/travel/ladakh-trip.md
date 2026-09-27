@@ -47,6 +47,27 @@ From Leh to Keylong, DG joined us with another rider, Sunny, and a photographer.
 
 ---
 
+## Where we stayed
+
+All the stays came with the package. This is where we stayed each night:
+
+| Night | Place | Hotel |
+|---|---|---|
+| 21st June | Panikhar | Hotel Khayoul |
+| 22nd and 23rd June | Padum | Hotel Bijou |
+| 24th and 25th June | Leh | Gangzing Villa |
+| 26th June | Hunder, Nubra | Skyrider Camps |
+| 27th June | Pangong | Native Retreat Cottages |
+| 28th and 29th June | Hanle | Lhamo Homestay |
+| 30th June | Tso Kar | Druk Resort |
+| 1st July | Keylong | Lady of Keylong |
+
+The rest of the group also stayed at Hotel PR in Jammu on the 19th and Hotel Neel Gagan in Sonamarg on the 20th. I missed both because of the wedding.
+
+The rooms in Leh were small for a two-night stay with all our riding gear.
+
+---
+
 ## Getting the bike there
 
 Most of the group rode from Mumbai to Jammu. I didn't have that kind of leave, so I shipped my bike. Neel and I sent ours through V Express from Mumbai to Jammu. It cost ₹5,322 per bike, plus about ₹1,200 each for packing. The bikes reached Jammu on 12th June, a week before the trip.
