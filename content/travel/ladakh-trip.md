@@ -253,15 +253,13 @@ Animesh shared this list before the trip. I'd take the same things again.
 
 I made a few reels on the trip:
 
+{{< reels >}}
 {{< instagram DZ7ZiX7S_aE >}}
-
 {{< instagram DZ7af96yfis >}}
-
 {{< instagram DZ79VJYSOWk >}}
-
 {{< instagram DZ-c2MMSqQW >}}
-
 {{< instagram DZ-dIG8yAFX >}}
+{{< /reels >}}
 
 ---
 
