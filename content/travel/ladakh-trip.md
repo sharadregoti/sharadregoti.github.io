@@ -6,7 +6,7 @@ draft: false
 
 <!-- TODO: add a cover image -->
 
-*Note: I'm writing this almost three months after the trip, with no notes. Everything here is from memory, the group's WhatsApp chat and my bank statements. So some parts are thin. :(*
+*Note: I'm writing this almost three months after the trip, with no notes. Everything here is from memory, and the group's WhatsApp chat. So some parts are thin. :(*
 
 ---
 
@@ -65,7 +65,7 @@ So on the morning of the 21st, Neel and I flew from Pune to Srinagar. We landed 
 
 Then we did the stupidest thing of the trip. We took a photo of ourselves with the aircraft. They'd announced on the flight that photography wasn't allowed (Srinagar airport is also an Air Force base). The authorities caught us, told us not to do it again, and asked us to delete the photo. I deleted it. :)
 
-We bought SIM cards at the airport. Prepaid SIMs from outside J&K don't work there, so you need a local one. I already had a Jammu prepaid SIM from my [ski trip to Gulmarg](/travel/kashmir-ski-school/) in February, and it worked across Ladakh too.
+We bought SIM cards at the airport. Prepaid SIMs from outside J&K don't work there, so you need a local one. I already had a local SIM from my [ski trip to Gulmarg](/travel/kashmir-ski-school/) in February, but it didn't work. If you don't recharge one of these SIMs for three months, it gets discontinued. So I had to buy a new one.
 
 From the airport we took a private cab to Sonamarg. It took about three hours and cost around ₹4,000, which is a lot for that distance. Neel and I split it.
 
@@ -103,11 +103,9 @@ This road didn't exist a few years ago. BRO has built really good roads in this 
 
 ## Day 5: Rest day in Leh
 
-The 25th was a rest day in Leh. I got the bike washed in the morning. In the afternoon a few of us went to the Hall of Fame war memorial. Anush rode pillion with me. After that we went to Leh Palace and walked around the market. I also saw the Leh monastery and the Buddha statue.
+The 25th was a rest day in Leh. I got the bike washed in the morning. In the afternoon a few of us went to the Hall of Fame war memorial. Anush rode pillion with me. After that we went to Leh Palace and walked around the market. I also saw the Leh monastery and Shanti Stupa.
 
 Leh is clean and beautiful.
-
-<!-- TODO: which Buddha statue in Leh? Shanti Stupa? -->
 
 ---
 
@@ -160,21 +158,19 @@ I took the train from Chandigarh and reached Bandra Terminus on 4th July. The bi
 
 ## What it cost me
 
-These are my own costs, pieced together from my bank statements. Neel and I paid for a few things together and settled up later, so some of these are approximate.
+These are my own costs. Neel and I paid for a few things together and settled up later, so some of these are approximate.
 
 | What | Cost (₹) | Notes |
 |---|---|---|
 | Tour package | 41,475 | ₹39,500 + 5% GST. Hotels, breakfast, dinner, backup vehicle, mechanic, permits |
 | Shipping the bike to Jammu | ~6,500 | V Express, including packing |
-| Flight, Pune to Srinagar | ~7,500 | My half of ₹15,117 for two tickets |
+| Flight, Pune to Srinagar | ~7,500 | - |
 | Cab, Srinagar airport to Sonamarg | ~2,000 | My half of about ₹4,000 |
 | Fuel | ~9,700 | Paid at pumps along the way, plus my share of the backup vehicle's fuel cans |
-| Lunch and snacks | ~5,400 | ₹2,000 into the lunch pool, the rest on chocolate and cold drinks |
+| Lunch and snacks | ~5,400 | - |
 | Train home and cabs | ~2,900 | Chandigarh to Mumbai |
-| Settled with Neel after the trip | 9,229 | Shipping the bike back from Chandigarh and other shared costs |
-| **Total** | **~84,700** | |
-
-<!-- TODO: confirm the flight amount, the cab amount, and what the ₹9,229 to Neel covered -->
+| Shipping the bike back to Mumbai | ~6,500 | - |
+| **Total** | **~82,000** | |
 
 That doesn't include about ₹10,000 I spent before the trip on a riding pant, chain lube, brake work and a few small things.
 
