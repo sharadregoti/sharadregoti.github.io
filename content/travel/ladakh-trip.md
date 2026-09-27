@@ -2,9 +2,10 @@
 title: 'Zanskar and Ladakh on a CB350: My Route, My Costs, My Thoughts'
 date: 2026-09-27T00:00:00+05:30
 draft: false
+cover:
+  image: "/images/sharad-at-umling-la-ladakh.jpg"
+  relative: false
 ---
-
-<!-- TODO: add a cover image -->
 
 *Note: I'm writing this almost three months after the trip, with no notes. Everything here is from memory, and the group's WhatsApp chat. So some parts are thin. :(*
 
@@ -65,6 +66,28 @@ All the stays came with the package. This is where we stayed each night:
 The rest of the group also stayed at Hotel PR in Jammu on the 19th and Hotel Neel Gagan in Sonamarg on the 20th. I missed both because of the wedding.
 
 The rooms in Leh were small for a two-night stay with all our riding gear.
+
+---
+
+## The route at a glance
+
+Distances are approximate. Heights are the commonly quoted ones, and the signboards up there don't always agree with them.
+
+| Day | Date | Route | Distance | Passes |
+|---|---|---|---|---|
+| 1 | 21st June | Sonamarg to Panikhar, via Drass and Kargil | ~190 km | Zoji La (11,575 ft) |
+| 2 | 22nd June | Panikhar to Padum, via Rangdum | ~190 km | Pensi La (14,436 ft) |
+| 3 | 23rd June | Padum to Gonbo Rangjon and back | ~150 km | |
+| 4 | 24th June | Padum to Leh, via Nimmu | ~175 km | |
+| 5 | 25th June | Rest day in Leh | | |
+| 6 | 26th June | Leh to Hunder | ~125 km | Khardung La (17,582 ft) |
+| 7 | 27th June | Hunder to Pangong, via Shyok | ~160 km | |
+| 8 | 28th June | Pangong to Hanle, via Chushul, Mahe and Nyoma | ~170 km | Kaksang La (17,834 ft) |
+| 9 | 29th June | Hanle to Umling La and back | ~180 km | Photi La (18,124 ft), Umling La (19,024 ft) |
+| 10 | 30th June | Hanle to Tso Kar, via Nyoma, Mahe and Sumdo | ~230 km | Polokongka La (~16,000 ft) |
+| 11 | 1st July | Tso Kar to Keylong | ~230 km | Baralacha La (16,040 ft) |
+
+<!-- TODO: check the day 9, 10 and 11 distances against Google Maps or your ride logs -->
 
 ---
 
@@ -144,7 +167,7 @@ On the 28th we rode from Pangong to Hanle, through Chushul and over Kaksang La, 
 
 ## Day 9: Umling La, and the best day of my life
 
-On the 29th we rode from Hanle over Photi La to Umling La, one of the highest motorable roads in the world, and back.
+On the 29th we rode from Hanle over Photi La to Umling La and back. The BRO sign at the top says it's the highest motorable pass in the world, at 19,024 ft. (Mig La, close by, now claims that record. We didn't go there.)
 
 The ride back from Umling La to Hanle was the best day of my life. The road just doesn't end. It goes on and on across a huge empty plain.
 
@@ -195,7 +218,38 @@ These are my own costs. Neel and I paid for a few things together and settled up
 
 That doesn't include about ₹10,000 I spent before the trip on a riding pant, chain lube, brake work and a few small things.
 
-Most of the route has petrol pumps now. Animesh had mapped out the fuel stops before the trip (Sonamarg, Kargil, Padum, Leh, Diskit, Tangtse, Nyoma), and the backup vehicle carried about 50 liters in jerry cans for the stretch from Tso Kar to Keylong.
+---
+
+## What to pack
+
+Animesh shared this list before the trip. I'd take the same things again.
+
+- Helmet, balaclava and a sun cap
+- Riding jacket, riding pants, riding boots
+- Waterproof gloves, plus summer gloves if you want them
+- Thermal inners for your hands (Decathlon has them)
+- Two sets of base layers, top and bottom
+- Thermal liners for your jacket and pants
+- A raincoat, top and bottom
+- Waterproof socks, plus at least five pairs of cotton and woollen socks
+- Polarised sunglasses
+- Dri-fit T-shirts, track pants, a sweatshirt and shorts for the evenings
+- Toiletries and a towel
+- Documents: RC, insurance, Aadhaar and PAN
+- Chargers, a power bank and cables
+
+---
+
+## Tips if you're planning this
+
+- **Service your bike properly before you go.** Change the coolant and brake oil if they're due. Old brake oil can let air into the brakes at high altitude and on long downhills. Get the swing arm greased and the fork oil changed. Learn from my CB350.
+- **Don't mix coolants.** If you want to carry coolant for a top-up, carry the same one that's already in your bike. Mixing brands can thicken it and block the system.
+- **Get a local SIM.** Prepaid SIMs from outside J&K don't work here. You can buy one at Srinagar airport. If you already have one from an earlier trip, it stops working if you haven't recharged it for three months.
+- **Don't ride at night.** Plan your day so you reach the hotel before dark.
+- **Cross Khardung La early in the morning.** It gets crowded and stressful later in the day.
+- **Fill up wherever you can.** Most of the route has petrol pumps now. Our fuel stops were Sonamarg, Kargil, Padum, Leh, Diskit, Tangtse and Nyoma. The backup vehicle carried about 50 liters in jerry cans, and we needed them for Tso Kar to Keylong.
+- **Payments.** Cards and UPI worked almost everywhere, even at petrol pumps and small shops in Zanskar. Keep some cash anyway.
+- **Don't take photos at Srinagar airport.** Ask me how I know.
 
 ---
 
@@ -203,11 +257,15 @@ Most of the route has petrol pumps now. Animesh had mapped out the fuel stops be
 
 I made a few reels on the trip:
 
-- [Reel 1](https://www.instagram.com/p/DZ7ZiX7S_aE/)
-- [Reel 2](https://www.instagram.com/p/DZ7af96yfis/)
-- [Reel 3](https://www.instagram.com/p/DZ79VJYSOWk/)
-- [Reel 4](https://www.instagram.com/p/DZ-c2MMSqQW/)
-- [Reel 5](https://www.instagram.com/p/DZ-dIG8yAFX/)
+{{< instagram DZ7ZiX7S_aE >}}
+
+{{< instagram DZ7af96yfis >}}
+
+{{< instagram DZ79VJYSOWk >}}
+
+{{< instagram DZ-c2MMSqQW >}}
+
+{{< instagram DZ-dIG8yAFX >}}
 
 ---
 
