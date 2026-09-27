@@ -1,0 +1,37 @@
+{{- /* Horizontal, swipeable carousel for embeds. Usage: {{< reels >}} {{< instagram ID >}} ... {{< /reels >}} */ -}}
+{{- if not (.Page.Scratch.Get "reelsStyle") }}
+{{- .Page.Scratch.Set "reelsStyle" true }}
+<style>
+  .reels { position: relative; margin: 1.5rem 0; }
+  .reels-track {
+    display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory;
+    scroll-behavior: smooth; padding: 4px 2px 12px; scrollbar-width: thin;
+  }
+  .reels-track > * { flex: 0 0 326px; scroll-snap-align: start; margin: 0 !important; min-width: 326px !important; max-width: 326px !important; }
+  .reels-btn {
+    position: absolute; top: 45%; transform: translateY(-50%); z-index: 2;
+    width: 40px; height: 40px; border-radius: 50%; border: 0; cursor: pointer;
+    background: var(--theme, #fff); color: var(--primary, #000); font-size: 22px; line-height: 40px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.3);
+  }
+  .reels-btn.prev { left: -8px; }
+  .reels-btn.next { right: -8px; }
+  @media (hover: none) { .reels-btn { display: none; } }
+</style>
+<script>
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest(".reels-btn");
+    if (!btn) return;
+    var track = btn.parentElement.querySelector(".reels-track");
+    var step = (track.firstElementChild ? track.firstElementChild.offsetWidth : 326) + 16;
+    track.scrollBy({ left: btn.classList.contains("next") ? step : -step, behavior: "smooth" });
+  });
+</script>
+{{- end }}
+<div class="reels">
+  <button class="reels-btn prev" type="button" aria-label="Previous reel">&#8249;</button>
+  <div class="reels-track">
+    {{ .Inner }}
+  </div>
+  <button class="reels-btn next" type="button" aria-label="Next reel">&#8250;</button>
+</div>
