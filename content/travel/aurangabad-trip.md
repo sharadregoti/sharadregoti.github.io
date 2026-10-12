@@ -1,7 +1,10 @@
 ---
 title: 'Ellora, Ajanta and Aurangabad in Two Days: My Route, My Tips, My Mistakes'
-date: 2026-10-12T10:00:00+05:30
+date: 2026-10-11T10:00:00+05:30
 draft: false
+cover:
+  image: "/images/aurangabad-trip/kailasa-temple-ellora.jpg"
+  relative: false
 ---
 
 In early October there was a long weekend, so a group of friends and I decided to take a short trip to Chhatrapati Sambhaji Nagar, formerly known as Aurangabad.
@@ -23,11 +26,7 @@ Ajanta got a whole day to itself because it's the farthest from the city.
 
 ## Getting there
 
-We left on Thursday night. I took a train from Dadar to Chhatrapati Sambhaji Nagar.
-
-<!-- TODO: add the train name -->
-
-We reached at 4:45 in the morning.
+We left on Thursday night. I took the Devagiri Express from Dadar to Chhatrapati Sambhaji Nagar. We reached at 4:45 in the morning.
 
 We had already booked a hotel on Jalna Road, Hotel Raj. It was an OK hotel. We only needed a place to keep our luggage and sleep for one night, and they gave us an early check-in. It cost around ₹2,200.
 
@@ -117,6 +116,8 @@ The bus took about three and a half hours. That was one hour more than it should
 The bus drops you off a little away from the caves. From there we walked about 10 minutes to the shuttle bus that takes you to Ajanta. The shuttle costs ₹40 per person. We lost another 30 minutes waiting for it because of the weekend crowd. :(
 
 We finally reached the caves at around 1 PM, bought our tickets and started exploring.
+
+![The Ajanta caves, cut into a horseshoe-shaped cliff above the river](/images/aurangabad-trip/ajanta-caves.jpg)
 
 Like at Ellora, we took a guide. Same price, ₹2,500, for about two and a half hours.
 
