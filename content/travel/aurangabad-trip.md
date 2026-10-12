@@ -30,6 +30,8 @@ We left on Thursday night. I took the Devagiri Express from Dadar to Chhatrapati
 
 We had already booked a hotel on Jalna Road, Hotel Raj. It was an OK hotel. We only needed a place to keep our luggage and sleep for one night, and they gave us an early check-in. It cost around ₹2,200.
 
+We checked in at around 5:40 AM and went straight to sleep.
+
 The restaurant just to the left of the hotel had good vegetarian food.
 
 ---
@@ -48,9 +50,7 @@ If we hadn't found bikes, we would have taken a local bus. You can catch one fro
 
 ## Ellora Caves
 
-Once we had the bikes, we had a quick breakfast and rode to Ellora.
-
-<!-- TODO: add the distance from the hotel to Ellora -->
+Once we had the bikes, we had a quick breakfast and rode to Ellora. It's about 35 km from Jalna Road.
 
 You can buy Ellora tickets online, and I'd recommend it. It was a long weekend (or just a weekend in India :)), and there was a huge queue at the counter. The network was too poor for us to book online on the spot, so we stood in line for about 20 minutes.
 
@@ -111,7 +111,7 @@ Ajanta was the only thing planned for the second day, because it's the farthest 
 
 We started at around 8:30 AM. We took an auto from the hotel to the bus stand and caught a bus from there.
 
-The bus took about three and a half hours. That was one hour more than it should have been, because a broken-down vehicle had jammed the road in the ghat section.
+The bus fare was ₹220, and the ride took about three and a half hours. That was one hour more than it should have been, because a broken-down vehicle had jammed the road in the ghat section.
 
 The bus drops you off a little away from the caves. From there we walked about 10 minutes to the shuttle bus that takes you to Ajanta. The shuttle costs ₹40 per person. We lost another 30 minutes waiting for it because of the weekend crowd. :(
 
