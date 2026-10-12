@@ -60,6 +60,8 @@ You can also get a local guide for around ₹1,500. The catch is that they only 
 
 The Kailasa temple was my favourite. It's beautiful and magnificent, and I still can't believe it was carved out of a single rock. After that, I liked the Buddha temple the most.
 
+![The seated Buddha inside the Buddha temple at Ellora, under a ribbed stone ceiling](/images/aurangabad-trip/buddha-temple-ellora.jpg)
+
 We skipped the Jain caves. Time was running out and we were exhausted from all the walking.
 
 A few tips for Ellora:
