@@ -129,8 +129,6 @@ Breakfast turned into brunch, so we skipped lunch that day.
 
 After brunch we headed to Sovabazar. It was around 11, the metro was running, but there were no local buses, so we took one of Kolkata's famous yellow taxis. Sitting in one of those old diesel Ambassadors was an experience in itself. :)
 
-![Leaning out of the window of a yellow Ambassador taxi on a Kolkata street](/images/kolkata-durga-puja/yellow-ambassador-taxi.jpg)
-
 The plan for the day was rajbari hopping. A rajbari (or bari) is a big old family house, and many of these families have hosted their own Durga Puja for decades, some for centuries. The pujos are open to the public, and over the years some of them have become famous in their own right.
 
 It was interesting to walk through these houses: the architecture, the courtyards, and the family lineage hung on the walls in old photo frames.
