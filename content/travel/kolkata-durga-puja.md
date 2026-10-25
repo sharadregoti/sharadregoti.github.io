@@ -15,7 +15,7 @@ cover:
 
 I'd heard a lot about Kolkata during Durga Puja. People kept telling me the whole city transforms, and that you have to see it at least once. So this year I decided to go and see the festival, and the city, for myself.
 
-I asked my friend Anush if he wanted to come, and he tagged along. We gave it six days, from 18th to 23rd October.
+I asked my friend Anush if he wanted to come, and he tagged along. We gave it six days, from 18th to 23rd October, which covered Saptami through Dashami, the four biggest days of the puja.
 
 This is the story of those six days: the pandals, the rajbaris, the food, and a few things I'd do differently.
 
@@ -23,20 +23,18 @@ This is the story of those six days: the pandals, the rajbaris, the food, and a 
 
 ## The plan
 
-| Day | What we did |
-|---|---|
-| Day 1 (18 Oct) | Arrived, pandal hopping in South Kolkata |
-| Day 2 (19 Oct) | Flurys, rajbari hopping by day, pandals in Central Kolkata by night |
-| Day 3 (20 Oct) | A family bari pujo in Janai, Howrah, pandals in North Kolkata |
-| Day 4 (21 Oct) | Peter Cat, Nizam's, K.C. Das, Visarjan at Babughat |
-| Day 5 (22 Oct) | Indian Museum, Victoria Memorial, Birla Mandir, Oh! Calcutta |
-| Day 6 (23 Oct) | Sweets shopping, flight home |
-
-<!-- TODO: confirm which puja day each date was (Saptami, Ashtami, Navami, Dashami) and add it to the table. People search for "Kolkata on Ashtami" and similar. -->
+| Day | Puja day | What we did |
+|---|---|---|
+| Day 1 (18 Oct) | Saptami | Arrived, pandal hopping in South Kolkata |
+| Day 2 (19 Oct) | Ashtami | Flurys, rajbari hopping by day, pandals in Central Kolkata by night |
+| Day 3 (20 Oct) | Nabami | A family bari pujo in Janai, Howrah, pandals in North Kolkata |
+| Day 4 (21 Oct) | Dashami | Peter Cat, Nizam's, K.C. Das, Visarjan at Babughat |
+| Day 5 (22 Oct) | After the puja | Indian Museum, Victoria Memorial, Birla Mandir, Oh! Calcutta |
+| Day 6 (23 Oct) | After the puja | Sweets shopping, flight home |
 
 ---
 
-## Day 1: Landing in Kolkata
+## Day 1 (Saptami): Landing in Kolkata
 
 I took a morning flight from Mumbai. It cost me around ₹7,000 one way. Anush was on a later flight, so I was on my own for the first few hours.
 
@@ -113,7 +111,7 @@ By the time we got back to the hostel it was around 4 AM.
 
 ---
 
-## Day 2: Flurys, rajbaris and Central Kolkata at night
+## Day 2 (Ashtami): Flurys, rajbaris and Central Kolkata at night
 
 ### Breakfast at Flurys
 
@@ -190,7 +188,7 @@ We got back to the hostel at around 2 AM.
 
 ---
 
-## Day 3: A family pujo in Janai, and North Kolkata
+## Day 3 (Nabami): A family pujo in Janai, and North Kolkata
 
 ### A bari pujo outside the city
 
@@ -255,7 +253,7 @@ Back at the hostel, I had dinner out of the parcels. Anush went straight to slee
 
 ---
 
-## Day 4: Visarjan at Babughat
+## Day 4 (Dashami): Visarjan at Babughat
 
 We didn't have big plans for this day. We only wanted to see the Visarjan, which happens after sunset. Anush's stomach was still upset, so he rested all day.
 
