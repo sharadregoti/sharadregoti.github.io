@@ -133,15 +133,13 @@ It was interesting to walk through these houses: the architecture, the courtyard
 
 These are the baris we visited:
 
-1. [Zamindar Bari Pujo](https://www.google.com/maps/search/?api=1&query=Zamindar+Bari+Durga+Puja+Kolkata)
+1. [Zamindar Bari Pujo](https://www.google.com/maps/search/?api=1&query=Zamindar+Bari+Sovabazar+Kolkata), near Sovabazar
 2. [Sovabazar Rajbari](https://www.google.com/maps/search/?api=1&query=Sovabazar+Rajbari+Kolkata)
 3. [Hathkhola Dutta Bari](https://www.google.com/maps/search/?api=1&query=Hatkhola+Dutta+Bari+Kolkata)
 4. [Darjipara Mitra Bari](https://www.google.com/maps/search/?api=1&query=Darjipara+Mitra+Bari+Kolkata)
 5. [Janbazar Rajbari](https://www.google.com/maps/search/?api=1&query=Rani+Rashmoni+Bari+Janbazar+Kolkata)
 6. [Chorbagan Mitra Bari](https://www.google.com/maps/search/?api=1&query=Chorbagan+Mitra+Bari+Kolkata)
 7. [Chhatubabu-Latubabu's Pujo](https://www.google.com/maps/search/?api=1&query=Chhatubabu+Latubabu+Bari+Kolkata)
-
-<!-- TODO: confirm the exact Google Maps pin for Zamindar Bari, there are a few places with similar names -->
 
 ![The thakur dalan at Sovabazar Rajbari, a white colonnaded courtyard crowded with visitors](/images/kolkata-durga-puja/sovabazar-rajbari-courtyard.jpg)
 
@@ -192,25 +190,21 @@ We got back to the hostel at around 2 AM.
 
 ### A bari pujo outside the city
 
-The next day we went to a different kind of rajbari. This one was a friend of a friend's family house in Janai, on the outskirts of Kolkata in Hooghly district.
-
-<!-- TODO (optional): add the family/bari name and a map link if you're OK sharing it -->
+The next day we went to a different kind of rajbari. This one was Kalibabur Bari, a friend of a friend's family house in Janai, on the outskirts of Kolkata in Hooghly district.
 
 We took an Uber from the hostel. It was about an hour's drive. When we got there, we met the owner of the house, and he gave us a tour of the whole place, explaining the idol and the rituals of their pujo. The house was huge and old, and from the roof you could see the whole compound.
 
 ![The view from the roof of the bari in Janai, over old walls and courtyards to the trees beyond](/images/kolkata-durga-puja/janai-bari-rooftop.jpg)
 
-After the tour, we were served the pujo bhog, the food offered to the goddess and then shared with guests. It was served on leaf plates.
+After the tour, we were served the pujo bhog, the food offered to the goddess and then shared with guests. It was served on leaf plates, and it ended with nikuti, a long, syrupy fried sweet, alongside the payesh.
 
 ![Pujo bhog on a leaf plate: rice, a vegetable curry and a fried item](/images/kolkata-durga-puja/janai-pujo-bhog.jpg)
 
-<!-- TODO: list what was in the bhog (khichuri, the rice dish, the payesh, etc.) -->
+<!-- TODO (optional): list the rest of what was in the bhog -->
 
-We were also given two sweets. The first was monohara, a speciality of Janai that you can only really get there. :)
+We were also given two sweets to take with us: sandesh, and monohara, a speciality of Janai that you can only really get there. :)
 
-![A plate of sweets from Janai, including the local monohara](/images/kolkata-durga-puja/janai-sweets-monohara.jpg)
-
-<!-- TODO: name of the second sweet -->
+![A plate of sandesh and monohara, the local sweet of Janai](/images/kolkata-durga-puja/janai-sweets-monohara.jpg)
 
 We got there at 11 AM and left at 4 PM. We hadn't realised how far out it was. We were lucky to get an Uber there, but we couldn't get one back. So we took the local train from Janai Road to Howrah.
 
@@ -315,13 +309,21 @@ From there Anush went back to the hostel, and I took a Rapido to the [Birla Mand
 
 ### Oh! Calcutta
 
-For dinner I went to [Oh! Calcutta](https://www.google.com/maps/search/?api=1&query=Oh!+Calcutta+restaurant+near+Birla+Mandir+Kolkata), the branch about 1.5 km from Birla Mandir, to try a couple of famous dishes.
+For dinner I went to [Oh! Calcutta](https://share.google/HraE4MohaWQrTJ8TU), the branch about 1.5 km from Birla Mandir, to try a couple of famous dishes.
 
 The first was bhetki paturi, bhetki fish marinated in mustard and steamed. It was delicious, and a flavour I'd never had before. It was even better with the cucumber cream condiment they served alongside it.
 
+![Bhetki paturi, opened out of its banana leaf, with steamed rice](/images/kolkata-durga-puja/oh-calcutta-bhetki-paturi.jpg)
+
 The second was chingri malai curry, prawns in a coconut milk gravy, with steamed rice. It was tasty, but the prawns came with the heads still on and the shells covering them. I'm not used to eating prawns like that. And it was expensive, about ₹1,700 just for me. Once is enough. :)
 
-<!-- TODO: check the Oh! Calcutta map link points to the right branch, and add food photos if you have any -->
+![Chingri malai curry with steamed rice at Oh! Calcutta](/images/kolkata-durga-puja/oh-calcutta-chingri-malai-curry.jpg)
+
+At the end they brought out a rajbhog and a mishti paan, both on the house. A nice touch after a bill like that.
+
+![A complimentary mishti paan](/images/kolkata-durga-puja/oh-calcutta-mishti-paan.jpg)
+
+![A complimentary rajbhog in a small bowl](/images/kolkata-durga-puja/oh-calcutta-rajbhog.jpg)
 
 Then it was back to the hostel to rest.
 
@@ -331,11 +333,9 @@ Then it was back to the hostel to rest.
 
 Our flight was at 5 PM, so the plan was simple: breakfast, and some famous Kolkata sweets to take home for family.
 
-For breakfast we went to [Murlis](https://www.google.com/maps/search/?api=1&query=Murlis+Park+Street+Kolkata), near Park Street, and had dosa. It was good.
+For breakfast we went to [Murlis](https://www.google.com/maps/place/murlis+park+street/data=!4m2!3m1!1s0x3a02774f9b116497:0x2d39b067b7e5dad8), near Park Street, and had dosa. It was good.
 
 ![A crispy dosa with sambar and two chutneys at Murlis](/images/kolkata-durga-puja/murlis-dosa.jpg)
-
-<!-- TODO: check the Murlis map link lands on the right place -->
 
 For sweets, we'd originally planned on K.C. Das. After my experience there, and after Anush's friends and the people at our hostel all said the same thing, we went to [Balaram Mullick & Radharaman Mullick](https://www.google.com/maps/search/?api=1&query=Balaram+Mullick+Radharaman+Mullick+Park+Street+Kolkata) near Park Street instead. They let us taste before we bought, and everything was delicious. I took rasgulla, kheer gulab jamun, sandesh and kheer kadam.
 
@@ -352,13 +352,11 @@ And then we were back in Mumbai.
 - **Stay around Park Street.** It's central, it's lively, and the metro is close. Just book early so you don't end up in a bad hostel like we did.
 - **Check the metro timings.** During the puja the metro runs until about 5 AM but opens later than usual, so a midday arrival might mean taking a bus from the airport.
 - **Use the metro for distance, Rapido for hopping.** I used the metro to get to the South, Central or North cluster, and then Rapido between pandals. If the next pandal was more than about a kilometre away, I took a Rapido.
-- **Book metro tickets on the app.** I used Amar Kolkata Metro.
+- **Book metro tickets on the app.** I used [Aamar Kolkata Metro](https://play.google.com/store/apps/details?id=org.cris.kmmts&hl=en_IN).
 - **Do rajbaris by day and pandals by night.** The baris are better in daylight, and the pandals come alive with the lighting after dark.
 - **Expect crowds at the famous eateries.** Take a parcel if you can't get a table.
 - **Skip K.C. Das, go to Balaram Mullick** for sweets.
 - **Be careful with roadside food.** Ask Anush. :)
-
-<!-- TODO: double-check the metro app name, the official one may be listed under a slightly different name on the Play Store -->
 
 ---
 
