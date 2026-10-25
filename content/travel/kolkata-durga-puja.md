@@ -6,8 +6,8 @@ description: "Six days in Kolkata during Durga Puja 2026: pandal hopping in Sout
 tags: ["Kolkata", "Durga Puja", "Pandal Hopping", "West Bengal", "India Travel", "Food"]
 keywords: ["Kolkata Durga Puja", "Durga Pooja Kolkata", "pandal hopping Kolkata", "Kolkata rajbari pujo", "Sovabazar Rajbari", "Bagbazar Sarbojanin", "Janai monohara", "Babughat visarjan", "Kolkata food guide", "Park Street Kolkata", "Kolkata itinerary"]
 cover:
-  image: "/images/kolkata-durga-puja/cover.jpg"
-  alt: "Ekdalia Evergreen's golden temple-style pandal lit up at night during Durga Puja"
+  image: "/images/kolkata-durga-puja/victoria-memorial.jpg"
+  alt: "Sharad standing on the lawns in front of the Victoria Memorial, Kolkata"
   relative: false
 ---
 
@@ -71,12 +71,13 @@ A friend of Anush's mom is a Bengali local, and she gave us a list of the popula
 
 <!-- TODO: I added Bosepukur Talbagan because one of your photos shows its banner. Remove it if you didn't count it as a separate stop. -->
 
-Deshapriya Park was all red and gold inside, with a chandelier hanging over the crowd. Tridhara had a huge red serpent winding over the heads of the crowd. Ekdalia Evergreen was built like a golden temple (that's the cover photo of this post), with a giant chandelier inside.
+Deshapriya Park was all red and gold inside, with a chandelier hanging over the crowd. Tridhara had a huge red serpent winding over the heads of the crowd. Ekdalia Evergreen was built like a golden temple, with a giant chandelier inside.
 
 {{< gallery >}}
 ![The red and gold interior of the Deshapriya Park pandal, with the Durga idol at the far end](/images/kolkata-durga-puja/deshapriya-park-pandal.jpg "Deshapriya Park")
 ![A giant red serpent sculpture curling above the crowd at Tridhara Sammilani](/images/kolkata-durga-puja/tridhara-sammilani-pandal.jpg "Tridhara Sammilani")
-![The crystal chandelier inside the Ekdalia Evergreen pandal, set in a carved golden ceiling](/images/kolkata-durga-puja/ekdalia-evergreen-chandelier.jpg "Ekdalia Evergreen")
+![Ekdalia Evergreen's golden temple-style pandal lit up at night](/images/kolkata-durga-puja/ekdalia-evergreen-pandal.jpg "Ekdalia Evergreen")
+![The crystal chandelier inside the Ekdalia Evergreen pandal, set in a carved golden ceiling](/images/kolkata-durga-puja/ekdalia-evergreen-chandelier.jpg "Inside Ekdalia Evergreen")
 ![A Durga idol under a glowing red sun, inside a dome lined with arched niches, in Bosepukur](/images/kolkata-durga-puja/bosepukur-pandal.jpg "Bosepukur")
 {{< /gallery >}}
 
@@ -289,7 +290,7 @@ Then we went to the [Victoria Memorial](https://www.google.com/maps/search/?api=
 
 We spent about two hours there.
 
-![Anush on the lawns in front of the Victoria Memorial](/images/kolkata-durga-puja/victoria-memorial.jpg)
+![Me on the lawns in front of the Victoria Memorial](/images/kolkata-durga-puja/victoria-memorial.jpg)
 
 ### Birla Mandir
 
