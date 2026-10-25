@@ -71,19 +71,14 @@ A friend of Anush's mom is a Bengali local, and she gave us a list of the popula
 
 <!-- TODO: I added Bosepukur Talbagan because one of your photos shows its banner. Remove it if you didn't count it as a separate stop. -->
 
-Deshapriya Park was all red and gold inside, with a chandelier hanging over the crowd.
+Deshapriya Park was all red and gold inside, with a chandelier hanging over the crowd. Tridhara had a huge red serpent winding over the heads of the crowd. Ekdalia Evergreen was built like a golden temple (that's the cover photo of this post), with a giant chandelier inside.
 
-![The red and gold interior of the Deshapriya Park pandal, with the Durga idol at the far end](/images/kolkata-durga-puja/deshapriya-park-pandal.jpg)
-
-Tridhara had a huge red serpent winding over the heads of the crowd.
-
-![A giant red serpent sculpture curling above the crowd at Tridhara Sammilani](/images/kolkata-durga-puja/tridhara-sammilani-pandal.jpg)
-
-Ekdalia Evergreen was built like a golden temple (that's the cover photo of this post), with this chandelier inside.
-
-![The crystal chandelier inside the Ekdalia Evergreen pandal, set in a carved golden ceiling](/images/kolkata-durga-puja/ekdalia-evergreen-chandelier.jpg)
-
-![A Durga idol under a glowing red sun, inside a dome lined with arched niches, in Bosepukur](/images/kolkata-durga-puja/bosepukur-pandal.jpg)
+{{< gallery >}}
+![The red and gold interior of the Deshapriya Park pandal, with the Durga idol at the far end](/images/kolkata-durga-puja/deshapriya-park-pandal.jpg "Deshapriya Park")
+![A giant red serpent sculpture curling above the crowd at Tridhara Sammilani](/images/kolkata-durga-puja/tridhara-sammilani-pandal.jpg "Tridhara Sammilani")
+![The crystal chandelier inside the Ekdalia Evergreen pandal, set in a carved golden ceiling](/images/kolkata-durga-puja/ekdalia-evergreen-chandelier.jpg "Ekdalia Evergreen")
+![A Durga idol under a glowing red sun, inside a dome lined with arched niches, in Bosepukur](/images/kolkata-durga-puja/bosepukur-pandal.jpg "Bosepukur")
+{{< /gallery >}}
 
 <!-- TODO: check whether this photo is from Bosepukur Sitala Mandir or Bosepukur Talbagan and name it in the alt text -->
 
@@ -93,17 +88,13 @@ For dinner we wanted to go to [6 Ballygunge Place](https://www.google.com/maps/s
 
 <!-- TODO: name of the restaurant (the one with the wall of portrait plates of Bengali icons) and what you ordered -->
 
-After dinner we kept going. Suruchi Sangha had giant woven-cane domes.
+After dinner we kept going. Suruchi Sangha had giant woven-cane domes, Chetla Agrani was a tower of colourful masks against the night sky, and our last stop, Badamtala Ashar Sangha, was lined with glowing paintings.
 
-![Woven cane domes lit up from below at the Suruchi Sangha pandal](/images/kolkata-durga-puja/suruchi-sangha-pandal.jpg)
-
-Chetla Agrani was a tower of colourful masks against the night sky.
-
-![The Chetla Agrani pandal, a tall facade covered in giant painted masks](/images/kolkata-durga-puja/chetla-agrani-pandal.jpg)
-
-Our last stop was Badamtala Ashar Sangha, which was lined with glowing paintings.
-
-![Backlit paintings of Bengali women lining the walls of the Badamtala Ashar Sangha pandal](/images/kolkata-durga-puja/badamtala-ashar-sangha-pandal.jpg)
+{{< gallery >}}
+![Woven cane domes lit up from below at the Suruchi Sangha pandal](/images/kolkata-durga-puja/suruchi-sangha-pandal.jpg "Suruchi Sangha")
+![The Chetla Agrani pandal, a tall facade covered in giant painted masks](/images/kolkata-durga-puja/chetla-agrani-pandal.jpg "Chetla Agrani")
+![Backlit paintings of Bengali women lining the walls of the Badamtala Ashar Sangha pandal](/images/kolkata-durga-puja/badamtala-ashar-sangha-pandal.jpg "Badamtala Ashar Sangha")
+{{< /gallery >}}
 
 By the time we got back to the hostel it was around 4 AM.
 
@@ -141,9 +132,10 @@ These are the baris we visited:
 6. [Chorbagan Mitra Bari](https://www.google.com/maps/search/?api=1&query=Chorbagan+Mitra+Bari+Kolkata)
 7. [Chhatubabu-Latubabu's Pujo](https://www.google.com/maps/search/?api=1&query=Chhatubabu+Latubabu+Bari+Kolkata)
 
-![The thakur dalan at Sovabazar Rajbari, a white colonnaded courtyard crowded with visitors](/images/kolkata-durga-puja/sovabazar-rajbari-courtyard.jpg)
-
-![The courtyard of Rani Rashmoni's house in Janbazar, with the Durga idol under red and white arches](/images/kolkata-durga-puja/janbazar-rani-rashmoni-bari.jpg)
+{{< gallery >}}
+![The thakur dalan at Sovabazar Rajbari, a white colonnaded courtyard crowded with visitors](/images/kolkata-durga-puja/sovabazar-rajbari-courtyard.jpg "Sovabazar Rajbari")
+![The courtyard of Rani Rashmoni's house in Janbazar, with the Durga idol under red and white arches](/images/kolkata-durga-puja/janbazar-rani-rashmoni-bari.jpg "Janbazar Rajbari")
+{{< /gallery >}}
 
 We did this until about 3 PM. On the way back we stopped at Flurys again for more pastries (told you), then rested at the hostel. We wanted to save our energy for the night, because pandals look far better after dark, with all the lighting.
 
@@ -153,9 +145,10 @@ Before heading out again, we went to [Arsalan on Park Street](https://www.google
 
 Both were really good. I never thought a potato in a biryani could taste this good. If you're in Kolkata, give it a try.
 
-![Two plates of Kolkata mutton biryani with potato and egg at Arsalan](/images/kolkata-durga-puja/arsalan-biryani.jpg)
-
-![The Arsalan special kebab, served with onion rings and green chutney](/images/kolkata-durga-puja/arsalan-kebab.jpg)
+{{< gallery >}}
+![Two plates of Kolkata mutton biryani with potato and egg at Arsalan](/images/kolkata-durga-puja/arsalan-biryani.jpg "Biryani")
+![The Arsalan special kebab, served with onion rings and green chutney](/images/kolkata-durga-puja/arsalan-kebab.jpg "Arsalan special kebab")
+{{< /gallery >}}
 
 ### Central Kolkata pandal hopping
 
@@ -170,15 +163,13 @@ Then we went pandal hopping in Central Kolkata:
 
 We wanted to see [Chorbagan Sarbojanin](https://www.google.com/maps/search/?api=1&query=Chorbagan+Sarbojanin+Kolkata) too, but it was closed. There had been a stampede there a couple of days earlier.
 
-The idol at Allen Park sat against a wall of blue and gold.
+The idol at Allen Park sat against a wall of blue and gold. Santosh Mitra Square had built a fort, complete with the Indian flag, and the crowd there was massive.
 
-![The Durga idol at Allen Park, set against a textured blue and gold backdrop](/images/kolkata-durga-puja/allen-park-durga-idol.jpg)
-
-Santosh Mitra Square had built a fort, complete with the Indian flag, and the crowd there was massive.
-
-![The fort-style pandal at Santosh Mitra Square at night, with a huge crowd in front](/images/kolkata-durga-puja/santosh-mitra-square-pandal.jpg)
-
-![The idol at College Square under a large chandelier, with painted panels on the walls](/images/kolkata-durga-puja/college-square-pandal.jpg)
+{{< gallery >}}
+![The Durga idol at Allen Park, set against a textured blue and gold backdrop](/images/kolkata-durga-puja/allen-park-durga-idol.jpg "Allen Park")
+![The fort-style pandal at Santosh Mitra Square at night, with a huge crowd in front](/images/kolkata-durga-puja/santosh-mitra-square-pandal.jpg "Santosh Mitra Square")
+![The idol at College Square under a large chandelier, with painted panels on the walls](/images/kolkata-durga-puja/college-square-pandal.jpg "College Square")
+{{< /gallery >}}
 
 We got back to the hostel at around 2 AM.
 
@@ -194,17 +185,17 @@ The next day we went to a different kind of rajbari. This one was Kalibabur Bari
 
 We took an Uber from the hostel. It was about an hour's drive. When we got there, we met the owner of the house, and he gave us a tour of the whole place, explaining the idol and the rituals of their pujo. The house was huge and old, and from the roof you could see the whole compound.
 
-![The view from the roof of the bari in Janai, over old walls and courtyards to the trees beyond](/images/kolkata-durga-puja/janai-bari-rooftop.jpg)
-
 After the tour, we were served the pujo bhog, the food offered to the goddess and then shared with guests. It was served on leaf plates, and it ended with nikuti, a long, syrupy fried sweet, alongside the payesh.
-
-![Pujo bhog on a leaf plate: rice, a vegetable curry and a fried item](/images/kolkata-durga-puja/janai-pujo-bhog.jpg)
 
 <!-- TODO (optional): list the rest of what was in the bhog -->
 
 We were also given two sweets to take with us: sandesh, and monohara, a speciality of Janai that you can only really get there. :)
 
-![A plate of sandesh and monohara, the local sweet of Janai](/images/kolkata-durga-puja/janai-sweets-monohara.jpg)
+{{< gallery >}}
+![The view from the roof of the bari in Janai, over old walls and courtyards to the trees beyond](/images/kolkata-durga-puja/janai-bari-rooftop.jpg "From the roof of Kalibabur Bari")
+![Pujo bhog on a leaf plate: rice, a vegetable curry and a fried item](/images/kolkata-durga-puja/janai-pujo-bhog.jpg "Pujo bhog")
+![A plate of sandesh and monohara, the local sweet of Janai](/images/kolkata-durga-puja/janai-sweets-monohara.jpg "Sandesh and monohara")
+{{< /gallery >}}
 
 We got there at 11 AM and left at 4 PM. We hadn't realised how far out it was. We were lucky to get an Uber there, but we couldn't get one back. So we took the local train from Janai Road to Howrah.
 
@@ -229,13 +220,12 @@ From Howrah, Anush wanted to buy a kurta for the next day's Visarjan, so we made
 
 <!-- TODO: your photos place Ahiritola, Kumartuli Park and Bagbazar in this order, but there's no photo from Hatibagan. Check where it fits. -->
 
-Bagbazar was the highlight of the night. The pandal was a huge white temple.
+Bagbazar was the highlight of the night. The pandal was a huge white temple, and inside, the idol was done in the traditional style, with silver ornamentation.
 
-![The Bagbazar Sarbojanin pandal, a white temple with tall spires lit up against the night sky](/images/kolkata-durga-puja/bagbazar-sarbojanin-pandal.jpg)
-
-Inside, the idol was done in the traditional style, with silver ornamentation.
-
-![The traditional Durga idol at Bagbazar Sarbojanin, with silver decoration and the lion at her feet](/images/kolkata-durga-puja/bagbazar-sarbojanin-idol.jpg)
+{{< gallery >}}
+![The Bagbazar Sarbojanin pandal, a white temple with tall spires lit up against the night sky](/images/kolkata-durga-puja/bagbazar-sarbojanin-pandal.jpg "Bagbazar Sarbojanin")
+![The traditional Durga idol at Bagbazar Sarbojanin, with silver decoration and the lion at her feet](/images/kolkata-durga-puja/bagbazar-sarbojanin-idol.jpg "The idol at Bagbazar")
+{{< /gallery >}}
 
 Along the way we stopped at places famous for their food. First was [Mitra Cafe](https://www.google.com/maps/search/?api=1&query=Mitra+Cafe+Sovabazar+Kolkata) for fish kabiraji. It was packed, so we took a parcel. At the last stop we went to [Golbari](https://www.google.com/maps/search/?api=1&query=Golbari+Shyambazar+Kolkata) for their famous mutton kosha with paratha. Also packed, so another parcel.
 
@@ -313,17 +303,16 @@ For dinner I went to [Oh! Calcutta](https://share.google/HraE4MohaWQrTJ8TU), the
 
 The first was bhetki paturi, bhetki fish marinated in mustard and steamed. It was delicious, and a flavour I'd never had before. It was even better with the cucumber cream condiment they served alongside it.
 
-![Bhetki paturi, opened out of its banana leaf, with steamed rice](/images/kolkata-durga-puja/oh-calcutta-bhetki-paturi.jpg)
-
 The second was chingri malai curry, prawns in a coconut milk gravy, with steamed rice. It was tasty, but the prawns came with the heads still on and the shells covering them. I'm not used to eating prawns like that. And it was expensive, about ₹1,700 just for me. Once is enough. :)
-
-![Chingri malai curry with steamed rice at Oh! Calcutta](/images/kolkata-durga-puja/oh-calcutta-chingri-malai-curry.jpg)
 
 At the end they brought out a rajbhog and a mishti paan, both on the house. A nice touch after a bill like that.
 
-![A complimentary mishti paan](/images/kolkata-durga-puja/oh-calcutta-mishti-paan.jpg)
-
-![A complimentary rajbhog in a small bowl](/images/kolkata-durga-puja/oh-calcutta-rajbhog.jpg)
+{{< gallery >}}
+![Bhetki paturi, opened out of its banana leaf, with steamed rice](/images/kolkata-durga-puja/oh-calcutta-bhetki-paturi.jpg "Bhetki paturi")
+![Chingri malai curry with steamed rice at Oh! Calcutta](/images/kolkata-durga-puja/oh-calcutta-chingri-malai-curry.jpg "Chingri malai curry")
+![A complimentary mishti paan](/images/kolkata-durga-puja/oh-calcutta-mishti-paan.jpg "Mishti paan, on the house")
+![A complimentary rajbhog in a small bowl](/images/kolkata-durga-puja/oh-calcutta-rajbhog.jpg "Rajbhog, on the house")
+{{< /gallery >}}
 
 Then it was back to the hostel to rest.
 
