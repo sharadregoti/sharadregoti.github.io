@@ -6,7 +6,7 @@ description: "Six days in Kolkata during Durga Puja 2026: pandal hopping in Sout
 tags: ["Kolkata", "Durga Puja", "Pandal Hopping", "West Bengal", "India Travel", "Food"]
 keywords: ["Kolkata Durga Puja", "Durga Pooja Kolkata", "pandal hopping Kolkata", "Kolkata rajbari pujo", "Sovabazar Rajbari", "Bagbazar Sarbojanin", "Janai monohara", "Babughat visarjan", "Kolkata food guide", "Park Street Kolkata", "Kolkata itinerary"]
 cover:
-  image: "/images/kolkata-durga-puja/sharad-at-victoria-memorial.jpg"
+  image: "/images/kolkata-durga-puja/victoria-memorial.jpg"
   alt: "Sharad standing on the lawns in front of the Victoria Memorial, Kolkata"
   relative: false
 ---
@@ -290,7 +290,7 @@ Then we went to the [Victoria Memorial](https://www.google.com/maps/search/?api=
 
 We spent about two hours there.
 
-![Anush and me in front of the Victoria Memorial](/images/kolkata-durga-puja/victoria-memorial.jpg)
+![Me on the lawns in front of the Victoria Memorial](/images/kolkata-durga-puja/victoria-memorial.jpg)
 
 ### Birla Mandir
 
