@@ -1,0 +1,51 @@
+{{- /* Horizontal, swipeable photo strip. Usage:
+{{< gallery >}}
+![alt text](/images/a.jpg "Optional caption")
+![alt text](/images/b.jpg)
+{{< /gallery >}}
+*/ -}}
+{{- if not (.Page.Scratch.Get "galleryStyle") }}
+{{- .Page.Scratch.Set "galleryStyle" true }}
+<style>
+  .gallery { position: relative; margin: 1.5rem 0; }
+  .gallery-track {
+    display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
+    scroll-behavior: smooth; padding: 4px 2px 12px; scrollbar-width: thin;
+  }
+  .gallery-item { flex: 0 0 auto; display: flex; flex-direction: column; margin: 0; scroll-snap-align: start; }
+  .gallery-item a { box-shadow: none; }
+  .gallery-item img { height: 360px; width: auto; max-width: none; margin: 0; border-radius: 6px; }
+  .gallery-item figcaption { width: 0; min-width: 100%; margin-top: 6px; font-size: 0.85em; color: var(--secondary); text-align: center; }
+  .gallery-btn {
+    position: absolute; top: 45%; transform: translateY(-50%); z-index: 2;
+    width: 40px; height: 40px; border-radius: 50%; border: 0; cursor: pointer;
+    background: var(--theme, #fff); color: var(--primary, #000); font-size: 22px; line-height: 40px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.3);
+  }
+  .gallery-btn.prev { left: -8px; }
+  .gallery-btn.next { right: -8px; }
+  @media (max-width: 600px) { .gallery-item img { height: 260px; } }
+  @media (hover: none) { .gallery-btn { display: none; } }
+</style>
+<script>
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest(".gallery-btn");
+    if (!btn) return;
+    var track = btn.parentElement.querySelector(".gallery-track");
+    var step = track.clientWidth * 0.8;
+    track.scrollBy({ left: btn.classList.contains("next") ? step : -step, behavior: "smooth" });
+  });
+</script>
+{{- end }}
+<div class="gallery">
+  <button class="gallery-btn prev" type="button" aria-label="Previous photo">&#8249;</button>
+  <div class="gallery-track">
+    {{- range findRESubmatch `!\[([^\]]*)\]\(\s*(\S+?)(?:\s+"([^"]*)")?\s*\)` .Inner }}
+    <figure class="gallery-item">
+      <a href="{{ index . 2 }}" target="_blank" rel="noopener"><img src="{{ index . 2 }}" alt="{{ index . 1 }}" loading="lazy"></a>
+      {{- with index . 3 }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+    {{- end }}
+  </div>
+  <button class="gallery-btn next" type="button" aria-label="Next photo">&#8250;</button>
+</div>
