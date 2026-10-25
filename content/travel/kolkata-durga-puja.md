@@ -116,7 +116,7 @@ Breakfast turned into brunch, so we skipped lunch that day.
 
 ### Rajbari hopping
 
-After brunch we headed to Sovabazar. It was around 11, the metro was running, but there were no local buses, so we took one of Kolkata's famous yellow taxis. Sitting in one of those old diesel Ambassadors was an experience in itself. :)
+After brunch we headed to Sovabazar. It was around 11, the metro was not running and there were no local buses either, so we took one of Kolkata's famous yellow taxis. Sitting in one of those old diesel Ambassadors was an experience in itself. :)
 
 The plan for the day was rajbari hopping. A rajbari (or bari) is a big old family house, and many of these families have hosted their own Durga Puja for decades, some for centuries. The pujos are open to the public, and over the years some of them have become famous in their own right.
 
@@ -301,7 +301,7 @@ From there Anush went back to the hostel, and I took a Rapido to the [Birla Mand
 
 For dinner I went to [Oh! Calcutta](https://share.google/HraE4MohaWQrTJ8TU), the branch about 1.5 km from Birla Mandir, to try a couple of famous dishes.
 
-The first was bhetki paturi, bhetki fish marinated in mustard and steamed. It was delicious, and a flavour I'd never had before. It was even better with the cucumber cream condiment they served alongside it.
+The first was bhetki paturi, bhetki fish marinated in mustard and steamed. It was delicious, and a flavour I'd never had before. It was even better with the coconut cream condiment they served alongside it.
 
 The second was chingri malai curry, prawns in a coconut milk gravy, with steamed rice. It was tasty, but the prawns came with the heads still on and the shells covering them. I'm not used to eating prawns like that. And it was expensive, about ₹1,700 just for me. Once is enough. :)
 
