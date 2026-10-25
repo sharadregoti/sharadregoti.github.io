@@ -2,15 +2,14 @@
 title: 'First Time in Kolkata, During Durga Puja: Pandals, Rajbaris and a Lot of Food'
 date: 2026-10-25T00:00:00+05:30
 draft: false
-description: "Six days in Kolkata during Durga Puja 2026: pandal hopping in South, Central and North Kolkata, rajbari pujos, Visarjan at Babughat, and everything we ate along the way."
+description: "Six days in Kolkata during Durga Puja 2026: pandal hopping in South, Central and North Kolkata, rajbari pujos, a family pujo in Janai, Visarjan at Babughat, and everything we ate along the way."
 tags: ["Kolkata", "Durga Puja", "Pandal Hopping", "West Bengal", "India Travel", "Food"]
-keywords: ["Kolkata Durga Puja", "Durga Pooja Kolkata", "pandal hopping Kolkata", "Kolkata rajbari pujo", "Sovabazar Rajbari", "Babughat visarjan", "Kolkata food guide", "Park Street Kolkata", "Kolkata itinerary"]
+keywords: ["Kolkata Durga Puja", "Durga Pooja Kolkata", "pandal hopping Kolkata", "Kolkata rajbari pujo", "Sovabazar Rajbari", "Bagbazar Sarbojanin", "Janai monohara", "Babughat visarjan", "Kolkata food guide", "Park Street Kolkata", "Kolkata itinerary"]
 cover:
   image: "/images/kolkata-durga-puja/cover.jpg"
+  alt: "Ekdalia Evergreen's golden temple-style pandal lit up at night during Durga Puja"
   relative: false
 ---
-
-<!-- TODO: add the cover photo at static/images/kolkata-durga-puja/cover.jpg (a lit-up pandal at night would work well) -->
 
 <!-- TODO (SEO): check the tags and keywords above. Each place name below links to a Google Maps search. Swap these for the exact pins you saved where you can, and replace the route links with your own saved Google Maps lists if you have them. -->
 
@@ -55,33 +54,62 @@ The hostel was not. We stayed at [Social Safari](https://www.google.com/maps/sea
 
 I checked in at 3 PM, dropped my bag, and went straight downstairs for an egg chicken kathi roll because I was starving. Then I waited in the common area for Anush, who turned up at around 5 PM.
 
-<!-- TODO: photo of the egg chicken kathi roll, if you have one -->
-
 ### South Kolkata pandal hopping
 
 After a short break, we headed out for our first round of pandal hopping, in South Kolkata.
 
-A friend of Anush's mom is a Bengali local, and she gave us a list of the popular pandals. This was our route:
+A friend of Anush's mom is a Bengali local, and she gave us a list of the popular pandals. This was our route, in the order we did it:
 
-1. [Ekdalia Evergreen](https://www.google.com/maps/search/?api=1&query=Ekdalia+Evergreen+Durga+Puja+Kolkata)
-2. [Suruchi Sangha](https://www.google.com/maps/search/?api=1&query=Suruchi+Sangha+Durga+Puja+Kolkata)
-3. [Badamtala Ashar Sangha](https://www.google.com/maps/search/?api=1&query=Badamtala+Ashar+Sangha+Kolkata)
-4. [Chetla Agrani](https://www.google.com/maps/search/?api=1&query=Chetla+Agrani+Club+Kolkata)
-5. [Tridhara Sammilani](https://www.google.com/maps/search/?api=1&query=Tridhara+Sammilani+Kolkata)
-6. [Deshapriya Park](https://www.google.com/maps/search/?api=1&query=Deshapriya+Park+Durga+Puja+Kolkata)
-7. [Jodhpur Park Sarbojanin](https://www.google.com/maps/search/?api=1&query=Jodhpur+Park+Sarbojanin+Durga+Puja+Kolkata)
-8. [Bosepukur Sitala Mandir](https://www.google.com/maps/search/?api=1&query=Bosepukur+Sitala+Mandir+Durga+Puja+Kolkata)
+1. [Deshapriya Park](https://www.google.com/maps/search/?api=1&query=Deshapriya+Park+Durga+Puja+Kolkata)
+2. [Tridhara Sammilani](https://www.google.com/maps/search/?api=1&query=Tridhara+Sammilani+Kolkata)
+3. [Ekdalia Evergreen](https://www.google.com/maps/search/?api=1&query=Ekdalia+Evergreen+Durga+Puja+Kolkata)
+4. [Bosepukur Sitala Mandir](https://www.google.com/maps/search/?api=1&query=Bosepukur+Sitala+Mandir+Durga+Puja+Kolkata) and [Bosepukur Talbagan](https://www.google.com/maps/search/?api=1&query=Bosepukur+Talbagan+Sarbojanin+Kolkata)
+5. [Jodhpur Park Sarbojanin](https://www.google.com/maps/search/?api=1&query=Jodhpur+Park+Sarbojanin+Durga+Puja+Kolkata)
+6. [Suruchi Sangha](https://www.google.com/maps/search/?api=1&query=Suruchi+Sangha+Durga+Puja+Kolkata)
+7. [Chetla Agrani](https://www.google.com/maps/search/?api=1&query=Chetla+Agrani+Club+Kolkata)
+8. [Badamtala Ashar Sangha](https://www.google.com/maps/search/?api=1&query=Badamtala+Ashar+Sangha+Kolkata)
 
-[See the South Kolkata route on Google Maps](https://www.google.com/maps/dir/Ekdalia+Evergreen+Kolkata/Suruchi+Sangha+Kolkata/Badamtala+Ashar+Sangha+Kolkata/Chetla+Agrani+Club+Kolkata/Tridhara+Sammilani+Kolkata/Deshapriya+Park+Kolkata/Jodhpur+Park+Sarbojanin+Kolkata/Bosepukur+Sitala+Mandir+Kolkata)
+[See the South Kolkata route on Google Maps](https://www.google.com/maps/dir/Deshapriya+Park+Kolkata/Tridhara+Sammilani+Kolkata/Ekdalia+Evergreen+Kolkata/Bosepukur+Sitala+Mandir+Kolkata/Jodhpur+Park+Sarbojanin+Kolkata/Suruchi+Sangha+Kolkata/Chetla+Agrani+Club+Kolkata/Badamtala+Ashar+Sangha+Kolkata)
 
-<!-- TODO: check the route order matches the order you actually went in -->
-<!-- TODO: photos of 2–3 South Kolkata pandals. Suruchi Sangha and Tridhara usually have the most photogenic themes. Note the theme of each pandal you photograph, it makes good captions. -->
+<!-- TODO: I added Bosepukur Talbagan because one of your photos shows its banner. Remove it if you didn't count it as a separate stop. -->
 
-For dinner we wanted to go to [6 Ballygunge Place](https://www.google.com/maps/search/?api=1&query=6+Ballygunge+Place+Kolkata), but it closes at 11 PM and we showed up at 11:30. So we went to the place across the road instead. It was OK. We ordered Bengali food.
+Deshapriya Park was all red and gold inside, with a chandelier hanging over the crowd.
 
-<!-- TODO: name of the restaurant opposite 6 Ballygunge Place + what you ordered + food photos -->
+![The red and gold interior of the Deshapriya Park pandal, with the Durga idol at the far end](/images/kolkata-durga-puja/deshapriya-park-pandal.jpg)
 
-We kept hopping until late, and got back to the hostel at around 3 AM.
+Tridhara had a huge red serpent winding over the heads of the crowd.
+
+![A giant red serpent sculpture curling above the crowd at Tridhara Sammilani](/images/kolkata-durga-puja/tridhara-sammilani-pandal.jpg)
+
+Ekdalia Evergreen was built like a golden temple (that's the cover photo of this post), with this chandelier inside.
+
+![The crystal chandelier inside the Ekdalia Evergreen pandal, set in a carved golden ceiling](/images/kolkata-durga-puja/ekdalia-evergreen-chandelier.jpg)
+
+![A Durga idol under a glowing red sun, inside a dome lined with arched niches, in Bosepukur](/images/kolkata-durga-puja/bosepukur-pandal.jpg)
+
+<!-- TODO: check whether this photo is from Bosepukur Sitala Mandir or Bosepukur Talbagan and name it in the alt text -->
+
+For dinner we wanted to go to [6 Ballygunge Place](https://www.google.com/maps/search/?api=1&query=6+Ballygunge+Place+Kolkata), but it closes at 11 PM and we showed up at 11:30. So we went to the place across the road instead, on Prince Anwar Shah Road near Jodhpur Park. It was OK. We ordered Bengali food.
+
+![Plates of Bengali food: rice, fish curry, mutton curry and pulao](/images/kolkata-durga-puja/bengali-dinner-jodhpur-park.jpg)
+
+<!-- TODO: name of the restaurant (the one with the wall of portrait plates of Bengali icons) and what you ordered -->
+
+After dinner we kept going. Suruchi Sangha had giant woven-cane domes.
+
+![Woven cane domes lit up from below at the Suruchi Sangha pandal](/images/kolkata-durga-puja/suruchi-sangha-pandal.jpg)
+
+Chetla Agrani was a tower of colourful masks against the night sky.
+
+![The Chetla Agrani pandal, a tall facade covered in giant painted masks](/images/kolkata-durga-puja/chetla-agrani-pandal.jpg)
+
+Our last stop was Badamtala Ashar Sangha, which was lined with glowing paintings.
+
+![Backlit paintings of Bengali women lining the walls of the Badamtala Ashar Sangha pandal](/images/kolkata-durga-puja/badamtala-ashar-sangha-pandal.jpg)
+
+By the time we got back to the hostel it was around 4 AM.
+
+<!-- TODO (video): IMG_3359.MOV (27s, the crowd in front of Deshapriya Park) would make a good reel. Upload it to Instagram and embed it here with the instagram shortcode. The raw MOV files are too big to commit to the repo. -->
 
 ---
 
@@ -93,11 +121,15 @@ We started the day at [Flurys](https://www.google.com/maps/search/?api=1&query=F
 
 It was worth it. We had coffee, breakfast and a lot of pastries. Over the next few days we went back enough times to try almost every pastry they had. :)
 
-<!-- TODO: Flurys photo (the storefront or the pastry counter) -->
+![The pastry counter at Flurys on Park Street, with croissants, muffins and cakes](/images/kolkata-durga-puja/flurys-pastry-counter.jpg)
+
+Breakfast turned into brunch, so we skipped lunch that day.
 
 ### Rajbari hopping
 
-After our breakfast (brunch, really), we headed to Sovabazar. It was around 11, the metro was running, but there were no local buses, so we took one of Kolkata's famous yellow taxis. Sitting in one of those old diesel Ambassadors was an experience in itself. :)
+After brunch we headed to Sovabazar. It was around 11, the metro was running, but there were no local buses, so we took one of Kolkata's famous yellow taxis. Sitting in one of those old diesel Ambassadors was an experience in itself. :)
+
+![Leaning out of the window of a yellow Ambassador taxi on a Kolkata street](/images/kolkata-durga-puja/yellow-ambassador-taxi.jpg)
 
 The plan for the day was rajbari hopping. A rajbari (or bari) is a big old family house, and many of these families have hosted their own Durga Puja for decades, some for centuries. The pujos are open to the public, and over the years some of them have become famous in their own right.
 
@@ -114,37 +146,49 @@ These are the baris we visited:
 7. [Chhatubabu-Latubabu's Pujo](https://www.google.com/maps/search/?api=1&query=Chhatubabu+Latubabu+Bari+Kolkata)
 
 <!-- TODO: confirm the exact Google Maps pin for Zamindar Bari, there are a few places with similar names -->
-<!-- TODO: rajbari photos: the thakur dalan (the courtyard where the idol sits), the old family photos on the walls, and one wide shot of a house -->
 
-We did this until about 3 PM, then went back to the hostel to rest. We wanted to save our energy for the night, because pandals look far better after dark, with all the lighting.
+![The thakur dalan at Sovabazar Rajbari, a white colonnaded courtyard crowded with visitors](/images/kolkata-durga-puja/sovabazar-rajbari-courtyard.jpg)
 
-<!-- TODO: what did you eat for lunch on day 2? -->
+![The courtyard of Rani Rashmoni's house in Janbazar, with the Durga idol under red and white arches](/images/kolkata-durga-puja/janbazar-rani-rashmoni-bari.jpg)
+
+We did this until about 3 PM. On the way back we stopped at Flurys again for more pastries (told you), then rested at the hostel. We wanted to save our energy for the night, because pandals look far better after dark, with all the lighting.
 
 ### Arsalan biryani
 
-Before heading out again, we went to [Arsalan](https://www.google.com/maps/search/?api=1&query=Arsalan+Park+Circus+Kolkata) for the famous Kolkata biryani, and ordered the Arsalan special kebab too.
+Before heading out again, we went to [Arsalan on Park Street](https://www.google.com/maps/search/?api=1&query=Arsalan+Park+Street+Kolkata) for the famous Kolkata biryani, and ordered the Arsalan special kebab too.
 
 Both were really good. I never thought a potato in a biryani could taste this good. If you're in Kolkata, give it a try.
 
-<!-- TODO: confirm which Arsalan branch you went to (Park Street or Park Circus) and fix the map link + photos of the biryani and kebab -->
+![Two plates of Kolkata mutton biryani with potato and egg at Arsalan](/images/kolkata-durga-puja/arsalan-biryani.jpg)
+
+![The Arsalan special kebab, served with onion rings and green chutney](/images/kolkata-durga-puja/arsalan-kebab.jpg)
 
 ### Central Kolkata pandal hopping
 
 Then we went pandal hopping in Central Kolkata:
 
-<!-- TODO: your notes list Central Kolkata from number 4 onwards. Add the first three pandals here. -->
+1. [Allen Park](https://www.google.com/maps/search/?api=1&query=Allen+Park+Durga+Puja+Kolkata)
+2. [Santosh Mitra Square](https://www.google.com/maps/search/?api=1&query=Santosh+Mitra+Square+Durga+Puja+Kolkata)
+3. [College Square](https://www.google.com/maps/search/?api=1&query=College+Square+Durga+Puja+Kolkata)
+4. [Muhammad Ali Park](https://www.google.com/maps/search/?api=1&query=Mohammad+Ali+Park+Durga+Puja+Kolkata)
 
-4. [Allen Park](https://www.google.com/maps/search/?api=1&query=Allen+Park+Durga+Puja+Kolkata)
-5. [College Square](https://www.google.com/maps/search/?api=1&query=College+Square+Durga+Puja+Kolkata)
-6. [Santosh Mitra Square](https://www.google.com/maps/search/?api=1&query=Santosh+Mitra+Square+Durga+Puja+Kolkata)
-7. [Muhammad Ali Park](https://www.google.com/maps/search/?api=1&query=Mohammad+Ali+Park+Durga+Puja+Kolkata)
+[See the Central Kolkata route on Google Maps](https://www.google.com/maps/dir/Allen+Park+Kolkata/Santosh+Mitra+Square+Kolkata/College+Square+Kolkata/Mohammad+Ali+Park+Kolkata)
 
-[See the Central Kolkata route on Google Maps](https://www.google.com/maps/dir/Allen+Park+Kolkata/College+Square+Kolkata/Santosh+Mitra+Square+Kolkata/Mohammad+Ali+Park+Kolkata)
+We wanted to see [Chorbagan Sarbojanin](https://www.google.com/maps/search/?api=1&query=Chorbagan+Sarbojanin+Kolkata) too, but it was closed. There had been a stampede there a couple of days earlier.
 
-<!-- TODO: add the first three stops to the route link above -->
-<!-- TODO: night photos of the Central Kolkata pandals. Santosh Mitra Square and College Square (with the lights on the pond) are usually the best. -->
+The idol at Allen Park sat against a wall of blue and gold.
+
+![The Durga idol at Allen Park, set against a textured blue and gold backdrop](/images/kolkata-durga-puja/allen-park-durga-idol.jpg)
+
+Santosh Mitra Square had built a fort, complete with the Indian flag, and the crowd there was massive.
+
+![The fort-style pandal at Santosh Mitra Square at night, with a huge crowd in front](/images/kolkata-durga-puja/santosh-mitra-square-pandal.jpg)
+
+![The idol at College Square under a large chandelier, with painted panels on the walls](/images/kolkata-durga-puja/college-square-pandal.jpg)
 
 We got back to the hostel at around 2 AM.
+
+<!-- TODO (video): IMG_3674.MOV (39s, the midnight crowd between Santosh Mitra Square and College Square) shows how packed the streets get. Good reel material. -->
 
 ---
 
@@ -152,49 +196,64 @@ We got back to the hostel at around 2 AM.
 
 ### A bari pujo outside the city
 
-The next day we went to a different kind of rajbari. This one was a friend of a friend's family house, on the outskirts of Kolkata in Janai.
+The next day we went to a different kind of rajbari. This one was a friend of a friend's family house in Janai, on the outskirts of Kolkata in Hooghly district.
 
-<!-- TODO: confirm the place name. Your notes say "Jaina something". I've assumed Janai (Hooghly district, Janai Road station on the Howrah line). Fix it if that's wrong, along with the family/bari name if you're OK sharing it. -->
+<!-- TODO (optional): add the family/bari name and a map link if you're OK sharing it -->
 
-We took an Uber from the hostel. It was about an hour's drive. When we got there, we met the owner of the house, and he gave us a tour of the whole place, explaining the idol and the rituals of their pujo.
+We took an Uber from the hostel. It was about an hour's drive. When we got there, we met the owner of the house, and he gave us a tour of the whole place, explaining the idol and the rituals of their pujo. The house was huge and old, and from the roof you could see the whole compound.
 
-After the tour, we were served the pujo bhog, the food offered to the goddess and then shared with guests.
+![The view from the roof of the bari in Janai, over old walls and courtyards to the trees beyond](/images/kolkata-durga-puja/janai-bari-rooftop.jpg)
 
-<!-- TODO: photos of the bhog + list what was in it -->
+After the tour, we were served the pujo bhog, the food offered to the goddess and then shared with guests. It was served on leaf plates.
 
-We were also given two sweets. The first is a speciality of this place, and you can only get it here. :)
+![Pujo bhog on a leaf plate: rice, a vegetable curry and a fried item](/images/kolkata-durga-puja/janai-pujo-bhog.jpg)
 
-<!-- TODO: names of the two sweets. If it's Janai, the first one is probably Janai's monohara. Confirm and add photos. -->
+<!-- TODO: list what was in the bhog (khichuri, the rice dish, the payesh, etc.) -->
+
+We were also given two sweets. The first was monohara, a speciality of Janai that you can only really get there. :)
+
+![A plate of sweets from Janai, including the local monohara](/images/kolkata-durga-puja/janai-sweets-monohara.jpg)
+
+<!-- TODO: name of the second sweet -->
 
 We got there at 11 AM and left at 4 PM. We hadn't realised how far out it was. We were lucky to get an Uber there, but we couldn't get one back. So we took the local train from Janai Road to Howrah.
+
+![Selfie at the Janai Road railway station sign](/images/kolkata-durga-puja/janai-road-station.jpg)
 
 ### Howrah
 
 Howrah station is big and beautiful. Howrah is actually a separate city from Kolkata, across the Hooghly river. It reminded me of Mumbai and Thane, except here the two cities are properly separated by water, and joined by the famous Howrah Bridge.
 
-<!-- TODO: photos of Howrah station and Howrah Bridge -->
+<!-- TODO: I couldn't find a Howrah Bridge or Howrah station photo in the folder. Add one if you have it. -->
 
 From Howrah, Anush wanted to buy a kurta for the next day's Visarjan, so we made a stop at [Bara Bazar](https://www.google.com/maps/search/?api=1&query=Burrabazar+Kolkata). Kurta sorted, we headed to North Kolkata.
 
 ### North Kolkata pandal hopping
 
-1. [Bagbazar Sarbojanin](https://www.google.com/maps/search/?api=1&query=Bagbazar+Sarbojanin+Durga+Puja+Kolkata)
+1. [Ahiritola Sarbojanin](https://www.google.com/maps/search/?api=1&query=Ahiritola+Sarbojanin+Durga+Puja+Kolkata)
 2. [Kumartuli Park](https://www.google.com/maps/search/?api=1&query=Kumartuli+Park+Durga+Puja+Kolkata)
-3. [Hatibagan Sarbojanin](https://www.google.com/maps/search/?api=1&query=Hatibagan+Sarbojanin+Durga+Puja+Kolkata)
-4. [Ahiritola Sarbojanin](https://www.google.com/maps/search/?api=1&query=Ahiritola+Sarbojanin+Durga+Puja+Kolkata)
+3. [Bagbazar Sarbojanin](https://www.google.com/maps/search/?api=1&query=Bagbazar+Sarbojanin+Durga+Puja+Kolkata)
+4. [Hatibagan Sarbojanin](https://www.google.com/maps/search/?api=1&query=Hatibagan+Sarbojanin+Durga+Puja+Kolkata)
 
-[See the North Kolkata route on Google Maps](https://www.google.com/maps/dir/Bagbazar+Sarbojanin+Kolkata/Kumartuli+Park+Kolkata/Hatibagan+Sarbojanin+Kolkata/Ahiritola+Sarbojanin+Kolkata)
+[See the North Kolkata route on Google Maps](https://www.google.com/maps/dir/Ahiritola+Sarbojanin+Kolkata/Kumartuli+Park+Kolkata/Bagbazar+Sarbojanin+Kolkata/Hatibagan+Sarbojanin+Kolkata)
 
-<!-- TODO: check the route order + North Kolkata pandal photos -->
-<!-- TODO (optional): did you walk through Kumartuli, the potters' quarter where the idols are made? If yes, it deserves a paragraph and a photo. -->
+<!-- TODO: your photos place Ahiritola, Kumartuli Park and Bagbazar in this order, but there's no photo from Hatibagan. Check where it fits. -->
 
-Along the way we stopped at places famous for their food. First was [Mitra Cafe](https://www.google.com/maps/search/?api=1&query=Mitra+Cafe+Sovabazar+Kolkata) for fish kabiraji. It was packed, so we took a parcel and ate it by the roadside. At the last stop we went to [Golbari](https://www.google.com/maps/search/?api=1&query=Golbari+Shyambazar+Kolkata) for their famous mutton kosha with paratha. Also packed, so another parcel.
+Bagbazar was the highlight of the night. The pandal was a huge white temple.
 
-<!-- TODO: photos of the fish kabiraji and the Golbari mutton kosha -->
+![The Bagbazar Sarbojanin pandal, a white temple with tall spires lit up against the night sky](/images/kolkata-durga-puja/bagbazar-sarbojanin-pandal.jpg)
+
+Inside, the idol was done in the traditional style, with silver ornamentation.
+
+![The traditional Durga idol at Bagbazar Sarbojanin, with silver decoration and the lion at her feet](/images/kolkata-durga-puja/bagbazar-sarbojanin-idol.jpg)
+
+Along the way we stopped at places famous for their food. First was [Mitra Cafe](https://www.google.com/maps/search/?api=1&query=Mitra+Cafe+Sovabazar+Kolkata) for fish kabiraji. It was packed, so we took a parcel. At the last stop we went to [Golbari](https://www.google.com/maps/search/?api=1&query=Golbari+Shyambazar+Kolkata) for their famous mutton kosha with paratha. Also packed, so another parcel.
 
 Somewhere along the way, Anush had moong bhajiyas from a roadside stall. That turned out to be a mistake, and it wrecked his entire next day.
 
-Back at the hostel, I had my Golbari parcel for dinner. Anush went straight to sleep.
+Back at the hostel, I had dinner out of the parcels. Anush went straight to sleep.
+
+![Fish kabiraji from Mitra Cafe and Golbari's mutton kosha with paratha, eaten at the hostel](/images/kolkata-durga-puja/fish-kabiraji-mutton-kosha.jpg)
 
 ---
 
@@ -206,7 +265,7 @@ We didn't have big plans for this day. We only wanted to see the Visarjan, which
 
 I started late, at 12 PM, and went straight to [Peter Cat](https://www.google.com/maps/search/?api=1&query=Peter+Cat+Park+Street+Kolkata) on Park Street for lunch. I had their famous chelo kebab. It was light and full of flavour. I'd recommend it.
 
-<!-- TODO: chelo kebab photo -->
+![Peter Cat's chelo kebab: buttered rice with seekh kebabs, chicken kebabs, a fried egg and grilled tomato](/images/kolkata-durga-puja/peter-cat-chelo-kebab.jpg)
 
 After lunch I went back to the hostel for an afternoon nap. :)
 
@@ -218,8 +277,6 @@ First, [Nizam's](https://www.google.com/maps/search/?api=1&query=Nizam's+Restaur
 
 Next, [K.C. Das](https://www.google.com/maps/search/?api=1&query=K.C.+Das+Esplanade+Kolkata) for sweets. I had a chocolate sandesh, a rasgulla and a kala jamun. To be honest, it was mid and overhyped. I wouldn't recommend it.
 
-<!-- TODO: photos from Nizam's and K.C. Das -->
-
 ### Visarjan
 
 From there I took a Rapido to [Babughat](https://www.google.com/maps/search/?api=1&query=Babughat+Kolkata).
@@ -230,7 +287,7 @@ I'm from Mumbai. In our Ganpati Visarjan there's one main idol, Ganpati. Here, e
 
 I couldn't see the actual immersion in the river, but it was still something to witness first hand.
 
-<!-- TODO: Visarjan photos (the trucks with the idols, the idols being carried to the ghat). A short video would be great here too, the site already has an instagram shortcode. -->
+<!-- TODO: there are no photos or videos from 21 Oct in the folder. If you have Visarjan shots on your phone (the trucks, the idols being carried to the ghat), add them here. -->
 
 I'd eaten my way through the evening already, so on the way back I picked up some fruit. That was dinner. :) I was back at the hostel by around 10.
 
@@ -252,24 +309,23 @@ Then we went to the [Victoria Memorial](https://www.google.com/maps/search/?api=
 
 We spent about two hours there.
 
-<!-- TODO: Victoria Memorial photo -->
+![Anush on the lawns in front of the Victoria Memorial](/images/kolkata-durga-puja/victoria-memorial.jpg)
 
 ### Birla Mandir
 
 From there Anush went back to the hostel, and I took a Rapido to the [Birla Mandir](https://www.google.com/maps/search/?api=1&query=Birla+Mandir+Ballygunge+Kolkata), a beautiful Radha Krishna temple. I spent some time there and just relaxed.
 
-<!-- TODO: Birla Mandir photo -->
+<!-- TODO: no Birla Mandir photo in the folder. Add one if you have it. -->
 
 ### Oh! Calcutta
 
-For dinner I went to [Oh! Calcutta](https://www.google.com/maps/search/?api=1&query=Oh!+Calcutta+restaurant+Kolkata) nearby to try a couple of famous dishes.
+For dinner I went to [Oh! Calcutta](https://www.google.com/maps/search/?api=1&query=Oh!+Calcutta+restaurant+near+Birla+Mandir+Kolkata), the branch about 1.5 km from Birla Mandir, to try a couple of famous dishes.
 
 The first was bhetki paturi, bhetki fish marinated in mustard and steamed. It was delicious, and a flavour I'd never had before. It was even better with the cucumber cream condiment they served alongside it.
 
-The second was a prawn curry with rice. It was tasty, but the prawns came with the heads still on and the shells covering them. I'm not used to eating prawns like that. And it was expensive, about ₹1,700 just for me. Once is enough. :)
+The second was chingri malai curry, prawns in a coconut milk gravy, with steamed rice. It was tasty, but the prawns came with the heads still on and the shells covering them. I'm not used to eating prawns like that. And it was expensive, about ₹1,700 just for me. Once is enough. :)
 
-<!-- TODO: confirm the prawn dish name. Your notes say "dabri chingriy?", which is probably daab chingri (prawns cooked in a tender coconut). Also add photos of both dishes. -->
-<!-- TODO: which Oh! Calcutta branch? Fix the map link. -->
+<!-- TODO: check the Oh! Calcutta map link points to the right branch, and add food photos if you have any -->
 
 Then it was back to the hostel to rest.
 
@@ -279,13 +335,15 @@ Then it was back to the hostel to rest.
 
 Our flight was at 5 PM, so the plan was simple: breakfast, and some famous Kolkata sweets to take home for family.
 
-For breakfast we went to Murlis and had dosa. It was good.
+For breakfast we went to [Murlis](https://www.google.com/maps/search/?api=1&query=Murlis+Park+Street+Kolkata), near Park Street, and had dosa. It was good.
 
-<!-- TODO: check the name and spelling of "Murlis" and add a map link -->
+![A crispy dosa with sambar and two chutneys at Murlis](/images/kolkata-durga-puja/murlis-dosa.jpg)
 
-For sweets, we'd originally planned on K.C. Das. After my experience there, and after Anush's friends and the people at our hostel all said the same thing, we went to [Balaram Mullick & Radharaman Mullick](https://www.google.com/maps/search/?api=1&query=Balaram+Mullick+Radharaman+Mullick+Kolkata) instead. They let us taste before we bought, and everything was delicious. I took rasgulla, kheer gulab jamun, sandesh, and one more kheer sweet whose name I didn't catch.
+<!-- TODO: check the Murlis map link lands on the right place -->
 
-<!-- TODO: name of the "dhandush kheera" sweet + photos of the sweet box. Also which Balaram Mullick branch? -->
+For sweets, we'd originally planned on K.C. Das. After my experience there, and after Anush's friends and the people at our hostel all said the same thing, we went to [Balaram Mullick & Radharaman Mullick](https://www.google.com/maps/search/?api=1&query=Balaram+Mullick+Radharaman+Mullick+Park+Street+Kolkata) near Park Street instead. They let us taste before we bought, and everything was delicious. I took rasgulla, kheer gulab jamun, sandesh and kheer kadam.
+
+![Tasting a sweet on a leaf plate at the Balaram Mullick counter](/images/kolkata-durga-puja/balaram-mullick-sweets.jpg)
 
 We went back to the hostel, packed our bags and took the metro to the airport. Our flight was delayed by 90 minutes, typical SpiceJet behaviour. :)
 
@@ -300,12 +358,11 @@ And then we were back in Mumbai.
 - **Use the metro for distance, Rapido for hopping.** I used the metro to get to the South, Central or North cluster, and then Rapido between pandals. If the next pandal was more than about a kilometre away, I took a Rapido.
 - **Book metro tickets on the app.** I used Amar Kolkata Metro.
 - **Do rajbaris by day and pandals by night.** The baris are better in daylight, and the pandals come alive with the lighting after dark.
-- **Expect crowds at the famous eateries.** Have a parcel and eat by the roadside like everyone else.
+- **Expect crowds at the famous eateries.** Take a parcel if you can't get a table.
 - **Skip K.C. Das, go to Balaram Mullick** for sweets.
 - **Be careful with roadside food.** Ask Anush. :)
 
 <!-- TODO: double-check the metro app name, the official one may be listed under a slightly different name on the Play Store -->
-<!-- TODO (optional): a rough cost breakdown (flights, hostel per night, Rapido, food) would make this post more useful, like the Japan post -->
 
 ---
 
