@@ -1,0 +1,88 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <div class="post-description">Scheduled jobs on my automation server. Times are in IST.</div>
+</header>
+<div class="post-content">
+  <table id="wf-table">
+    <thead><tr><th>Workflow</th><th>Schedule</th><th>Next run</th></tr></thead>
+    <tbody>
+      {{- range site.Data.workflows.jobs }}
+      <tr data-cron="{{ .cron }}">
+        <td><strong>{{ .name }}</strong><br><small>{{ .description }}</small></td>
+        <td class="wf-sched"><code>{{ .cron }}</code> UTC</td>
+        <td class="wf-next">-</td>
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+</div>
+<script>
+(function () {
+  var TZ = 'Asia/Kolkata';
+  function field(s, lo, hi) {
+    var set = {};
+    s.split(',').forEach(function (part) {
+      var step = 1, m = part.split('/');
+      if (m[1]) step = +m[1];
+      var a = lo, b = hi;
+      if (m[0] !== '*') { var r = m[0].split('-'); a = +r[0]; b = r[1] !== undefined ? +r[1] : (m[1] ? hi : a); }
+      for (var i = a; i <= b; i += step) set[i] = true;
+    });
+    return set;
+  }
+  function parse(expr) {
+    var f = expr.trim().split(/\s+/);
+    return { min: field(f[0], 0, 59), hr: field(f[1], 0, 23), dom: field(f[2], 1, 31), mon: field(f[3], 1, 12),
+             dow: field(f[4].replace(/\b7\b/, '0'), 0, 6), domAny: f[2] === '*', dowAny: f[4] === '*', raw: f };
+  }
+  function next(c, from) {
+    var d = new Date(from.getTime());
+    d.setUTCSeconds(0, 0); d.setUTCMinutes(d.getUTCMinutes() + 1);
+    for (var i = 0; i < 400 * 24 * 60; i++) {
+      var dayOk = c.domAny && c.dowAny ? true
+        : c.domAny ? c.dow[d.getUTCDay()]
+        : c.dowAny ? c.dom[d.getUTCDate()]
+        : (c.dom[d.getUTCDate()] || c.dow[d.getUTCDay()]);
+      if (!c.mon[d.getUTCMonth() + 1] || !dayOk) { d.setUTCHours(24, 0, 0, 0); i += 1439; continue; }
+      if (!c.hr[d.getUTCHours()]) { d.setUTCMinutes(60, 0, 0); i += 59; continue; }
+      if (c.min[d.getUTCMinutes()]) return d;
+      d.setUTCMinutes(d.getUTCMinutes() + 1);
+    }
+    return null;
+  }
+  function fmt(d, opts) { return d.toLocaleString('en-IN', Object.assign({ timeZone: TZ }, opts)); }
+  function ord(n) { var s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
+  function describe(c, n) {
+    var time = fmt(n, { hour: 'numeric', minute: '2-digit', hour12: true });
+    var f = c.raw;
+    if (f[2] === '*' && f[4] === '*') return 'Daily at ' + time;
+    if (f[2] === '*') return 'Every ' + fmt(n, { weekday: 'long' }) + ' at ' + time;
+    if (f[4] === '*') {
+      var days = Object.keys(c.dom).map(Number).sort(function (a, b) { return a - b; }).map(ord);
+      return 'On the ' + days.join(' and ') + ' of each month at ' + time;
+    }
+    return f.join(' ') + ' (UTC)';
+  }
+  function rel(ms) {
+    var m = Math.round(ms / 60000), d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mm = m % 60;
+    return 'in ' + (d ? d + 'd ' : '') + (d || h ? h + 'h ' : '') + (d ? '' : mm + 'm');
+  }
+  function render() {
+    var now = new Date(), tbody = document.querySelector('#wf-table tbody');
+    var rows = Array.prototype.slice.call(tbody.rows);
+    rows.forEach(function (tr) {
+      var c = parse(tr.dataset.cron), n = next(c, now);
+      tr._next = n ? n.getTime() : Infinity;
+      if (!n) return;
+      tr.querySelector('.wf-sched').textContent = describe(c, n);
+      tr.querySelector('.wf-next').innerHTML = fmt(n, { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', hour12: true })
+        + '<br><small>' + rel(n - now) + '</small>';
+    });
+    rows.sort(function (a, b) { return a._next - b._next; }).forEach(function (tr) { tbody.appendChild(tr); });
+  }
+  render();
+  setInterval(render, 60000);
+})();
+</script>
+{{- end }}
