@@ -14,13 +14,25 @@
     <thead><tr><th>#</th><th>Workflow</th><th>Schedule</th><th>Next run</th><th>Last run</th></tr></thead>
     <tbody></tbody>
   </table>
+  <div id="rp-wrap" style="display:none">
+    <h2>Reports</h2>
+    <p><small>Copies of the digest emails, saved from Gmail every 10 minutes. Click a subject to read it.</small></p>
+    <div id="rp-view" style="display:none">
+      <p><strong id="rp-title"></strong> &middot; <a href="#" id="rp-close">Close</a></p>
+      <iframe id="rp-frame" title="Report" sandbox="allow-popups allow-popups-to-escape-sandbox" style="width:100%;height:75vh;border:1px solid var(--border);border-radius:6px;background:#fff"></iframe>
+    </div>
+    <table id="rp-table">
+      <thead><tr><th>#</th><th>Sent</th><th>Workflow</th><th>Subject</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
   <p id="wf-foot" style="display:none"><small><a href="#" id="wf-logout">Log out</a></small></p>
 </div>
 <script>
 (function () {
-  var API = 'https://api.sharadregoti.com/hermes/workflows', KEY = 'wf-auth', TZ = 'Asia/Kolkata';
+  var BASE = 'https://api.sharadregoti.com/hermes', API = BASE + '/workflows', KEY = 'wf-auth', TZ = 'Asia/Kolkata';
   var $ = function (id) { return document.getElementById(id); };
-  var data = null;
+  var data = null, reports = null, authHdr = null;
   function store(v) { try { v ? localStorage.setItem(KEY, v) : localStorage.removeItem(KEY); } catch (e) {} }
   function saved() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
@@ -60,21 +72,50 @@
   }
   function show(loggedIn) {
     $('wf-login').style.display = loggedIn ? 'none' : '';
-    $('wf-table').style.display = $('wf-foot').style.display = loggedIn ? '' : 'none';
+    $('wf-table').style.display = $('wf-foot').style.display = $('rp-wrap').style.display = loggedIn ? '' : 'none';
+    if (!loggedIn) closeReport();
   }
   function load(auth) {
     return fetch(API, { headers: { Authorization: 'Basic ' + auth }, cache: 'no-store' }).then(function (r) {
       if (r.status === 401) throw new Error('Wrong username or password.');
       if (!r.ok) throw new Error('Server returned ' + r.status + '.');
       return r.json();
-    }).then(function (j) { data = j.workflows; store(auth); show(true); render(); });
+    }).then(function (j) {
+      data = j.workflows; authHdr = 'Basic ' + auth; store(auth); show(true); render();
+      return fetch(BASE + '/reports', { headers: { Authorization: authHdr }, cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : { reports: [] }; })
+        .then(function (j) { reports = j.reports || []; renderReports(); }, function () {});
+    });
   }
-  function fail(e) { store(null); data = null; show(false); $('wf-err').textContent = e.message || 'Could not reach the server.'; }
+  function renderReports() {
+    var tb = $('rp-table').tBodies[0];
+    if (!reports || !reports.length) { tb.innerHTML = '<tr><td colspan="4"><small>No reports yet.</small></td></tr>'; return; }
+    tb.innerHTML = reports.map(function (r, i) {
+      return '<tr><td>' + (i + 1) + '</td><td><small>' + when(new Date(r.sent_at * 1000)) + '</small></td><td>' + esc(r.job) +
+        '</td><td><a href="#" data-job="' + esc(r.job) + '" data-id="' + esc(r.id) + '">' + esc(r.subject) + '</a></td></tr>';
+    }).join('');
+  }
+  function closeReport() { $('rp-view').style.display = 'none'; $('rp-frame').srcdoc = ''; }
+  $('rp-close').addEventListener('click', function (e) { e.preventDefault(); closeReport(); });
+  $('rp-table').addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-id]');
+    if (!a) return;
+    e.preventDefault();
+    $('rp-title').textContent = a.textContent;
+    $('rp-frame').srcdoc = '<p style="font-family:sans-serif">Loading...</p>';
+    $('rp-view').style.display = '';
+    $('rp-view').scrollIntoView({ behavior: 'smooth' });
+    fetch(BASE + '/reports/' + encodeURIComponent(a.dataset.job) + '/' + encodeURIComponent(a.dataset.id), { headers: { Authorization: authHdr }, cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('Server returned ' + r.status); return r.text(); })
+      .then(function (html) { $('rp-frame').srcdoc = '<base target="_blank">' + html; })
+      .catch(function (err) { $('rp-frame').srcdoc = '<p style="font-family:sans-serif">Could not load report: ' + esc(err.message) + '</p>'; });
+  });
+  function fail(e) { store(null); data = reports = authHdr = null; show(false); $('wf-err').textContent = e.message || 'Could not reach the server.'; }
   $('wf-login').addEventListener('submit', function (e) {
     e.preventDefault(); $('wf-err').textContent = '';
     load(btoa($('wf-user').value + ':' + $('wf-pass').value)).catch(fail);
   });
-  $('wf-logout').addEventListener('click', function (e) { e.preventDefault(); store(null); data = null; show(false); });
+  $('wf-logout').addEventListener('click', function (e) { e.preventDefault(); store(null); data = reports = authHdr = null; show(false); });
   var a = saved();
   if (a) load(a).catch(fail); else show(false);
   setInterval(function () { var a = saved(); if (a) load(a).catch(function () {}); else render(); }, 60000);
