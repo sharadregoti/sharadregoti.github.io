@@ -11,7 +11,7 @@
     <p id="wf-err" style="color:#c0392b"></p>
   </form>
   <table id="wf-table" style="display:none">
-    <thead><tr><th>Workflow</th><th>Schedule</th><th>Next run</th><th>Last run</th></tr></thead>
+    <thead><tr><th>#</th><th>Workflow</th><th>Schedule</th><th>Next run</th><th>Last run</th></tr></thead>
     <tbody></tbody>
   </table>
   <p id="wf-foot" style="display:none"><small><a href="#" id="wf-logout">Log out</a></small></p>
@@ -47,11 +47,11 @@
       var x = a.next_run_at ? Date.parse(a.next_run_at) : Infinity, y = b.next_run_at ? Date.parse(b.next_run_at) : Infinity;
       return x - y;
     });
-    $('wf-table').tBodies[0].innerHTML = rows.map(function (w) {
+    $('wf-table').tBodies[0].innerHTML = rows.map(function (w, i) {
       var n = w.next_run_at ? new Date(w.next_run_at) : null, l = w.last_run_at ? new Date(w.last_run_at) : null;
       var paused = !n;
       var status = w.last_status ? (w.last_status === 'ok' ? '✅ ok' : '❌ ' + esc(w.last_status)) : '';
-      return '<tr' + (paused ? ' style="opacity:.55"' : '') + '><td><strong>' + esc(w.name) + '</strong>' + (paused ? ' <small>(paused)</small>' : '') +
+      return '<tr' + (paused ? ' style="opacity:.55"' : '') + '><td>' + (i + 1) + '</td><td><strong>' + esc(w.name) + '</strong>' + (paused ? ' <small>(paused)</small>' : '') +
         '<br><small>' + esc(w.description) + '</small></td>' +
         '<td>' + describe(w.cron_utc, n || l) + '</td>' +
         '<td>' + (n ? when(n) + '<br><small>' + rel(n - now) + '</small>' : '-') + '</td>' +
