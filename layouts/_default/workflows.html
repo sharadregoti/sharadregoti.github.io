@@ -4,85 +4,80 @@
   <div class="post-description">Scheduled jobs on my automation server. Times are in IST.</div>
 </header>
 <div class="post-content">
-  <table id="wf-table">
-    <thead><tr><th>Workflow</th><th>Schedule</th><th>Next run</th></tr></thead>
-    <tbody>
-      {{- range site.Data.workflows.jobs }}
-      <tr data-cron="{{ .cron }}">
-        <td><strong>{{ .name }}</strong><br><small>{{ .description }}</small></td>
-        <td class="wf-sched"><code>{{ .cron }}</code> UTC</td>
-        <td class="wf-next">-</td>
-      </tr>
-      {{- end }}
-    </tbody>
+  <form id="wf-login" style="display:none">
+    <p><input id="wf-user" placeholder="Username" autocomplete="username" required>
+       <input id="wf-pass" type="password" placeholder="Password" autocomplete="current-password" required>
+       <button type="submit">Show workflows</button></p>
+    <p id="wf-err" style="color:#c0392b"></p>
+  </form>
+  <table id="wf-table" style="display:none">
+    <thead><tr><th>Workflow</th><th>Schedule</th><th>Next run</th><th>Last run</th></tr></thead>
+    <tbody></tbody>
   </table>
+  <p id="wf-foot" style="display:none"><small><a href="#" id="wf-logout">Log out</a></small></p>
 </div>
 <script>
 (function () {
-  var TZ = 'Asia/Kolkata';
-  function field(s, lo, hi) {
-    var set = {};
-    s.split(',').forEach(function (part) {
-      var step = 1, m = part.split('/');
-      if (m[1]) step = +m[1];
-      var a = lo, b = hi;
-      if (m[0] !== '*') { var r = m[0].split('-'); a = +r[0]; b = r[1] !== undefined ? +r[1] : (m[1] ? hi : a); }
-      for (var i = a; i <= b; i += step) set[i] = true;
-    });
-    return set;
-  }
-  function parse(expr) {
-    var f = expr.trim().split(/\s+/);
-    return { min: field(f[0], 0, 59), hr: field(f[1], 0, 23), dom: field(f[2], 1, 31), mon: field(f[3], 1, 12),
-             dow: field(f[4].replace(/\b7\b/, '0'), 0, 6), domAny: f[2] === '*', dowAny: f[4] === '*', raw: f };
-  }
-  function next(c, from) {
-    var d = new Date(from.getTime());
-    d.setUTCSeconds(0, 0); d.setUTCMinutes(d.getUTCMinutes() + 1);
-    for (var i = 0; i < 400 * 24 * 60; i++) {
-      var dayOk = c.domAny && c.dowAny ? true
-        : c.domAny ? c.dow[d.getUTCDay()]
-        : c.dowAny ? c.dom[d.getUTCDate()]
-        : (c.dom[d.getUTCDate()] || c.dow[d.getUTCDay()]);
-      if (!c.mon[d.getUTCMonth() + 1] || !dayOk) { d.setUTCHours(24, 0, 0, 0); i += 1439; continue; }
-      if (!c.hr[d.getUTCHours()]) { d.setUTCMinutes(60, 0, 0); i += 59; continue; }
-      if (c.min[d.getUTCMinutes()]) return d;
-      d.setUTCMinutes(d.getUTCMinutes() + 1);
-    }
-    return null;
-  }
-  function fmt(d, opts) { return d.toLocaleString('en-IN', Object.assign({ timeZone: TZ }, opts)); }
+  var API = 'https://api.sharadregoti.com/hermes/workflows', KEY = 'wf-auth', TZ = 'Asia/Kolkata';
+  var $ = function (id) { return document.getElementById(id); };
+  var data = null;
+  function store(v) { try { v ? localStorage.setItem(KEY, v) : localStorage.removeItem(KEY); } catch (e) {} }
+  function saved() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function fmt(d, o) { return d.toLocaleString('en-IN', Object.assign({ timeZone: TZ }, o)); }
+  function when(d) { return fmt(d, { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', hour12: true }); }
   function ord(n) { var s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
-  function describe(c, n) {
-    var time = fmt(n, { hour: 'numeric', minute: '2-digit', hour12: true });
-    var f = c.raw;
-    if (f[2] === '*' && f[4] === '*') return 'Daily at ' + time;
-    if (f[2] === '*') return 'Every ' + fmt(n, { weekday: 'long' }) + ' at ' + time;
-    if (f[4] === '*') {
-      var days = Object.keys(c.dom).map(Number).sort(function (a, b) { return a - b; }).map(ord);
-      return 'On the ' + days.join(' and ') + ' of each month at ' + time;
-    }
-    return f.join(' ') + ' (UTC)';
-  }
   function rel(ms) {
-    var m = Math.round(ms / 60000), d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mm = m % 60;
-    return 'in ' + (d ? d + 'd ' : '') + (d || h ? h + 'h ' : '') + (d ? '' : mm + 'm');
+    var past = ms < 0, m = Math.round(Math.abs(ms) / 60000), d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mm = m % 60;
+    var t = (d ? d + 'd ' : '') + (d || h ? h + 'h' : '') + (d ? '' : ' ' + mm + 'm');
+    return past ? t.trim() + ' ago' : 'in ' + t.trim();
+  }
+  function describe(cron, next) {
+    var f = (cron || '').trim().split(/\s+/);
+    if (f.length !== 5 || !next) return esc(cron) + ' UTC';
+    var time = fmt(next, { hour: 'numeric', minute: '2-digit', hour12: true });
+    if (f[2] === '*' && f[4] === '*' && /^\d+$/.test(f[1])) return 'Daily at ' + time;
+    if (f[2] === '*' && /^\d$/.test(f[4])) return 'Every ' + fmt(next, { weekday: 'long' }) + ' at ' + time;
+    if (f[4] === '*' && /^[\d,]+$/.test(f[2])) return 'On the ' + f[2].split(',').map(Number).map(ord).join(' and ') + ' of each month at ' + time;
+    return '<code>' + esc(cron) + '</code> UTC';
   }
   function render() {
-    var now = new Date(), tbody = document.querySelector('#wf-table tbody');
-    var rows = Array.prototype.slice.call(tbody.rows);
-    rows.forEach(function (tr) {
-      var c = parse(tr.dataset.cron), n = next(c, now);
-      tr._next = n ? n.getTime() : Infinity;
-      if (!n) return;
-      tr.querySelector('.wf-sched').textContent = describe(c, n);
-      tr.querySelector('.wf-next').innerHTML = fmt(n, { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', hour12: true })
-        + '<br><small>' + rel(n - now) + '</small>';
+    if (!data) return;
+    var now = Date.now(), rows = data.slice().sort(function (a, b) {
+      var x = a.next_run_at ? Date.parse(a.next_run_at) : Infinity, y = b.next_run_at ? Date.parse(b.next_run_at) : Infinity;
+      return x - y;
     });
-    rows.sort(function (a, b) { return a._next - b._next; }).forEach(function (tr) { tbody.appendChild(tr); });
+    $('wf-table').tBodies[0].innerHTML = rows.map(function (w) {
+      var n = w.next_run_at ? new Date(w.next_run_at) : null, l = w.last_run_at ? new Date(w.last_run_at) : null;
+      var paused = !n;
+      var status = w.last_status ? (w.last_status === 'ok' ? '✅ ok' : '❌ ' + esc(w.last_status)) : '';
+      return '<tr' + (paused ? ' style="opacity:.55"' : '') + '><td><strong>' + esc(w.name) + '</strong>' + (paused ? ' <small>(paused)</small>' : '') +
+        '<br><small>' + esc(w.description) + '</small></td>' +
+        '<td>' + describe(w.cron_utc, n || l) + '</td>' +
+        '<td>' + (n ? when(n) + '<br><small>' + rel(n - now) + '</small>' : '-') + '</td>' +
+        '<td>' + (l ? '<small>' + status + '<br>' + rel(l - now) + '</small>' : '-') + '</td></tr>';
+    }).join('');
   }
-  render();
-  setInterval(render, 60000);
+  function show(loggedIn) {
+    $('wf-login').style.display = loggedIn ? 'none' : '';
+    $('wf-table').style.display = $('wf-foot').style.display = loggedIn ? '' : 'none';
+  }
+  function load(auth) {
+    return fetch(API, { headers: { Authorization: 'Basic ' + auth }, cache: 'no-store' }).then(function (r) {
+      if (r.status === 401) throw new Error('Wrong username or password.');
+      if (!r.ok) throw new Error('Server returned ' + r.status + '.');
+      return r.json();
+    }).then(function (j) { data = j.workflows; store(auth); show(true); render(); });
+  }
+  function fail(e) { store(null); data = null; show(false); $('wf-err').textContent = e.message || 'Could not reach the server.'; }
+  $('wf-login').addEventListener('submit', function (e) {
+    e.preventDefault(); $('wf-err').textContent = '';
+    load(btoa($('wf-user').value + ':' + $('wf-pass').value)).catch(fail);
+  });
+  $('wf-logout').addEventListener('click', function (e) { e.preventDefault(); store(null); data = null; show(false); });
+  var a = saved();
+  if (a) load(a).catch(fail); else show(false);
+  setInterval(function () { var a = saved(); if (a) load(a).catch(function () {}); else render(); }, 60000);
 })();
 </script>
 {{- end }}
