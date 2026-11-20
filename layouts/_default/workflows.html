@@ -1,0 +1,83 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <div class="post-description">Scheduled jobs on my automation server. Times are in IST.</div>
+</header>
+<div class="post-content">
+  <form id="wf-login" style="display:none">
+    <p><input id="wf-user" placeholder="Username" autocomplete="username" required>
+       <input id="wf-pass" type="password" placeholder="Password" autocomplete="current-password" required>
+       <button type="submit">Show workflows</button></p>
+    <p id="wf-err" style="color:#c0392b"></p>
+  </form>
+  <table id="wf-table" style="display:none">
+    <thead><tr><th>Workflow</th><th>Schedule</th><th>Next run</th><th>Last run</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <p id="wf-foot" style="display:none"><small><a href="#" id="wf-logout">Log out</a></small></p>
+</div>
+<script>
+(function () {
+  var API = 'https://api.sharadregoti.com/hermes/workflows', KEY = 'wf-auth', TZ = 'Asia/Kolkata';
+  var $ = function (id) { return document.getElementById(id); };
+  var data = null;
+  function store(v) { try { v ? localStorage.setItem(KEY, v) : localStorage.removeItem(KEY); } catch (e) {} }
+  function saved() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function fmt(d, o) { return d.toLocaleString('en-IN', Object.assign({ timeZone: TZ }, o)); }
+  function when(d) { return fmt(d, { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', hour12: true }); }
+  function ord(n) { var s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
+  function rel(ms) {
+    var past = ms < 0, m = Math.round(Math.abs(ms) / 60000), d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mm = m % 60;
+    var t = (d ? d + 'd ' : '') + (d || h ? h + 'h' : '') + (d ? '' : ' ' + mm + 'm');
+    return past ? t.trim() + ' ago' : 'in ' + t.trim();
+  }
+  function describe(cron, next) {
+    var f = (cron || '').trim().split(/\s+/);
+    if (f.length !== 5 || !next) return esc(cron) + ' UTC';
+    var time = fmt(next, { hour: 'numeric', minute: '2-digit', hour12: true });
+    if (f[2] === '*' && f[4] === '*' && /^\d+$/.test(f[1])) return 'Daily at ' + time;
+    if (f[2] === '*' && /^\d$/.test(f[4])) return 'Every ' + fmt(next, { weekday: 'long' }) + ' at ' + time;
+    if (f[4] === '*' && /^[\d,]+$/.test(f[2])) return 'On the ' + f[2].split(',').map(Number).map(ord).join(' and ') + ' of each month at ' + time;
+    return '<code>' + esc(cron) + '</code> UTC';
+  }
+  function render() {
+    if (!data) return;
+    var now = Date.now(), rows = data.slice().sort(function (a, b) {
+      var x = a.next_run_at ? Date.parse(a.next_run_at) : Infinity, y = b.next_run_at ? Date.parse(b.next_run_at) : Infinity;
+      return x - y;
+    });
+    $('wf-table').tBodies[0].innerHTML = rows.map(function (w) {
+      var n = w.next_run_at ? new Date(w.next_run_at) : null, l = w.last_run_at ? new Date(w.last_run_at) : null;
+      var paused = !n;
+      var status = w.last_status ? (w.last_status === 'ok' ? '✅ ok' : '❌ ' + esc(w.last_status)) : '';
+      return '<tr' + (paused ? ' style="opacity:.55"' : '') + '><td><strong>' + esc(w.name) + '</strong>' + (paused ? ' <small>(paused)</small>' : '') +
+        '<br><small>' + esc(w.description) + '</small></td>' +
+        '<td>' + describe(w.cron_utc, n || l) + '</td>' +
+        '<td>' + (n ? when(n) + '<br><small>' + rel(n - now) + '</small>' : '-') + '</td>' +
+        '<td>' + (l ? '<small>' + status + '<br>' + rel(l - now) + '</small>' : '-') + '</td></tr>';
+    }).join('');
+  }
+  function show(loggedIn) {
+    $('wf-login').style.display = loggedIn ? 'none' : '';
+    $('wf-table').style.display = $('wf-foot').style.display = loggedIn ? '' : 'none';
+  }
+  function load(auth) {
+    return fetch(API, { headers: { Authorization: 'Basic ' + auth }, cache: 'no-store' }).then(function (r) {
+      if (r.status === 401) throw new Error('Wrong username or password.');
+      if (!r.ok) throw new Error('Server returned ' + r.status + '.');
+      return r.json();
+    }).then(function (j) { data = j.workflows; store(auth); show(true); render(); });
+  }
+  function fail(e) { store(null); data = null; show(false); $('wf-err').textContent = e.message || 'Could not reach the server.'; }
+  $('wf-login').addEventListener('submit', function (e) {
+    e.preventDefault(); $('wf-err').textContent = '';
+    load(btoa($('wf-user').value + ':' + $('wf-pass').value)).catch(fail);
+  });
+  $('wf-logout').addEventListener('click', function (e) { e.preventDefault(); store(null); data = null; show(false); });
+  var a = saved();
+  if (a) load(a).catch(fail); else show(false);
+  setInterval(function () { var a = saved(); if (a) load(a).catch(function () {}); else render(); }, 60000);
+})();
+</script>
+{{- end }}
