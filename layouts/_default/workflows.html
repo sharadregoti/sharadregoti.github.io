@@ -15,8 +15,8 @@
     <tbody></tbody>
   </table>
   <div id="rp-wrap" style="display:none">
-    <h2>Reports</h2>
-    <p><small>Copies of the digest emails, saved from Gmail every 10 minutes. Click a subject to read it.</small></p>
+    <h2 id="rp-head">Reports<span id="rp-filter"></span></h2>
+    <p><small>Copies of the digest emails, saved from Gmail every 10 minutes. Click a workflow above to see only its reports, or a subject to read it.</small></p>
     <div id="rp-view" style="display:none">
       <p><strong id="rp-title"></strong> &middot; <a href="#" id="rp-close">Close</a></p>
       <iframe id="rp-frame" title="Report" sandbox="allow-popups allow-popups-to-escape-sandbox" style="width:100%;height:75vh;border:1px solid var(--border);border-radius:6px;background:#fff"></iframe>
@@ -32,7 +32,7 @@
 (function () {
   var BASE = 'https://api.sharadregoti.com/hermes', API = BASE + '/workflows', KEY = 'wf-auth', TZ = 'Asia/Kolkata';
   var $ = function (id) { return document.getElementById(id); };
-  var data = null, reports = null, authHdr = null;
+  var data = null, reports = null, authHdr = null, filterJob = null;
   function store(v) { try { v ? localStorage.setItem(KEY, v) : localStorage.removeItem(KEY); } catch (e) {} }
   function saved() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
@@ -43,6 +43,11 @@
     var past = ms < 0, m = Math.round(Math.abs(ms) / 60000), d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mm = m % 60;
     var t = (d ? d + 'd ' : '') + (d || h ? h + 'h' : '') + (d ? '' : ' ' + mm + 'm');
     return past ? t.trim() + ' ago' : 'in ' + t.trim();
+  }
+  function cronTime(cron) {
+    var f = (cron || '').trim().split(/\s+/), d = new Date();
+    if (f.length !== 5 || !/^\d+$/.test(f[0]) || !/^\d+$/.test(f[1])) return null;
+    return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), +f[1], +f[0]));
   }
   function describe(cron, next) {
     var f = (cron || '').trim().split(/\s+/);
@@ -63,9 +68,10 @@
       var n = w.next_run_at ? new Date(w.next_run_at) : null, l = w.last_run_at ? new Date(w.last_run_at) : null;
       var paused = !n;
       var status = w.last_status ? (w.last_status === 'ok' ? '✅ ok' : '❌ ' + esc(w.last_status)) : '';
-      return '<tr' + (paused ? ' style="opacity:.55"' : '') + '><td>' + (i + 1) + '</td><td><strong>' + esc(w.name) + '</strong>' + (paused ? ' <small>(paused)</small>' : '') +
+      var sel = filterJob === w.name;
+      return '<tr data-name="' + esc(w.name) + '" title="Show reports for ' + esc(w.name) + '" style="cursor:pointer;' + (paused ? 'opacity:.55;' : '') + (sel ? 'background:var(--code-bg);' : '') + '"><td>' + (i + 1) + '</td><td><strong>' + esc(w.name) + '</strong>' + (paused ? ' <small>(paused)</small>' : '') +
         '<br><small>' + esc(w.description) + '</small></td>' +
-        '<td>' + describe(w.cron_utc, n || l) + '</td>' +
+        '<td>' + describe(w.cron_utc, n || cronTime(w.cron_utc)) + '</td>' +
         '<td>' + (n ? when(n) + '<br><small>' + rel(n - now) + '</small>' : '-') + '</td>' +
         '<td>' + (l ? '<small>' + status + '<br>' + rel(l - now) + '</small>' : '-') + '</td></tr>';
     }).join('');
@@ -89,12 +95,24 @@
   }
   function renderReports() {
     var tb = $('rp-table').tBodies[0];
-    if (!reports || !reports.length) { tb.innerHTML = '<tr><td colspan="4"><small>No reports yet.</small></td></tr>'; return; }
-    tb.innerHTML = reports.map(function (r, i) {
+    var list = (reports || []).filter(function (r) { return !filterJob || r.job === filterJob; });
+    $('rp-filter').innerHTML = filterJob ? ': ' + esc(filterJob) + ' <small style="font-size:.6em;font-weight:normal"><a href="#" id="rp-all">Show all</a></small>' : '';
+    if (!list.length) { tb.innerHTML = '<tr><td colspan="4"><small>' + (filterJob ? 'No reports for this job.' : 'No reports yet.') + '</small></td></tr>'; return; }
+    tb.innerHTML = list.map(function (r, i) {
       return '<tr><td>' + (i + 1) + '</td><td><small>' + when(new Date(r.sent_at * 1000)) + '</small></td><td>' + esc(r.job) +
         '</td><td><a href="#" data-job="' + esc(r.job) + '" data-id="' + esc(r.id) + '">' + esc(r.subject) + '</a></td></tr>';
     }).join('');
   }
+  function setFilter(job) { filterJob = job; render(); renderReports(); }
+  $('wf-table').addEventListener('click', function (e) {
+    var tr = e.target.closest('tr[data-name]');
+    if (!tr) return;
+    setFilter(filterJob === tr.dataset.name ? null : tr.dataset.name);
+    $('rp-head').scrollIntoView({ behavior: 'smooth' });
+  });
+  $('rp-filter').addEventListener('click', function (e) {
+    if (e.target.id === 'rp-all') { e.preventDefault(); setFilter(null); }
+  });
   function closeReport() { $('rp-view').style.display = 'none'; $('rp-frame').srcdoc = ''; }
   $('rp-close').addEventListener('click', function (e) { e.preventDefault(); closeReport(); });
   $('rp-table').addEventListener('click', function (e) {
@@ -115,7 +133,7 @@
     e.preventDefault(); $('wf-err').textContent = '';
     load(btoa($('wf-user').value + ':' + $('wf-pass').value)).catch(fail);
   });
-  $('wf-logout').addEventListener('click', function (e) { e.preventDefault(); store(null); data = reports = authHdr = null; show(false); });
+  $('wf-logout').addEventListener('click', function (e) { e.preventDefault(); store(null); data = reports = authHdr = filterJob = null; show(false); });
   var a = saved();
   if (a) load(a).catch(fail); else show(false);
   setInterval(function () { var a = saved(); if (a) load(a).catch(function () {}); else render(); }, 60000);
